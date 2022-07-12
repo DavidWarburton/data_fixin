@@ -1,0 +1,42 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "pdr doctors",
+    "DESCRIPTION": "Several files should match this config: pdrdoctors_mother_md, pdrdoctors_mother_mp, pdrdoctors_baby_nb, pdrdoctors_baby_bt.",
+    "CONFIG": {
+        "PATIENT_ID_": {
+            "start_pos": 1,
+            "end_pos": 10,
+            "type": "text"
+        },
+        "DOCTOR_SERVICE": {
+            "start_pos": 11,
+            "end_pos": 17,
+            "type": "text"
+        },
+        "DOCTOR_TYPE": {
+            "start_pos": 18,
+            "end_pos": 20,
+            "type": "text"
+        },
+        "SOURCE": {
+            "start_pos": 21,
+            "end_pos": 24,
+            "type": "text"
+        },
+        "VERSION": {
+            "start_pos": 25,
+            "end_pos": 26,
+            "type": "text"
+        },
+        "SEQNO": {
+            "start_pos": 27,
+            "end_pos": 36,
+            "type": "text"
+        },
+        "STUDYID": {
+            "start_pos": 37,
+            "end_pos": 46,
+            "type": "text"
+        }
+    }
+}

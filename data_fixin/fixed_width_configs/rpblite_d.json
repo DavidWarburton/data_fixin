@@ -1,0 +1,69 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "rpblite 1986-2018",
+    "DESCRIPTION": "Registration and premium billing file",
+    "CONFIG": {
+        "contract_no": {
+            "end_pos": 9,
+            "type": "text",
+            "start_pos": 1
+        },
+        "depno": {
+            "end_pos": 11,
+            "type": "text",
+            "start_pos": 10
+        },
+        "EFFECTIVEDATE": {
+            "end_pos": 19,
+            "type": "DATE",
+            "start_pos": 12,
+            "format": "%Y%m%d"
+        },
+        "CANCELDATE": {
+            "end_pos": 27,
+            "type": "DATE",
+            "start_pos": 20,
+            "format": "%Y%m%d"
+        },
+        "CANCELREASON": {
+            "end_pos": 29,
+            "type": "text",
+            "start_pos": 28
+        },
+        "GROUPID": {
+            "end_pos": 36,
+            "type": "numeric",
+            "start_pos": 30
+        },
+        "POSTALCODEFSA": {
+            "end_pos": 39,
+            "type": "text",
+            "start_pos": 37
+        },
+        "STARTDAY": {
+            "end_pos": 44,
+            "type": "text",
+            "start_pos": 40
+        },
+        "DAYSREGISTERED": {
+            "end_pos": 49,
+            "type": "numeric",
+            "start_pos": 45
+        },
+        "VERSIONING": {
+            "end_pos": 51,
+            "type": "text",
+            "start_pos": 50
+        },
+        "SEQNO": {
+            "end_pos": 61,
+            "type": "text",
+            "start_pos": 52
+        },
+        "STUDYID": {
+            "end_pos": 71,
+            "type": "text",
+            "start_pos": 62
+        }
+    }
+}

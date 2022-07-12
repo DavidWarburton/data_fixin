@@ -1,0 +1,94 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "pharmanet dsp report A",
+    "DESCRIPTION": "Pharmanet dsp report from 1996-01-01 to 2018-03-31",
+    "CONFIG": {
+        "DE_STUDYID": {
+            "end_pos": 10,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "DE_CLNT_GENDER_LABEL": {
+            "end_pos": 11,
+            "start_pos": 11,
+            "type": "text"
+        },
+        "DE_DM_CL_MRG_CLNT_BRTH_MTH": {
+            "end_pos": 21,
+            "start_pos": 12,
+            "type": "date",
+            "format": "%Y%m"
+        },
+        "DE_DM_CL_AGE_AT_SERVICE_YEAR": {
+            "end_pos": 31,
+            "start_pos": 22,
+            "type": "numeric"
+        },
+        "DE_CL_GEO_CLNT_HA_AREA_CD": {
+            "end_pos": 41,
+            "start_pos": 32,
+            "type": "text"
+        },
+        "DE_FCTY_LABEL_": {
+            "end_pos": 66,
+            "start_pos": 42,
+            "type": "text"
+        },
+        "DE_FC_GEO_FCTY_HA_AREA_CD": {
+            "end_pos": 76,
+            "start_pos": 67,
+            "type": "text"
+        },
+        "DE_PR_PRAC_PRSCR_PRAC_IDNT_": {
+            "end_pos": 81,
+            "start_pos": 77,
+            "type": "text"
+        },
+        "DE_PR_GEO_PRSCR_PRAC_HA_AREA_CD": {
+            "end_pos": 91,
+            "start_pos": 82,
+            "type": "text"
+        },
+        "DE_PR_PRAC_PRSCR_PRAC_LIC_BODY_IDNT": {
+            "end_pos": 101,
+            "start_pos": 92,
+            "type": "text"
+        },
+        "DE_PR_INFO_PRSCR_SPTY_FLG": {
+            "end_pos": 102,
+            "start_pos": 102,
+            "type": "text"
+        },
+        "DE_PR_INFO_RCNT_CLG_SPTY_1_LABEL": {
+            "end_pos": 112,
+            "start_pos": 103,
+            "type": "text"
+        },
+        "DE_PR_INFO_RCNT_CLG_SPTY_2_LABEL": {
+            "end_pos": 122,
+            "start_pos": 113,
+            "type": "text"
+        },
+        "DE_HLTH_PROD_LABEL": {
+            "end_pos": 132,
+            "start_pos": 123,
+            "type": "text"
+        },
+        "DE_SRV_DATE": {
+            "end_pos": 142,
+            "start_pos": 133,
+            "type": "date",
+            "format": "%Y-%m-%d"
+        },
+        "DE_DSPD_QTY": {
+            "end_pos": 152,
+            "start_pos": 143,
+            "type": "numeric"
+        },
+        "DE_DSPD_DAYS_SPLY": {
+            "end_pos": 162,
+            "start_pos": 153,
+            "type": "numeric"
+        }
+    }
+}

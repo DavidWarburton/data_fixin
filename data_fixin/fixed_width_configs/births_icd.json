@@ -1,0 +1,107 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "births icd",
+    "DESCRIPTION": "birth icd records 1985-2017",
+    "CONFIG": {
+        "REGNUM": {
+            "start_pos": 1,
+            "type": "Numeric",
+            "end_pos": 10
+        },
+        "ICD_VER": {
+            "start_pos": 11,
+            "type": "Numeric",
+            "end_pos": 12
+        },
+        "ICD_TYPE": {
+            "start_pos": 13,
+            "type": "text",
+            "end_pos": 22
+        },
+        "TYPE_ROW": {
+            "start_pos": 23,
+            "type": "text",
+            "end_pos": 23
+        },
+        "ICD1": {
+            "start_pos": 24,
+            "type": "text",
+            "end_pos": 28
+        },
+        "ICD2": {
+            "start_pos": 29,
+            "type": "text",
+            "end_pos": 33
+        },
+        "ICD3": {
+            "start_pos": 34,
+            "type": "text",
+            "end_pos": 38
+        },
+        "ICD4": {
+            "start_pos": 39,
+            "type": "text",
+            "end_pos": 43
+        },
+        "ICD5": {
+            "start_pos": 44,
+            "type": "text",
+            "end_pos": 48
+        },
+        "ICD6": {
+            "start_pos": 49,
+            "type": "text",
+            "end_pos": 53
+        },
+        "ICD7": {
+            "start_pos": 54,
+            "type": "text",
+            "end_pos": 58
+        },
+        "ICD8": {
+            "start_pos": 59,
+            "type": "text",
+            "end_pos": 63
+        },
+        "ICD9": {
+            "start_pos": 64,
+            "type": "text",
+            "end_pos": 68
+        },
+        "ICD10": {
+            "start_pos": 69,
+            "type": "text",
+            "end_pos": 73
+        },
+        "VER_YEAR": {
+            "start_pos": 74,
+            "type": "text",
+            "end_pos": 77
+        },
+        "VER_NUM": {
+            "start_pos": 78,
+            "type": "text",
+            "end_pos": 79
+        },
+        "SEQNO": {
+            "start_pos": 80,
+            "type": "text",
+            "end_pos": 89
+        },
+        "STUDYID1": {
+            "start_pos": 90,
+            "type": "text",
+            "end_pos": 99
+        },
+        "STUDYID2": {
+            "start_pos": 100,
+            "type": "text",
+            "end_pos": 109
+        },
+        "STUDYID3": {
+            "start_pos": 110,
+            "type": "text",
+            "end_pos": 119
+        }
+    }
+}

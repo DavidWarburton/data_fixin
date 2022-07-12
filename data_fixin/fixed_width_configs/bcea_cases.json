@@ -1,0 +1,72 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "bcea cases",
+    "DESCRIPTION": "bcea cases",
+    "CONFIG": {
+        "_ym": {
+            "end_pos": 8,
+            "type": "text",
+            "start_pos": 1
+        },
+        "_fileid": {
+            "end_pos": 16,
+            "type": "text",
+            "start_pos": 9
+        },
+        "_program": {
+            "end_pos": 19,
+            "type": "text",
+            "start_pos": 17
+        },
+        "_age": {
+            "end_pos": 23,
+            "type": "numeric",
+            "start_pos": 20
+        },
+        "_spouseage": {
+            "end_pos": 27,
+            "type": "numeric",
+            "start_pos": 24
+        },
+        "_youngest": {
+            "end_pos": 32,
+            "type": "text",
+            "start_pos": 28
+        },
+        "_famtype": {
+            "end_pos": 36,
+            "type": "text",
+            "start_pos": 33
+        },
+        "_dpno": {
+            "end_pos": 39,
+            "type": "numeric",
+            "start_pos": 37
+        },
+        "_pay": {
+            "end_pos": 48,
+            "type": "numeric",
+            "start_pos": 40
+        },
+        "_postcd": {
+            "end_pos": 55,
+            "type": "text",
+            "start_pos": 49
+        },
+        "class": {
+            "end_pos": 57,
+            "type": "text",
+            "start_pos": 56
+        },
+        "datayr": {
+            "end_pos": 63,
+            "type": "text",
+            "start_pos": 58
+        },
+        "seqno": {
+            "end_pos": 75,
+            "type": "text",
+            "start_pos": 64
+        }
+    }
+}

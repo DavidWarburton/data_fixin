@@ -1,0 +1,45 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "hospital G",
+    "DESCRIPTION": "Discharge abstract from 2001-04-01 to 2007-03-31",
+    "CONFIG": {
+		"bool_1": {
+			"start_pos": 1,
+			"end_pos": 2,
+			"true_values": "1",
+			"false_values": "0",
+			"type": "boolean"
+		},
+		"bool_2": {
+			"start_pos": 3,
+			"end_pos": 5,
+			"true_values": ["1","2","3","4"],
+			"false_values": ["0","-1","-2","-3"],
+			"type": "boolean"
+		},
+		"duration_1": {
+			"start_pos": 6,
+			"end_pos": 16,
+			"type": "interval",
+			"format": "%H"
+		},
+		"duration_2": {
+			"start_pos": 17,
+			"end_pos": 27,
+			"type": "interval",
+			"format": ["%H", "%H:%M"]
+		},
+		"date_1": {
+			"start_pos": 28,
+			"end_pos": 35,
+			"type": "date",
+			"format": "%Y%m%d"
+		},
+		"date_2": {
+			"start_pos": 36,
+			"end_pos": 48,
+			"type": "date",
+			"format": ["%Y%m%d", "%Y-%m-%d"]
+		}
+	}
+}

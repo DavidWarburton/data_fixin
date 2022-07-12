@@ -1,0 +1,38 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "demographics b",
+    "DESCRIPTION": "Age and sex data for thhe population",
+    "CONFIG": {
+        "SEX": {
+            "end_pos": 1,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "DOBYYYYMM": {
+            "end_pos": 7,
+            "start_pos": 2,
+            "type": "date",
+            "format": "%Y%m"
+        },
+        "Source": {
+            "end_pos": 11,
+            "start_pos": 8,
+            "type": "text"
+        },
+        "VERSION": {
+            "end_pos": 13,
+            "start_pos": 12,
+            "type": "text"
+        },
+        "SEQNO": {
+            "end_pos": 23,
+            "start_pos": 14,
+            "type": "text"
+        },
+        "STUDYID": {
+            "end_pos": 33,
+            "start_pos": 24,
+            "type": "text"
+        }
+    }
+}

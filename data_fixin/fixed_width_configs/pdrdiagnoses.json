@@ -1,0 +1,49 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "pdr diagnoses",
+    "DESCRIPTION": "Several files should match this config: pdrdiagnoses_mother_md, pdrdiagnoses_mother_mp, pdrdiagnoses_baby_nb, pdrdiagnoses_baby_bt.",
+    "CONFIG": {
+        "PATIENT_ID_": {
+            "end_pos": 10,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "DIAGNOSIS_PREFIX": {
+            "end_pos": 13,
+            "start_pos": 11,
+            "type": "text"
+        },
+        "DIAGNOSIS_CD": {
+            "end_pos": 24,
+            "start_pos": 14,
+            "type": "text",
+            "format": "None"
+        },
+        "DIAGNOSIS_TYPE": {
+            "end_pos": 27,
+            "start_pos": 25,
+            "type": "text",
+            "format": "None"
+        },
+        "SOURCE": {
+            "end_pos": 31,
+            "start_pos": 28,
+            "type": "text"
+        },
+        "VERSION": {
+            "end_pos": 33,
+            "start_pos": 32,
+            "type": "text"
+        },
+        "SEQNO": {
+            "end_pos": 43,
+            "start_pos": 34,
+            "type": "text"
+        },
+        "STUDYID": {
+            "end_pos": 53,
+            "start_pos": 44,
+            "type": "text"
+        }
+    }
+}

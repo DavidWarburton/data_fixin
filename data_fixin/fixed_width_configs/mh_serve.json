@@ -1,0 +1,90 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "mh serve",
+    "DESCRIPTION": "mental health services",
+    "CONFIG": {
+        "service_event_key": {
+            "start_pos": 1,
+            "type": "numeric",
+            "end_pos": 9
+        },
+        "care_episode_key": {
+            "start_pos": 10,
+            "type": "numeric",
+            "end_pos": 18
+        },
+        "location_code": {
+            "start_pos": 19,
+            "type": "text",
+            "end_pos": 22
+        },
+        "first_contact_date": {
+            "start_pos": 23,
+            "type": "timestamp",
+            "end_pos": 38,
+            "format": "%Y%m%d%H:%M:%S"
+        },
+        "service_event_code": {
+            "start_pos": 39,
+            "type": "text",
+            "end_pos": 40
+        },
+        "service_event_date": {
+            "start_pos": 41,
+            "type": "Date",
+            "end_pos": 48,
+            "format": "%Y%m%d"
+        },
+        "employment_status": {
+            "start_pos": 49,
+            "type": "text",
+            "end_pos": 50
+        },
+        "vocation_status": {
+            "start_pos": 51,
+            "type": "text",
+            "end_pos": 52
+        },
+        "marital_status": {
+            "start_pos": 53,
+            "type": "text",
+            "end_pos": 54
+        },
+        "household_composition_code": {
+            "start_pos": 55,
+            "type": "text",
+            "end_pos": 56
+        },
+        "education_level": {
+            "start_pos": 57,
+            "type": "text",
+            "end_pos": 58
+        },
+        "creation_date": {
+            "start_pos": 59,
+            "type": "Date",
+            "end_pos": 66,
+            "format": "%Y%m%d"
+        },
+        "datayr": {
+            "start_pos": 67,
+            "type": "text",
+            "end_pos": 70
+        },
+        "version": {
+            "start_pos": 71,
+            "type": "text",
+            "end_pos": 72
+        },
+        "seqno": {
+            "start_pos": 73,
+            "type": "text",
+            "end_pos": 82
+        },
+        "STUDYID": {
+            "start_pos": 83,
+            "type": "text",
+            "end_pos": 92
+        }
+    }
+}

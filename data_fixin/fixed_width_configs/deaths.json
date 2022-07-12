@@ -1,0 +1,422 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "Vital Stats Deaths 1985-2016",
+    "DESCRIPTION": "The death record from 1985 - 2016",
+    "CONFIG": {
+        "REGDT": {
+            "end_pos": 8,
+            "type": "date",
+            "start_pos": 1,
+            "format": "%Y%m%d"
+        },
+        "DEATHDTCCYY": {
+            "end_pos": 18,
+            "type": "timestamp",
+            "start_pos": 9,
+            "format": "%Y%m%H%M",
+			"solutions": {
+				"\\d{6}": "{DEATHDTCCYY}0000",
+				"\\d{6}24\\d{2}": "{DEATHDTCCYY}[:6]00{DEATHDTCCYY}[-2:]"
+			}
+        },
+        "DEATHPC_3": {
+            "end_pos": 21,
+            "type": "text",
+            "start_pos": 19
+        },
+        "PLACETYPE": {
+            "end_pos": 23,
+            "type": "numeric",
+            "start_pos": 22
+        },
+        "PLACEVERSN": {
+            "end_pos": 25,
+            "type": "numeric",
+            "start_pos": 24
+        },
+        "HOSP_": {
+            "end_pos": 35,
+            "type": "numeric",
+            "start_pos": 26
+        },
+        "SEX": {
+            "end_pos": 36,
+            "type": "text",
+            "start_pos": 36
+        },
+        "MARITAL": {
+            "end_pos": 37,
+            "type": "text",
+            "start_pos": 37
+        },
+        "NATIVE": {
+            "end_pos": 38,
+            "type": "boolean",
+            "start_pos": 38,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "ONRESERVE": {
+            "end_pos": 39,
+            "type": "boolean",
+            "start_pos": 39,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "BIRTHDTCCYY": {
+            "end_pos": 45,
+            "type": "date",
+            "start_pos": 40,
+            "format": "%Y%m"
+        },
+        "OCCUPATION": {
+            "end_pos": 70,
+            "type": "text",
+            "start_pos": 46
+        },
+        "WORKYEARS": {
+            "end_pos": 74,
+            "type": "numeric",
+            "start_pos": 71
+        },
+        "INDUSTRY": {
+            "end_pos": 99,
+            "type": "text",
+            "start_pos": 75
+        },
+        "PROV": {
+            "end_pos": 149,
+            "type": "text",
+            "start_pos": 100
+        },
+        "COUNTRY": {
+            "end_pos": 199,
+            "type": "text",
+            "start_pos": 150
+        },
+        "PC_3": {
+            "end_pos": 202,
+            "type": "text",
+            "start_pos": 200
+        },
+        "F_BTHPROV": {
+            "end_pos": 252,
+            "type": "text",
+            "start_pos": 203
+        },
+        "F_BTHCNTRY": {
+            "end_pos": 302,
+            "type": "text",
+            "start_pos": 253
+        },
+        "M_BTHPROV": {
+            "end_pos": 352,
+            "type": "text",
+            "start_pos": 303
+        },
+        "M_BTHCNTRY": {
+            "end_pos": 402,
+            "type": "text",
+            "start_pos": 353
+        },
+        "DISPTYPE": {
+            "end_pos": 403,
+            "type": "text",
+            "start_pos": 403
+        },
+        "DISPDTCCYY": {
+            "end_pos": 409,
+            "type": "date",
+            "start_pos": 404,
+            "format": "%Y%m"
+        },
+        "ACCDNT_CD": {
+            "end_pos": 411,
+            "type": "numeric",
+            "start_pos": 410
+        },
+        "ACCDNT_DTCCYY": {
+            "end_pos": 417,
+            "type": "date",
+            "start_pos": 412,
+            "format": "%Y%m"
+        },
+        "RECNT_SURG": {
+            "end_pos": 418,
+            "type": "boolean",
+            "start_pos": 418,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "SURGDTCCYY": {
+            "end_pos": 424,
+            "type": "date",
+            "start_pos": 419,
+            "format": "%Y%m"
+        },
+        "COR_BYPASS": {
+            "end_pos": 425,
+            "type": "boolean",
+            "start_pos": 425,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "HEARTVALVE": {
+            "end_pos": 426,
+            "type": "boolean",
+            "start_pos": 426,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "TRANSPLANT": {
+            "end_pos": 427,
+            "type": "boolean",
+            "start_pos": 427,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "AUTOPSY": {
+            "end_pos": 428,
+            "type": "boolean",
+            "start_pos": 428,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "C_AUTOPSY": {
+            "end_pos": 429,
+            "type": "boolean",
+            "start_pos": 429,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "OTHER_INFO": {
+            "end_pos": 430,
+            "type": "boolean",
+            "start_pos": 430,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "LIFESTYLE": {
+            "end_pos": 431,
+            "type": "boolean",
+            "start_pos": 431,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "PREGNANCY": {
+            "end_pos": 432,
+            "type": "boolean",
+            "start_pos": 432,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "PP_UPTO42": {
+            "end_pos": 433,
+            "type": "boolean",
+            "start_pos": 433,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "PP_42TO1YR": {
+            "end_pos": 434,
+            "type": "boolean",
+            "start_pos": 434,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "MANNER_CD": {
+            "end_pos": 435,
+            "type": "text",
+            "start_pos": 435
+        },
+        "ACTIVITY": {
+            "end_pos": 437,
+            "type": "numeric",
+            "start_pos": 436
+        },
+        "ILLNESSDTCCYY": {
+            "end_pos": 443,
+            "type": "date",
+            "start_pos": 438,
+            "format": "%Y%m"
+        },
+        "CORONER": {
+            "end_pos": 444,
+            "type": "boolean",
+            "start_pos": 444,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "VIEWEDBODY": {
+            "end_pos": 445,
+            "type": "boolean",
+            "start_pos": 445,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "COR_WAIVED": {
+            "end_pos": 446,
+            "type": "boolean",
+            "start_pos": 446,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "CERTIFIER": {
+            "end_pos": 447,
+            "type": "numeric",
+            "start_pos": 447
+        },
+        "INJURY_CD": {
+            "end_pos": 452,
+            "type": "numeric",
+            "start_pos": 448
+        },
+        "ICD_VERSN": {
+            "end_pos": 454,
+            "type": "numeric",
+            "start_pos": 453
+        },
+        "CAUSE": {
+            "end_pos": 459,
+            "type": "text",
+            "start_pos": 455
+        },
+        "AXIS_CODES": {
+            "end_pos": 559,
+            "type": "text",
+            "start_pos": 460
+        },
+        "DATAYR": {
+            "end_pos": 563,
+            "type": "text",
+            "start_pos": 560
+        },
+        "VERSION": {
+            "end_pos": 565,
+            "type": "text",
+            "start_pos": 564
+        },
+        "SEQNO": {
+            "end_pos": 575,
+            "type": "text",
+            "start_pos": 566
+        },
+        "STUDYID": {
+            "end_pos": 585,
+            "type": "text",
+            "start_pos": 576
+        }
+    }
+}

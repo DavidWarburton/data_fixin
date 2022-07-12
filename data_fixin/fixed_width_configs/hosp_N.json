@@ -1,0 +1,3505 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "hospital N",
+    "DESCRIPTION": "Discharge abstract from 2009-04-01 to 2017-03-31",
+    "CONFIG": {
+        "ADDATE": {
+            "type": "DATE",
+            "end_pos": 10,
+            "start_pos": 1,
+            "format": "%Y-%m-%d"
+        },
+        "ADMIT": {
+            "type": "text",
+            "end_pos": 11,
+            "start_pos": 11
+        },
+        "ADTIME": {
+            "type": "time",
+            "end_pos": 16,
+			"format": "%H:%M",
+            "start_pos": 12
+        },
+        "ALCDAYS": {
+            "type": "numeric",
+            "end_pos": 21,
+            "start_pos": 17
+        },
+        "AMBULANC": {
+            "type": "text",
+            "end_pos": 22,
+            "start_pos": 22
+        },
+        "ANA1": {
+            "type": "text",
+            "end_pos": 23,
+            "start_pos": 23
+        },
+        "ANA2": {
+            "type": "text",
+            "end_pos": 24,
+            "start_pos": 24
+        },
+        "ANA3": {
+            "type": "text",
+            "end_pos": 25,
+            "start_pos": 25
+        },
+        "ANA4": {
+            "type": "text",
+            "end_pos": 26,
+            "start_pos": 26
+        },
+        "ANA5": {
+            "type": "text",
+            "end_pos": 27,
+            "start_pos": 27
+        },
+        "ANA6": {
+            "type": "text",
+            "end_pos": 28,
+            "start_pos": 28
+        },
+        "ANA7": {
+            "type": "text",
+            "end_pos": 29,
+            "start_pos": 29
+        },
+        "ANA8": {
+            "type": "text",
+            "end_pos": 30,
+            "start_pos": 30
+        },
+        "ANA9": {
+            "type": "text",
+            "end_pos": 31,
+            "start_pos": 31
+        },
+        "ANA10": {
+            "type": "text",
+            "end_pos": 32,
+            "start_pos": 32
+        },
+        "ANA11": {
+            "type": "text",
+            "end_pos": 33,
+            "start_pos": 33
+        },
+        "ANA12": {
+            "type": "text",
+            "end_pos": 34,
+            "start_pos": 34
+        },
+        "ANA13": {
+            "type": "text",
+            "end_pos": 35,
+            "start_pos": 35
+        },
+        "ANA14": {
+            "type": "text",
+            "end_pos": 36,
+            "start_pos": 36
+        },
+        "ANA15": {
+            "type": "text",
+            "end_pos": 37,
+            "start_pos": 37
+        },
+        "ANA16": {
+            "type": "text",
+            "end_pos": 38,
+            "start_pos": 38
+        },
+        "ANA17": {
+            "type": "text",
+            "end_pos": 39,
+            "start_pos": 39
+        },
+        "ANA18": {
+            "type": "text",
+            "end_pos": 40,
+            "start_pos": 40
+        },
+        "ANA19": {
+            "type": "text",
+            "end_pos": 41,
+            "start_pos": 41
+        },
+        "ANA20": {
+            "type": "text",
+            "end_pos": 42,
+            "start_pos": 42
+        },
+        "E_ANAS1": {
+            "type": "numeric",
+            "end_pos": 47,
+            "start_pos": 43
+        },
+        "E_ANAS2": {
+            "type": "numeric",
+            "end_pos": 52,
+            "start_pos": 48
+        },
+        "E_ANAS3": {
+            "type": "numeric",
+            "end_pos": 57,
+            "start_pos": 53
+        },
+        "E_ANAS4": {
+            "type": "numeric",
+            "end_pos": 62,
+            "start_pos": 58
+        },
+        "E_ANAS5": {
+            "type": "numeric",
+            "end_pos": 67,
+            "start_pos": 63
+        },
+        "E_ANAS6": {
+            "type": "numeric",
+            "end_pos": 72,
+            "start_pos": 68
+        },
+        "E_ANAS7": {
+            "type": "numeric",
+            "end_pos": 77,
+            "start_pos": 73
+        },
+        "E_ANAS8": {
+            "type": "numeric",
+            "end_pos": 82,
+            "start_pos": 78
+        },
+        "E_ANAS9": {
+            "type": "numeric",
+            "end_pos": 87,
+            "start_pos": 83
+        },
+        "E_ANAS10": {
+            "type": "numeric",
+            "end_pos": 92,
+            "start_pos": 88
+        },
+        "E_ANAS11": {
+            "type": "numeric",
+            "end_pos": 97,
+            "start_pos": 93
+        },
+        "E_ANAS12": {
+            "type": "numeric",
+            "end_pos": 102,
+            "start_pos": 98
+        },
+        "E_ANAS13": {
+            "type": "numeric",
+            "end_pos": 107,
+            "start_pos": 103
+        },
+        "E_ANAS14": {
+            "type": "numeric",
+            "end_pos": 112,
+            "start_pos": 108
+        },
+        "E_ANAS15": {
+            "type": "numeric",
+            "end_pos": 117,
+            "start_pos": 113
+        },
+        "E_ANAS16": {
+            "type": "numeric",
+            "end_pos": 122,
+            "start_pos": 118
+        },
+        "E_ANAS17": {
+            "type": "numeric",
+            "end_pos": 127,
+            "start_pos": 123
+        },
+        "E_ANAS18": {
+            "type": "numeric",
+            "end_pos": 132,
+            "start_pos": 128
+        },
+        "E_ANAS19": {
+            "type": "numeric",
+            "end_pos": 137,
+            "start_pos": 133
+        },
+        "E_ANAS20": {
+            "type": "numeric",
+            "end_pos": 142,
+            "start_pos": 138
+        },
+        "AR_DAYS": {
+            "type": "numeric",
+            "end_pos": 147,
+            "start_pos": 143
+        },
+        "BCLVLFRM": {
+            "type": "text",
+            "end_pos": 148,
+            "start_pos": 148
+        },
+        "BCLVLTO": {
+            "type": "text",
+            "end_pos": 149,
+            "start_pos": 149
+        },
+        "BIRTHWT": {
+            "type": "numeric",
+            "end_pos": 154,
+            "start_pos": 150
+        },
+        "BURNDAYS": {
+            "type": "numeric",
+            "end_pos": 159,
+            "start_pos": 155
+        },
+        "CARDDAYS": {
+            "type": "numeric",
+            "end_pos": 164,
+            "start_pos": 160
+        },
+        "CBDDAYS": {
+            "type": "numeric",
+            "end_pos": 169,
+            "start_pos": 165
+        },
+        "CCINDCTR": {
+            "type": "text",
+            "end_pos": 170,
+            "start_pos": 170
+        },
+        "CCUDAYS": {
+            "type": "numeric",
+            "end_pos": 175,
+            "start_pos": 171
+        },
+        "CDS00T98": {
+            "type": "text",
+            "end_pos": 182,
+            "start_pos": 176
+        },
+        "COMBDAYS": {
+            "type": "numeric",
+            "end_pos": 187,
+            "start_pos": 183
+        },
+        "COMBSDUDAYS": {
+            "type": "numeric",
+            "end_pos": 192,
+            "start_pos": 188
+        },
+        "DAYS1": {
+            "type": "numeric",
+            "end_pos": 197,
+            "start_pos": 193
+        },
+        "DAYS2": {
+            "type": "numeric",
+            "end_pos": 202,
+            "start_pos": 198
+        },
+        "DAYS3": {
+            "type": "numeric",
+            "end_pos": 207,
+            "start_pos": 203
+        },
+        "DIAGCLUS1": {
+            "type": "text",
+            "end_pos": 208,
+            "start_pos": 208
+        },
+        "DIAGCLUS2": {
+            "type": "text",
+            "end_pos": 209,
+            "start_pos": 209
+        },
+        "DIAGCLUS3": {
+            "type": "text",
+            "end_pos": 210,
+            "start_pos": 210
+        },
+        "DIAGCLUS4": {
+            "type": "text",
+            "end_pos": 211,
+            "start_pos": 211
+        },
+        "DIAGCLUS5": {
+            "type": "text",
+            "end_pos": 212,
+            "start_pos": 212
+        },
+        "DIAGCLUS6": {
+            "type": "text",
+            "end_pos": 213,
+            "start_pos": 213
+        },
+        "DIAGCLUS7": {
+            "type": "text",
+            "end_pos": 214,
+            "start_pos": 214
+        },
+        "DIAGCLUS8": {
+            "type": "text",
+            "end_pos": 215,
+            "start_pos": 215
+        },
+        "DIAGCLUS9": {
+            "type": "text",
+            "end_pos": 216,
+            "start_pos": 216
+        },
+        "DIAGCLUS10": {
+            "type": "text",
+            "end_pos": 217,
+            "start_pos": 217
+        },
+        "DIAGCLUS11": {
+            "type": "text",
+            "end_pos": 218,
+            "start_pos": 218
+        },
+        "DIAGCLUS12": {
+            "type": "text",
+            "end_pos": 219,
+            "start_pos": 219
+        },
+        "DIAGCLUS13": {
+            "type": "text",
+            "end_pos": 220,
+            "start_pos": 220
+        },
+        "DIAGCLUS14": {
+            "type": "text",
+            "end_pos": 221,
+            "start_pos": 221
+        },
+        "DIAGCLUS15": {
+            "type": "text",
+            "end_pos": 222,
+            "start_pos": 222
+        },
+        "DIAGCLUS16": {
+            "type": "text",
+            "end_pos": 223,
+            "start_pos": 223
+        },
+        "DIAGCLUS17": {
+            "type": "text",
+            "end_pos": 224,
+            "start_pos": 224
+        },
+        "DIAGCLUS18": {
+            "type": "text",
+            "end_pos": 225,
+            "start_pos": 225
+        },
+        "DIAGCLUS19": {
+            "type": "text",
+            "end_pos": 226,
+            "start_pos": 226
+        },
+        "DIAGCLUS20": {
+            "type": "text",
+            "end_pos": 227,
+            "start_pos": 227
+        },
+        "DIAGCLUS21": {
+            "type": "text",
+            "end_pos": 228,
+            "start_pos": 228
+        },
+        "DIAGCLUS22": {
+            "type": "text",
+            "end_pos": 229,
+            "start_pos": 229
+        },
+        "DIAGCLUS23": {
+            "type": "text",
+            "end_pos": 230,
+            "start_pos": 230
+        },
+        "DIAGCLUS24": {
+            "type": "text",
+            "end_pos": 231,
+            "start_pos": 231
+        },
+        "DIAGCLUS25": {
+            "type": "text",
+            "end_pos": 232,
+            "start_pos": 232
+        },
+        "DIAGX1": {
+            "type": "text",
+            "end_pos": 239,
+            "start_pos": 233
+        },
+        "DIAGX2": {
+            "type": "text",
+            "end_pos": 246,
+            "start_pos": 240
+        },
+        "DIAGX3": {
+            "type": "text",
+            "end_pos": 253,
+            "start_pos": 247
+        },
+        "DIAGX4": {
+            "type": "text",
+            "end_pos": 260,
+            "start_pos": 254
+        },
+        "DIAGX5": {
+            "type": "text",
+            "end_pos": 267,
+            "start_pos": 261
+        },
+        "DIAGX6": {
+            "type": "text",
+            "end_pos": 274,
+            "start_pos": 268
+        },
+        "DIAGX7": {
+            "type": "text",
+            "end_pos": 281,
+            "start_pos": 275
+        },
+        "DIAGX8": {
+            "type": "text",
+            "end_pos": 288,
+            "start_pos": 282
+        },
+        "DIAGX9": {
+            "type": "text",
+            "end_pos": 295,
+            "start_pos": 289
+        },
+        "DIAGX10": {
+            "type": "text",
+            "end_pos": 302,
+            "start_pos": 296
+        },
+        "DIAGX11": {
+            "type": "text",
+            "end_pos": 309,
+            "start_pos": 303
+        },
+        "DIAGX12": {
+            "type": "text",
+            "end_pos": 316,
+            "start_pos": 310
+        },
+        "DIAGX13": {
+            "type": "text",
+            "end_pos": 323,
+            "start_pos": 317
+        },
+        "DIAGX14": {
+            "type": "text",
+            "end_pos": 330,
+            "start_pos": 324
+        },
+        "DIAGX15": {
+            "type": "text",
+            "end_pos": 337,
+            "start_pos": 331
+        },
+        "DIAGX16": {
+            "type": "text",
+            "end_pos": 344,
+            "start_pos": 338
+        },
+        "DIAGX17": {
+            "type": "text",
+            "end_pos": 351,
+            "start_pos": 345
+        },
+        "DIAGX18": {
+            "type": "text",
+            "end_pos": 358,
+            "start_pos": 352
+        },
+        "DIAGX19": {
+            "type": "text",
+            "end_pos": 365,
+            "start_pos": 359
+        },
+        "DIAGX20": {
+            "type": "text",
+            "end_pos": 372,
+            "start_pos": 366
+        },
+        "DIAGX21": {
+            "type": "text",
+            "end_pos": 379,
+            "start_pos": 373
+        },
+        "DIAGX22": {
+            "type": "text",
+            "end_pos": 386,
+            "start_pos": 380
+        },
+        "DIAGX23": {
+            "type": "text",
+            "end_pos": 393,
+            "start_pos": 387
+        },
+        "DIAGX24": {
+            "type": "text",
+            "end_pos": 400,
+            "start_pos": 394
+        },
+        "DIAGX25": {
+            "type": "text",
+            "end_pos": 407,
+            "start_pos": 401
+        },
+        "DOC_SPEC": {
+            "type": "numeric",
+            "end_pos": 412,
+            "start_pos": 408
+        },
+        "DSC": {
+            "type": "numeric",
+            "end_pos": 415,
+            "start_pos": 413
+        },
+        "DTYPX1": {
+            "type": "text",
+            "end_pos": 416,
+            "start_pos": 416
+        },
+        "DTYPX2": {
+            "type": "text",
+            "end_pos": 417,
+            "start_pos": 417
+        },
+        "DTYPX3": {
+            "type": "text",
+            "end_pos": 418,
+            "start_pos": 418
+        },
+        "DTYPX4": {
+            "type": "text",
+            "end_pos": 419,
+            "start_pos": 419
+        },
+        "DTYPX5": {
+            "type": "text",
+            "end_pos": 420,
+            "start_pos": 420
+        },
+        "DTYPX6": {
+            "type": "text",
+            "end_pos": 421,
+            "start_pos": 421
+        },
+        "DTYPX7": {
+            "type": "text",
+            "end_pos": 422,
+            "start_pos": 422
+        },
+        "DTYPX8": {
+            "type": "text",
+            "end_pos": 423,
+            "start_pos": 423
+        },
+        "DTYPX9": {
+            "type": "text",
+            "end_pos": 424,
+            "start_pos": 424
+        },
+        "DTYPX10": {
+            "type": "text",
+            "end_pos": 425,
+            "start_pos": 425
+        },
+        "DTYPX11": {
+            "type": "text",
+            "end_pos": 426,
+            "start_pos": 426
+        },
+        "DTYPX12": {
+            "type": "text",
+            "end_pos": 427,
+            "start_pos": 427
+        },
+        "DTYPX13": {
+            "type": "text",
+            "end_pos": 428,
+            "start_pos": 428
+        },
+        "DTYPX14": {
+            "type": "text",
+            "end_pos": 429,
+            "start_pos": 429
+        },
+        "DTYPX15": {
+            "type": "text",
+            "end_pos": 430,
+            "start_pos": 430
+        },
+        "DTYPX16": {
+            "type": "text",
+            "end_pos": 431,
+            "start_pos": 431
+        },
+        "DTYPX17": {
+            "type": "text",
+            "end_pos": 432,
+            "start_pos": 432
+        },
+        "DTYPX18": {
+            "type": "text",
+            "end_pos": 433,
+            "start_pos": 433
+        },
+        "DTYPX19": {
+            "type": "text",
+            "end_pos": 434,
+            "start_pos": 434
+        },
+        "DTYPX20": {
+            "type": "text",
+            "end_pos": 435,
+            "start_pos": 435
+        },
+        "DTYPX21": {
+            "type": "text",
+            "end_pos": 436,
+            "start_pos": 436
+        },
+        "DTYPX22": {
+            "type": "text",
+            "end_pos": 437,
+            "start_pos": 437
+        },
+        "DTYPX23": {
+            "type": "text",
+            "end_pos": 438,
+            "start_pos": 438
+        },
+        "DTYPX24": {
+            "type": "text",
+            "end_pos": 439,
+            "start_pos": 439
+        },
+        "DTYPX25": {
+            "type": "text",
+            "end_pos": 440,
+            "start_pos": 440
+        },
+        "ECODEX1": {
+            "type": "text",
+            "end_pos": 447,
+            "start_pos": 441
+        },
+        "EDREGDATE": {
+            "type": "DATE",
+            "end_pos": 457,
+            "start_pos": 448,
+            "format": "%Y-%m-%d"
+        },
+        "EDREGTIME": {
+            "type": "TIME",
+            "end_pos": 462,
+            "start_pos": 458,
+            "format": "%H:%M"
+        },
+        "ENTRY": {
+            "type": "text",
+            "end_pos": 463,
+            "start_pos": 463
+        },
+        "EPnumeric1": {
+            "type": "numeric",
+            "end_pos": 465,
+            "start_pos": 464
+        },
+        "EPnumeric2": {
+            "type": "numeric",
+            "end_pos": 467,
+            "start_pos": 466
+        },
+        "EPnumeric3": {
+            "type": "numeric",
+            "end_pos": 469,
+            "start_pos": 468
+        },
+        "EPnumeric4": {
+            "type": "numeric",
+            "end_pos": 471,
+            "start_pos": 470
+        },
+        "EPnumeric5": {
+            "type": "numeric",
+            "end_pos": 473,
+            "start_pos": 472
+        },
+        "EPnumeric6": {
+            "type": "numeric",
+            "end_pos": 475,
+            "start_pos": 474
+        },
+        "EPnumeric7": {
+            "type": "numeric",
+            "end_pos": 477,
+            "start_pos": 476
+        },
+        "EPnumeric8": {
+            "type": "numeric",
+            "end_pos": 479,
+            "start_pos": 478
+        },
+        "EPnumeric9": {
+            "type": "numeric",
+            "end_pos": 481,
+            "start_pos": 480
+        },
+        "EPnumeric10": {
+            "type": "numeric",
+            "end_pos": 483,
+            "start_pos": 482
+        },
+        "EPnumeric11": {
+            "type": "numeric",
+            "end_pos": 485,
+            "start_pos": 484
+        },
+        "EPnumeric12": {
+            "type": "numeric",
+            "end_pos": 487,
+            "start_pos": 486
+        },
+        "EPnumeric13": {
+            "type": "numeric",
+            "end_pos": 489,
+            "start_pos": 488
+        },
+        "EPnumeric14": {
+            "type": "numeric",
+            "end_pos": 491,
+            "start_pos": 490
+        },
+        "EPnumeric15": {
+            "type": "numeric",
+            "end_pos": 493,
+            "start_pos": 492
+        },
+        "EPnumeric16": {
+            "type": "numeric",
+            "end_pos": 495,
+            "start_pos": 494
+        },
+        "EPnumeric17": {
+            "type": "numeric",
+            "end_pos": 497,
+            "start_pos": 496
+        },
+        "EPnumeric18": {
+            "type": "numeric",
+            "end_pos": 499,
+            "start_pos": 498
+        },
+        "EPnumeric19": {
+            "type": "numeric",
+            "end_pos": 501,
+            "start_pos": 500
+        },
+        "EPnumeric20": {
+            "type": "numeric",
+            "end_pos": 503,
+            "start_pos": 502
+        },
+        "EPSEQ1": {
+            "type": "numeric",
+            "end_pos": 505,
+            "start_pos": 504
+        },
+        "EPSEQ2": {
+            "type": "numeric",
+            "end_pos": 507,
+            "start_pos": 506
+        },
+        "EPSEQ3": {
+            "type": "numeric",
+            "end_pos": 509,
+            "start_pos": 508
+        },
+        "EPSEQ4": {
+            "type": "numeric",
+            "end_pos": 511,
+            "start_pos": 510
+        },
+        "EPSEQ5": {
+            "type": "numeric",
+            "end_pos": 513,
+            "start_pos": 512
+        },
+        "EPSEQ6": {
+            "type": "numeric",
+            "end_pos": 515,
+            "start_pos": 514
+        },
+        "EPSEQ7": {
+            "type": "numeric",
+            "end_pos": 517,
+            "start_pos": 516
+        },
+        "EPSEQ8": {
+            "type": "numeric",
+            "end_pos": 519,
+            "start_pos": 518
+        },
+        "EPSEQ9": {
+            "type": "numeric",
+            "end_pos": 521,
+            "start_pos": 520
+        },
+        "EPSEQ10": {
+            "type": "numeric",
+            "end_pos": 523,
+            "start_pos": 522
+        },
+        "EPSEQ11": {
+            "type": "numeric",
+            "end_pos": 525,
+            "start_pos": 524
+        },
+        "EPSEQ12": {
+            "type": "numeric",
+            "end_pos": 527,
+            "start_pos": 526
+        },
+        "EPSEQ13": {
+            "type": "numeric",
+            "end_pos": 529,
+            "start_pos": 528
+        },
+        "EPSEQ14": {
+            "type": "numeric",
+            "end_pos": 531,
+            "start_pos": 530
+        },
+        "EPSEQ15": {
+            "type": "numeric",
+            "end_pos": 533,
+            "start_pos": 532
+        },
+        "EPSEQ16": {
+            "type": "numeric",
+            "end_pos": 535,
+            "start_pos": 534
+        },
+        "EPSEQ17": {
+            "type": "numeric",
+            "end_pos": 537,
+            "start_pos": 536
+        },
+        "EPSEQ18": {
+            "type": "numeric",
+            "end_pos": 539,
+            "start_pos": 538
+        },
+        "EPSEQ19": {
+            "type": "numeric",
+            "end_pos": 541,
+            "start_pos": 540
+        },
+        "EPSEQ20": {
+            "type": "numeric",
+            "end_pos": 543,
+            "start_pos": 542
+        },
+        "GESTAD": {
+            "type": "numeric",
+            "end_pos": 545,
+            "start_pos": 544
+        },
+        "GESTDEL": {
+            "type": "numeric",
+            "end_pos": 547,
+            "start_pos": 546
+        },
+        "GESTDIS": {
+            "type": "numeric",
+            "end_pos": 549,
+            "start_pos": 548
+        },
+        "HCNPROV": {
+            "type": "text",
+            "end_pos": 551,
+            "start_pos": 550
+        },
+        "HOSP": {
+            "type": "numeric",
+            "end_pos": 554,
+            "start_pos": 552
+        },
+        "HOSPFROM": {
+            "type": "numeric",
+            "end_pos": 557,
+            "start_pos": 555
+        },
+        "HOSPPROV": {
+            "type": "text",
+            "end_pos": 558,
+            "start_pos": 558
+        },
+        "HOSPTO": {
+            "type": "numeric",
+            "end_pos": 561,
+            "start_pos": 559
+        },
+        "ICODE1": {
+            "type": "text",
+            "end_pos": 571,
+            "start_pos": 562
+        },
+        "ICODE2": {
+            "type": "text",
+            "end_pos": 581,
+            "start_pos": 572
+        },
+        "ICODE3": {
+            "type": "text",
+            "end_pos": 591,
+            "start_pos": 582
+        },
+        "ICODE4": {
+            "type": "text",
+            "end_pos": 601,
+            "start_pos": 592
+        },
+        "ICODE5": {
+            "type": "text",
+            "end_pos": 611,
+            "start_pos": 602
+        },
+        "ICODE6": {
+            "type": "text",
+            "end_pos": 621,
+            "start_pos": 612
+        },
+        "ICODE7": {
+            "type": "text",
+            "end_pos": 631,
+            "start_pos": 622
+        },
+        "ICODE8": {
+            "type": "text",
+            "end_pos": 641,
+            "start_pos": 632
+        },
+        "ICODE9": {
+            "type": "text",
+            "end_pos": 651,
+            "start_pos": 642
+        },
+        "ICODE10": {
+            "type": "text",
+            "end_pos": 661,
+            "start_pos": 652
+        },
+        "ICODE11": {
+            "type": "text",
+            "end_pos": 671,
+            "start_pos": 662
+        },
+        "ICODE12": {
+            "type": "text",
+            "end_pos": 681,
+            "start_pos": 672
+        },
+        "ICODE13": {
+            "type": "text",
+            "end_pos": 691,
+            "start_pos": 682
+        },
+        "ICODE14": {
+            "type": "text",
+            "end_pos": 701,
+            "start_pos": 692
+        },
+        "ICODE15": {
+            "type": "text",
+            "end_pos": 711,
+            "start_pos": 702
+        },
+        "ICODE16": {
+            "type": "text",
+            "end_pos": 721,
+            "start_pos": 712
+        },
+        "ICODE17": {
+            "type": "text",
+            "end_pos": 731,
+            "start_pos": 722
+        },
+        "ICODE18": {
+            "type": "text",
+            "end_pos": 741,
+            "start_pos": 732
+        },
+        "ICODE19": {
+            "type": "text",
+            "end_pos": 751,
+            "start_pos": 742
+        },
+        "ICODE20": {
+            "type": "text",
+            "end_pos": 761,
+            "start_pos": 752
+        },
+        "ICUDAYS": {
+            "type": "numeric",
+            "end_pos": 766,
+            "start_pos": 762
+        },
+        "IDUR1": {
+            "type": "numeric",
+            "end_pos": 770,
+            "start_pos": 767
+        },
+        "IDUR2": {
+            "type": "numeric",
+            "end_pos": 774,
+            "start_pos": 771
+        },
+        "IDUR3": {
+            "type": "numeric",
+            "end_pos": 778,
+            "start_pos": 775
+        },
+        "IDUR4": {
+            "type": "numeric",
+            "end_pos": 782,
+            "start_pos": 779
+        },
+        "IDUR5": {
+            "type": "numeric",
+            "end_pos": 786,
+            "start_pos": 783
+        },
+        "IDUR6": {
+            "type": "numeric",
+            "end_pos": 790,
+            "start_pos": 787
+        },
+        "IDUR7": {
+            "type": "numeric",
+            "end_pos": 794,
+            "start_pos": 791
+        },
+        "IDUR8": {
+            "type": "numeric",
+            "end_pos": 798,
+            "start_pos": 795
+        },
+        "IDUR9": {
+            "type": "numeric",
+            "end_pos": 802,
+            "start_pos": 799
+        },
+        "IDUR10": {
+            "type": "numeric",
+            "end_pos": 806,
+            "start_pos": 803
+        },
+        "IDUR11": {
+            "type": "numeric",
+            "end_pos": 810,
+            "start_pos": 807
+        },
+        "IDUR12": {
+            "type": "numeric",
+            "end_pos": 814,
+            "start_pos": 811
+        },
+        "IDUR13": {
+            "type": "numeric",
+            "end_pos": 818,
+            "start_pos": 815
+        },
+        "IDUR14": {
+            "type": "numeric",
+            "end_pos": 822,
+            "start_pos": 819
+        },
+        "IDUR15": {
+            "type": "numeric",
+            "end_pos": 826,
+            "start_pos": 823
+        },
+        "IDUR16": {
+            "type": "numeric",
+            "end_pos": 830,
+            "start_pos": 827
+        },
+        "IDUR17": {
+            "type": "numeric",
+            "end_pos": 834,
+            "start_pos": 831
+        },
+        "IDUR18": {
+            "type": "numeric",
+            "end_pos": 838,
+            "start_pos": 835
+        },
+        "IDUR19": {
+            "type": "numeric",
+            "end_pos": 842,
+            "start_pos": 839
+        },
+        "IDUR20": {
+            "type": "numeric",
+            "end_pos": 846,
+            "start_pos": 843
+        },
+        "IENDDATE1": {
+            "type": "date",
+            "end_pos": 856,
+            "start_pos": 847,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE2": {
+            "type": "date",
+            "end_pos": 866,
+            "start_pos": 857,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE3": {
+            "type": "date",
+            "end_pos": 876,
+            "start_pos": 867,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE4": {
+            "type": "date",
+            "end_pos": 886,
+            "start_pos": 877,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE5": {
+            "type": "date",
+            "end_pos": 896,
+            "start_pos": 887,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE6": {
+            "type": "date",
+            "end_pos": 906,
+            "start_pos": 897,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE7": {
+            "type": "date",
+            "end_pos": 916,
+            "start_pos": 907,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE8": {
+            "type": "date",
+            "end_pos": 926,
+            "start_pos": 917,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE9": {
+            "type": "date",
+            "end_pos": 936,
+            "start_pos": 927,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE10": {
+            "type": "date",
+            "end_pos": 946,
+            "start_pos": 937,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE11": {
+            "type": "date",
+            "end_pos": 956,
+            "start_pos": 947,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE12": {
+            "type": "date",
+            "end_pos": 966,
+            "start_pos": 957,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE13": {
+            "type": "date",
+            "end_pos": 976,
+            "start_pos": 967,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE14": {
+            "type": "date",
+            "end_pos": 986,
+            "start_pos": 977,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE15": {
+            "type": "date",
+            "end_pos": 996,
+            "start_pos": 987,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE16": {
+            "type": "date",
+            "end_pos": 1006,
+            "start_pos": 997,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE17": {
+            "type": "date",
+            "end_pos": 1016,
+            "start_pos": 1007,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE18": {
+            "type": "date",
+            "end_pos": 1026,
+            "start_pos": 1017,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE19": {
+            "type": "date",
+            "end_pos": 1036,
+            "start_pos": 1027,
+            "format": "%Y-%m-%d"
+        },
+        "IENDDATE20": {
+            "type": "date",
+            "end_pos": 1046,
+            "start_pos": 1037,
+            "format": "%Y-%m-%d"
+        },
+        "IENDTIME1": {
+            "type": "time",
+            "end_pos": 1051,
+            "start_pos": 1047,
+            "format": "%H:%M"
+        },
+        "IENDTIME2": {
+            "type": "time",
+            "end_pos": 1056,
+            "start_pos": 1052,
+            "format": "%H:%M"
+        },
+        "IENDTIME3": {
+            "type": "time",
+            "end_pos": 1061,
+            "start_pos": 1057,
+            "format": "%H:%M"
+        },
+        "IENDTIME4": {
+            "type": "time",
+            "end_pos": 1066,
+            "start_pos": 1062,
+            "format": "%H:%M"
+        },
+        "IENDTIME5": {
+            "type": "time",
+            "end_pos": 1071,
+            "start_pos": 1067,
+            "format": "%H:%M"
+        },
+        "IENDTIME6": {
+            "type": "time",
+            "end_pos": 1076,
+            "start_pos": 1072,
+            "format": "%H:%M"
+        },
+        "IENDTIME7": {
+            "type": "time",
+            "end_pos": 1081,
+            "start_pos": 1077,
+            "format": "%H:%M"
+        },
+        "IENDTIME8": {
+            "type": "time",
+            "end_pos": 1086,
+            "start_pos": 1082,
+            "format": "%H:%M"
+        },
+        "IENDTIME9": {
+            "type": "time",
+            "end_pos": 1091,
+            "start_pos": 1087,
+            "format": "%H:%M"
+        },
+        "IENDTIME10": {
+            "type": "time",
+            "end_pos": 1096,
+            "start_pos": 1092,
+            "format": "%H:%M"
+        },
+        "IENDTIME11": {
+            "type": "time",
+            "end_pos": 1101,
+            "start_pos": 1097,
+            "format": "%H:%M"
+        },
+        "IENDTIME12": {
+            "type": "time",
+            "end_pos": 1106,
+            "start_pos": 1102,
+            "format": "%H:%M"
+        },
+        "IENDTIME13": {
+            "type": "time",
+            "end_pos": 1111,
+            "start_pos": 1107,
+            "format": "%H:%M"
+        },
+        "IENDTIME14": {
+            "type": "time",
+            "end_pos": 1116,
+            "start_pos": 1112,
+            "format": "%H:%M"
+        },
+        "IENDTIME15": {
+            "type": "time",
+            "end_pos": 1121,
+            "start_pos": 1117,
+            "format": "%H:%M"
+        },
+        "IENDTIME16": {
+            "type": "time",
+            "end_pos": 1126,
+            "start_pos": 1122,
+            "format": "%H:%M"
+        },
+        "IENDTIME17": {
+            "type": "time",
+            "end_pos": 1131,
+            "start_pos": 1127,
+            "format": "%H:%M"
+        },
+        "IENDTIME18": {
+            "type": "time",
+            "end_pos": 1136,
+            "start_pos": 1132,
+            "format": "%H:%M"
+        },
+        "IENDTIME19": {
+            "type": "time",
+            "end_pos": 1141,
+            "start_pos": 1137,
+            "format": "%H:%M"
+        },
+        "IENDTIME20": {
+            "type": "time",
+            "end_pos": 1146,
+            "start_pos": 1142,
+            "format": "%H:%M"
+        },
+        "IEXT1": {
+            "type": "text",
+            "end_pos": 1148,
+            "start_pos": 1147
+        },
+        "IEXT2": {
+            "type": "text",
+            "end_pos": 1150,
+            "start_pos": 1149
+        },
+        "IEXT3": {
+            "type": "text",
+            "end_pos": 1152,
+            "start_pos": 1151
+        },
+        "IEXT4": {
+            "type": "text",
+            "end_pos": 1154,
+            "start_pos": 1153
+        },
+        "IEXT5": {
+            "type": "text",
+            "end_pos": 1156,
+            "start_pos": 1155
+        },
+        "IEXT6": {
+            "type": "text",
+            "end_pos": 1158,
+            "start_pos": 1157
+        },
+        "IEXT7": {
+            "type": "text",
+            "end_pos": 1160,
+            "start_pos": 1159
+        },
+        "IEXT8": {
+            "type": "text",
+            "end_pos": 1162,
+            "start_pos": 1161
+        },
+        "IEXT9": {
+            "type": "text",
+            "end_pos": 1164,
+            "start_pos": 1163
+        },
+        "IEXT10": {
+            "type": "text",
+            "end_pos": 1166,
+            "start_pos": 1165
+        },
+        "IEXT11": {
+            "type": "text",
+            "end_pos": 1168,
+            "start_pos": 1167
+        },
+        "IEXT12": {
+            "type": "text",
+            "end_pos": 1170,
+            "start_pos": 1169
+        },
+        "IEXT13": {
+            "type": "text",
+            "end_pos": 1172,
+            "start_pos": 1171
+        },
+        "IEXT14": {
+            "type": "text",
+            "end_pos": 1174,
+            "start_pos": 1173
+        },
+        "IEXT15": {
+            "type": "text",
+            "end_pos": 1176,
+            "start_pos": 1175
+        },
+        "IEXT16": {
+            "type": "text",
+            "end_pos": 1178,
+            "start_pos": 1177
+        },
+        "IEXT17": {
+            "type": "text",
+            "end_pos": 1180,
+            "start_pos": 1179
+        },
+        "IEXT18": {
+            "type": "text",
+            "end_pos": 1182,
+            "start_pos": 1181
+        },
+        "IEXT19": {
+            "type": "text",
+            "end_pos": 1184,
+            "start_pos": 1183
+        },
+        "IEXT20": {
+            "type": "text",
+            "end_pos": 1186,
+            "start_pos": 1185
+        },
+        "INJPLACE": {
+            "type": "text",
+            "end_pos": 1193,
+            "start_pos": 1187
+        },
+        "IOOH1": {
+            "type": "text",
+            "end_pos": 1194,
+            "start_pos": 1194
+        },
+        "IOOH2": {
+            "type": "text",
+            "end_pos": 1195,
+            "start_pos": 1195
+        },
+        "IOOH3": {
+            "type": "text",
+            "end_pos": 1196,
+            "start_pos": 1196
+        },
+        "IOOH4": {
+            "type": "text",
+            "end_pos": 1197,
+            "start_pos": 1197
+        },
+        "IOOH5": {
+            "type": "text",
+            "end_pos": 1198,
+            "start_pos": 1198
+        },
+        "IOOH6": {
+            "type": "text",
+            "end_pos": 1199,
+            "start_pos": 1199
+        },
+        "IOOH7": {
+            "type": "text",
+            "end_pos": 1200,
+            "start_pos": 1200
+        },
+        "IOOH8": {
+            "type": "text",
+            "end_pos": 1201,
+            "start_pos": 1201
+        },
+        "IOOH9": {
+            "type": "text",
+            "end_pos": 1202,
+            "start_pos": 1202
+        },
+        "IOOH10": {
+            "type": "text",
+            "end_pos": 1203,
+            "start_pos": 1203
+        },
+        "IOOH11": {
+            "type": "text",
+            "end_pos": 1204,
+            "start_pos": 1204
+        },
+        "IOOH12": {
+            "type": "text",
+            "end_pos": 1205,
+            "start_pos": 1205
+        },
+        "IOOH13": {
+            "type": "text",
+            "end_pos": 1206,
+            "start_pos": 1206
+        },
+        "IOOH14": {
+            "type": "text",
+            "end_pos": 1207,
+            "start_pos": 1207
+        },
+        "IOOH15": {
+            "type": "text",
+            "end_pos": 1208,
+            "start_pos": 1208
+        },
+        "IOOH16": {
+            "type": "text",
+            "end_pos": 1209,
+            "start_pos": 1209
+        },
+        "IOOH17": {
+            "type": "text",
+            "end_pos": 1210,
+            "start_pos": 1210
+        },
+        "IOOH18": {
+            "type": "text",
+            "end_pos": 1211,
+            "start_pos": 1211
+        },
+        "IOOH19": {
+            "type": "text",
+            "end_pos": 1212,
+            "start_pos": 1212
+        },
+        "IOOH20": {
+            "type": "text",
+            "end_pos": 1213,
+            "start_pos": 1213
+        },
+        "IOOHNM1": {
+            "type": "text",
+            "end_pos": 1218,
+            "start_pos": 1214
+        },
+        "IOOHNM2": {
+            "type": "text",
+            "end_pos": 1223,
+            "start_pos": 1219
+        },
+        "IOOHNM3": {
+            "type": "text",
+            "end_pos": 1228,
+            "start_pos": 1224
+        },
+        "IOOHNM4": {
+            "type": "text",
+            "end_pos": 1233,
+            "start_pos": 1229
+        },
+        "IOOHNM5": {
+            "type": "text",
+            "end_pos": 1238,
+            "start_pos": 1234
+        },
+        "IOOHNM6": {
+            "type": "text",
+            "end_pos": 1243,
+            "start_pos": 1239
+        },
+        "IOOHNM7": {
+            "type": "text",
+            "end_pos": 1248,
+            "start_pos": 1244
+        },
+        "IOOHNM8": {
+            "type": "text",
+            "end_pos": 1253,
+            "start_pos": 1249
+        },
+        "IOOHNM9": {
+            "type": "text",
+            "end_pos": 1258,
+            "start_pos": 1254
+        },
+        "IOOHNM10": {
+            "type": "text",
+            "end_pos": 1263,
+            "start_pos": 1259
+        },
+        "IOOHNM11": {
+            "type": "text",
+            "end_pos": 1268,
+            "start_pos": 1264
+        },
+        "IOOHNM12": {
+            "type": "text",
+            "end_pos": 1273,
+            "start_pos": 1269
+        },
+        "IOOHNM13": {
+            "type": "text",
+            "end_pos": 1278,
+            "start_pos": 1274
+        },
+        "IOOHNM14": {
+            "type": "text",
+            "end_pos": 1283,
+            "start_pos": 1279
+        },
+        "IOOHNM15": {
+            "type": "text",
+            "end_pos": 1288,
+            "start_pos": 1284
+        },
+        "IOOHNM16": {
+            "type": "text",
+            "end_pos": 1293,
+            "start_pos": 1289
+        },
+        "IOOHNM17": {
+            "type": "text",
+            "end_pos": 1298,
+            "start_pos": 1294
+        },
+        "IOOHNM18": {
+            "type": "text",
+            "end_pos": 1303,
+            "start_pos": 1299
+        },
+        "IOOHNM19": {
+            "type": "text",
+            "end_pos": 1308,
+            "start_pos": 1304
+        },
+        "IOOHNM20": {
+            "type": "text",
+            "end_pos": 1313,
+            "start_pos": 1309
+        },
+        "IPREADMIT1": {
+            "type": "text",
+            "end_pos": 1314,
+            "start_pos": 1314
+        },
+        "IPREADMIT2": {
+            "type": "text",
+            "end_pos": 1315,
+            "start_pos": 1315
+        },
+        "IPREADMIT3": {
+            "type": "text",
+            "end_pos": 1316,
+            "start_pos": 1316
+        },
+        "IPREADMIT4": {
+            "type": "text",
+            "end_pos": 1317,
+            "start_pos": 1317
+        },
+        "IPREADMIT5": {
+            "type": "text",
+            "end_pos": 1318,
+            "start_pos": 1318
+        },
+        "IPREADMIT6": {
+            "type": "text",
+            "end_pos": 1319,
+            "start_pos": 1319
+        },
+        "IPREADMIT7": {
+            "type": "text",
+            "end_pos": 1320,
+            "start_pos": 1320
+        },
+        "IPREADMIT8": {
+            "type": "text",
+            "end_pos": 1321,
+            "start_pos": 1321
+        },
+        "IPREADMIT9": {
+            "type": "text",
+            "end_pos": 1322,
+            "start_pos": 1322
+        },
+        "IPREADMIT10": {
+            "type": "text",
+            "end_pos": 1323,
+            "start_pos": 1323
+        },
+        "IPREADMIT11": {
+            "type": "text",
+            "end_pos": 1324,
+            "start_pos": 1324
+        },
+        "IPREADMIT12": {
+            "type": "text",
+            "end_pos": 1325,
+            "start_pos": 1325
+        },
+        "IPREADMIT13": {
+            "type": "text",
+            "end_pos": 1326,
+            "start_pos": 1326
+        },
+        "IPREADMIT14": {
+            "type": "text",
+            "end_pos": 1327,
+            "start_pos": 1327
+        },
+        "IPREADMIT15": {
+            "type": "text",
+            "end_pos": 1328,
+            "start_pos": 1328
+        },
+        "IPREADMIT16": {
+            "type": "text",
+            "end_pos": 1329,
+            "start_pos": 1329
+        },
+        "IPREADMIT17": {
+            "type": "text",
+            "end_pos": 1330,
+            "start_pos": 1330
+        },
+        "IPREADMIT18": {
+            "type": "text",
+            "end_pos": 1331,
+            "start_pos": 1331
+        },
+        "IPREADMIT19": {
+            "type": "text",
+            "end_pos": 1332,
+            "start_pos": 1332
+        },
+        "IPREADMIT20": {
+            "type": "text",
+            "end_pos": 1333,
+            "start_pos": 1333
+        },
+        "IRETRN1": {
+            "type": "text",
+            "end_pos": 1334,
+            "start_pos": 1334
+        },
+        "IRETRN2": {
+            "type": "text",
+            "end_pos": 1335,
+            "start_pos": 1335
+        },
+        "IRETRN3": {
+            "type": "text",
+            "end_pos": 1336,
+            "start_pos": 1336
+        },
+        "IRETRN4": {
+            "type": "text",
+            "end_pos": 1337,
+            "start_pos": 1337
+        },
+        "IRETRN5": {
+            "type": "text",
+            "end_pos": 1338,
+            "start_pos": 1338
+        },
+        "IRETRN6": {
+            "type": "text",
+            "end_pos": 1339,
+            "start_pos": 1339
+        },
+        "IRETRN7": {
+            "type": "text",
+            "end_pos": 1340,
+            "start_pos": 1340
+        },
+        "IRETRN8": {
+            "type": "text",
+            "end_pos": 1341,
+            "start_pos": 1341
+        },
+        "IRETRN9": {
+            "type": "text",
+            "end_pos": 1342,
+            "start_pos": 1342
+        },
+        "IRETRN10": {
+            "type": "text",
+            "end_pos": 1343,
+            "start_pos": 1343
+        },
+        "IRETRN11": {
+            "type": "text",
+            "end_pos": 1344,
+            "start_pos": 1344
+        },
+        "IRETRN12": {
+            "type": "text",
+            "end_pos": 1345,
+            "start_pos": 1345
+        },
+        "IRETRN13": {
+            "type": "text",
+            "end_pos": 1346,
+            "start_pos": 1346
+        },
+        "IRETRN14": {
+            "type": "text",
+            "end_pos": 1347,
+            "start_pos": 1347
+        },
+        "IRETRN15": {
+            "type": "text",
+            "end_pos": 1348,
+            "start_pos": 1348
+        },
+        "IRETRN16": {
+            "type": "text",
+            "end_pos": 1349,
+            "start_pos": 1349
+        },
+        "IRETRN17": {
+            "type": "text",
+            "end_pos": 1350,
+            "start_pos": 1350
+        },
+        "IRETRN18": {
+            "type": "text",
+            "end_pos": 1351,
+            "start_pos": 1351
+        },
+        "IRETRN19": {
+            "type": "text",
+            "end_pos": 1352,
+            "start_pos": 1352
+        },
+        "IRETRN20": {
+            "type": "text",
+            "end_pos": 1353,
+            "start_pos": 1353
+        },
+        "ISITE1": {
+            "type": "text",
+            "end_pos": 1355,
+            "start_pos": 1354
+        },
+        "ISITE2": {
+            "type": "text",
+            "end_pos": 1357,
+            "start_pos": 1356
+        },
+        "ISITE3": {
+            "type": "text",
+            "end_pos": 1359,
+            "start_pos": 1358
+        },
+        "ISITE4": {
+            "type": "text",
+            "end_pos": 1361,
+            "start_pos": 1360
+        },
+        "ISITE5": {
+            "type": "text",
+            "end_pos": 1363,
+            "start_pos": 1362
+        },
+        "ISITE6": {
+            "type": "text",
+            "end_pos": 1365,
+            "start_pos": 1364
+        },
+        "ISITE7": {
+            "type": "text",
+            "end_pos": 1367,
+            "start_pos": 1366
+        },
+        "ISITE8": {
+            "type": "text",
+            "end_pos": 1369,
+            "start_pos": 1368
+        },
+        "ISITE9": {
+            "type": "text",
+            "end_pos": 1371,
+            "start_pos": 1370
+        },
+        "ISITE10": {
+            "type": "text",
+            "end_pos": 1373,
+            "start_pos": 1372
+        },
+        "ISITE11": {
+            "type": "text",
+            "end_pos": 1375,
+            "start_pos": 1374
+        },
+        "ISITE12": {
+            "type": "text",
+            "end_pos": 1377,
+            "start_pos": 1376
+        },
+        "ISITE13": {
+            "type": "text",
+            "end_pos": 1379,
+            "start_pos": 1378
+        },
+        "ISITE14": {
+            "type": "text",
+            "end_pos": 1381,
+            "start_pos": 1380
+        },
+        "ISITE15": {
+            "type": "text",
+            "end_pos": 1383,
+            "start_pos": 1382
+        },
+        "ISITE16": {
+            "type": "text",
+            "end_pos": 1385,
+            "start_pos": 1384
+        },
+        "ISITE17": {
+            "type": "text",
+            "end_pos": 1387,
+            "start_pos": 1386
+        },
+        "ISITE18": {
+            "type": "text",
+            "end_pos": 1389,
+            "start_pos": 1388
+        },
+        "ISITE19": {
+            "type": "text",
+            "end_pos": 1391,
+            "start_pos": 1390
+        },
+        "ISITE20": {
+            "type": "text",
+            "end_pos": 1393,
+            "start_pos": 1392
+        },
+        "ISL": {
+            "type": "text",
+            "end_pos": 1396,
+            "start_pos": 1394
+        },
+        "ISTARTDATE1": {
+            "type": "date",
+            "end_pos": 1406,
+            "start_pos": 1397,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE2": {
+            "type": "date",
+            "end_pos": 1416,
+            "start_pos": 1407,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE3": {
+            "type": "date",
+            "end_pos": 1426,
+            "start_pos": 1417,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE4": {
+            "type": "date",
+            "end_pos": 1436,
+            "start_pos": 1427,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE5": {
+            "type": "date",
+            "end_pos": 1446,
+            "start_pos": 1437,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE6": {
+            "type": "date",
+            "end_pos": 1456,
+            "start_pos": 1447,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE7": {
+            "type": "date",
+            "end_pos": 1466,
+            "start_pos": 1457,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE8": {
+            "type": "date",
+            "end_pos": 1476,
+            "start_pos": 1467,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE9": {
+            "type": "date",
+            "end_pos": 1486,
+            "start_pos": 1477,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE10": {
+            "type": "date",
+            "end_pos": 1496,
+            "start_pos": 1487,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE11": {
+            "type": "date",
+            "end_pos": 1506,
+            "start_pos": 1497,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE12": {
+            "type": "date",
+            "end_pos": 1516,
+            "start_pos": 1507,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE13": {
+            "type": "date",
+            "end_pos": 1526,
+            "start_pos": 1517,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE14": {
+            "type": "date",
+            "end_pos": 1536,
+            "start_pos": 1527,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE15": {
+            "type": "date",
+            "end_pos": 1546,
+            "start_pos": 1537,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE16": {
+            "type": "date",
+            "end_pos": 1556,
+            "start_pos": 1547,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE17": {
+            "type": "date",
+            "end_pos": 1566,
+            "start_pos": 1557,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE18": {
+            "type": "date",
+            "end_pos": 1576,
+            "start_pos": 1567,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE19": {
+            "type": "date",
+            "end_pos": 1586,
+            "start_pos": 1577,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTDATE20": {
+            "type": "date",
+            "end_pos": 1596,
+            "start_pos": 1587,
+            "format": "%Y-%m-%d"
+        },
+        "ISTARTTIME1": {
+            "type": "time",
+            "end_pos": 1601,
+            "start_pos": 1597,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME2": {
+            "type": "time",
+            "end_pos": 1606,
+            "start_pos": 1602,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME3": {
+            "type": "time",
+            "end_pos": 1611,
+            "start_pos": 1607,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME4": {
+            "type": "time",
+            "end_pos": 1616,
+            "start_pos": 1612,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME5": {
+            "type": "time",
+            "end_pos": 1621,
+            "start_pos": 1617,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME6": {
+            "type": "time",
+            "end_pos": 1626,
+            "start_pos": 1622,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME7": {
+            "type": "time",
+            "end_pos": 1631,
+            "start_pos": 1627,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME8": {
+            "type": "time",
+            "end_pos": 1636,
+            "start_pos": 1632,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME9": {
+            "type": "time",
+            "end_pos": 1641,
+            "start_pos": 1637,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME10": {
+            "type": "time",
+            "end_pos": 1646,
+            "start_pos": 1642,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME11": {
+            "type": "time",
+            "end_pos": 1651,
+            "start_pos": 1647,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME12": {
+            "type": "time",
+            "end_pos": 1656,
+            "start_pos": 1652,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME13": {
+            "type": "time",
+            "end_pos": 1661,
+            "start_pos": 1657,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME14": {
+            "type": "time",
+            "end_pos": 1666,
+            "start_pos": 1662,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME15": {
+            "type": "time",
+            "end_pos": 1671,
+            "start_pos": 1667,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME16": {
+            "type": "time",
+            "end_pos": 1676,
+            "start_pos": 1672,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME17": {
+            "type": "time",
+            "end_pos": 1681,
+            "start_pos": 1677,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME18": {
+            "type": "time",
+            "end_pos": 1686,
+            "start_pos": 1682,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME19": {
+            "type": "time",
+            "end_pos": 1691,
+            "start_pos": 1687,
+            "format": "%H:%M"
+        },
+        "ISTARTTIME20": {
+            "type": "time",
+            "end_pos": 1696,
+            "start_pos": 1692,
+            "format": "%H:%M"
+        },
+        "ISTAT1": {
+            "type": "text",
+            "end_pos": 1698,
+            "start_pos": 1697
+        },
+        "ISTAT2": {
+            "type": "text",
+            "end_pos": 1700,
+            "start_pos": 1699
+        },
+        "ISTAT3": {
+            "type": "text",
+            "end_pos": 1702,
+            "start_pos": 1701
+        },
+        "ISTAT4": {
+            "type": "text",
+            "end_pos": 1704,
+            "start_pos": 1703
+        },
+        "ISTAT5": {
+            "type": "text",
+            "end_pos": 1706,
+            "start_pos": 1705
+        },
+        "ISTAT6": {
+            "type": "text",
+            "end_pos": 1708,
+            "start_pos": 1707
+        },
+        "ISTAT7": {
+            "type": "text",
+            "end_pos": 1710,
+            "start_pos": 1709
+        },
+        "ISTAT8": {
+            "type": "text",
+            "end_pos": 1712,
+            "start_pos": 1711
+        },
+        "ISTAT9": {
+            "type": "text",
+            "end_pos": 1714,
+            "start_pos": 1713
+        },
+        "ISTAT10": {
+            "type": "text",
+            "end_pos": 1716,
+            "start_pos": 1715
+        },
+        "ISTAT11": {
+            "type": "text",
+            "end_pos": 1718,
+            "start_pos": 1717
+        },
+        "ISTAT12": {
+            "type": "text",
+            "end_pos": 1720,
+            "start_pos": 1719
+        },
+        "ISTAT13": {
+            "type": "text",
+            "end_pos": 1722,
+            "start_pos": 1721
+        },
+        "ISTAT14": {
+            "type": "text",
+            "end_pos": 1724,
+            "start_pos": 1723
+        },
+        "ISTAT15": {
+            "type": "text",
+            "end_pos": 1726,
+            "start_pos": 1725
+        },
+        "ISTAT16": {
+            "type": "text",
+            "end_pos": 1728,
+            "start_pos": 1727
+        },
+        "ISTAT17": {
+            "type": "text",
+            "end_pos": 1730,
+            "start_pos": 1729
+        },
+        "ISTAT18": {
+            "type": "text",
+            "end_pos": 1732,
+            "start_pos": 1731
+        },
+        "ISTAT19": {
+            "type": "text",
+            "end_pos": 1734,
+            "start_pos": 1733
+        },
+        "ISTAT20": {
+            "type": "text",
+            "end_pos": 1736,
+            "start_pos": 1735
+        },
+        "LEFTERDT": {
+            "type": "DATE",
+            "end_pos": 1746,
+            "start_pos": 1737,
+            "format": "%Y-%m-%d"
+        },
+        "LEFTERTM": {
+            "type": "TIME",
+            "end_pos": 1751,
+            "start_pos": 1747,
+            "format": "%H:%M"
+        },
+        "LEVEL": {
+            "type": "text",
+            "end_pos": 1752,
+            "start_pos": 1752
+        },
+        "MEDDAYS": {
+            "type": "numeric",
+            "end_pos": 1757,
+            "start_pos": 1753
+        },
+        "MHIA4": {
+            "type": "text",
+            "end_pos": 1758,
+            "start_pos": 1758
+        },
+        "MHIA10": {
+            "type": "text",
+            "end_pos": 1759,
+            "start_pos": 1759
+        },
+        "MHIA20": {
+            "type": "text",
+            "end_pos": 1760,
+            "start_pos": 1760
+        },
+        "MHIA21": {
+            "type": "text",
+            "end_pos": 1761,
+            "start_pos": 1761
+        },
+        "MHIADMIT": {
+            "type": "text",
+            "end_pos": 1762,
+            "start_pos": 1762
+        },
+        "MHIAPOL": {
+            "type": "text",
+            "end_pos": 1763,
+            "start_pos": 1763
+        },
+        "NEONDAYS": {
+            "type": "numeric",
+            "end_pos": 1768,
+            "start_pos": 1764
+        },
+        "NEURDAYS": {
+            "type": "numeric",
+            "end_pos": 1773,
+            "start_pos": 1769
+        },
+        "NICUL1DAYS": {
+            "type": "numeric",
+            "end_pos": 1778,
+            "start_pos": 1774
+        },
+        "NICUL2DAYS": {
+            "type": "numeric",
+            "end_pos": 1783,
+            "start_pos": 1779
+        },
+        "NICUL3DAYS": {
+            "type": "numeric",
+            "end_pos": 1788,
+            "start_pos": 1784
+        },
+        "OOHINT1": {
+            "type": "text",
+            "end_pos": 1798,
+            "start_pos": 1789
+        },
+        "OOHINT2": {
+            "type": "text",
+            "end_pos": 1808,
+            "start_pos": 1799
+        },
+        "OOHINT3": {
+            "type": "text",
+            "end_pos": 1818,
+            "start_pos": 1809
+        },
+        "OOHINT4": {
+            "type": "text",
+            "end_pos": 1828,
+            "start_pos": 1819
+        },
+        "OOHINT5": {
+            "type": "text",
+            "end_pos": 1838,
+            "start_pos": 1829
+        },
+        "OOHINT6": {
+            "type": "text",
+            "end_pos": 1848,
+            "start_pos": 1839
+        },
+        "OOHINT7": {
+            "type": "text",
+            "end_pos": 1858,
+            "start_pos": 1849
+        },
+        "OOHINT8": {
+            "type": "text",
+            "end_pos": 1868,
+            "start_pos": 1859
+        },
+        "OOHINT9": {
+            "type": "text",
+            "end_pos": 1878,
+            "start_pos": 1869
+        },
+        "OOHINT10": {
+            "type": "text",
+            "end_pos": 1888,
+            "start_pos": 1879
+        },
+        "OOHINT11": {
+            "type": "text",
+            "end_pos": 1898,
+            "start_pos": 1889
+        },
+        "OOHINT12": {
+            "type": "text",
+            "end_pos": 1908,
+            "start_pos": 1899
+        },
+        "OOHINT13": {
+            "type": "text",
+            "end_pos": 1918,
+            "start_pos": 1909
+        },
+        "OOHINT14": {
+            "type": "text",
+            "end_pos": 1928,
+            "start_pos": 1919
+        },
+        "OOHINT15": {
+            "type": "text",
+            "end_pos": 1938,
+            "start_pos": 1929
+        },
+        "OOHINT16": {
+            "type": "text",
+            "end_pos": 1948,
+            "start_pos": 1939
+        },
+        "OOHINT17": {
+            "type": "text",
+            "end_pos": 1958,
+            "start_pos": 1949
+        },
+        "OOHINT18": {
+            "type": "text",
+            "end_pos": 1968,
+            "start_pos": 1959
+        },
+        "OOHINT19": {
+            "type": "text",
+            "end_pos": 1978,
+            "start_pos": 1969
+        },
+        "OOHINT20": {
+            "type": "text",
+            "end_pos": 1988,
+            "start_pos": 1979
+        },
+        "OOPHOSP": {
+            "type": "text",
+            "end_pos": 1992,
+            "start_pos": 1989
+        },
+        "OPDEATH": {
+            "type": "text",
+            "end_pos": 1993,
+            "start_pos": 1993
+        },
+        "PATSERV": {
+            "type": "numeric",
+            "end_pos": 1995,
+            "start_pos": 1994
+        },
+        "PEDIDAYS": {
+            "type": "numeric",
+            "end_pos": 2000,
+            "start_pos": 1996
+        },
+        "PRIV_HOSP": {
+            "type": "numeric",
+            "end_pos": 2005,
+            "start_pos": 2001
+        },
+        "READMIT": {
+            "type": "numeric",
+            "end_pos": 2006,
+            "start_pos": 2006
+        },
+        "RECRDnumeric": {
+            "type": "numeric",
+            "end_pos": 2021,
+            "start_pos": 2007
+        },
+        "REHABDAY": {
+            "type": "numeric",
+            "end_pos": 2026,
+            "start_pos": 2022
+        },
+        "RESPDAYS": {
+            "type": "numeric",
+            "end_pos": 2031,
+            "start_pos": 2027
+        },
+        "RESPPHYS": {
+            "type": "text",
+            "end_pos": 2036,
+            "start_pos": 2032
+        },
+        "RFP": {
+            "type": "text",
+            "end_pos": 2038,
+            "start_pos": 2037
+        },
+        "SCU1DAYS": {
+            "type": "numeric",
+            "end_pos": 2043,
+            "start_pos": 2039
+        },
+        "SCU2DAYS": {
+            "type": "numeric",
+            "end_pos": 2048,
+            "start_pos": 2044
+        },
+        "SCU3DAYS": {
+            "type": "numeric",
+            "end_pos": 2053,
+            "start_pos": 2049
+        },
+        "SCU4DAYS": {
+            "type": "numeric",
+            "end_pos": 2058,
+            "start_pos": 2054
+        },
+        "SCU5DAYS": {
+            "type": "numeric",
+            "end_pos": 2063,
+            "start_pos": 2059
+        },
+        "SCU6DAYS": {
+            "type": "numeric",
+            "end_pos": 2068,
+            "start_pos": 2064
+        },
+        "SCUDEATH": {
+            "type": "text",
+            "end_pos": 2069,
+            "start_pos": 2069
+        },
+        "SDSURG": {
+            "type": "text",
+            "end_pos": 2070,
+            "start_pos": 2070
+        },
+        "SEPDATE": {
+            "type": "DATE",
+            "end_pos": 2080,
+            "start_pos": 2071,
+            "format": "%Y-%m-%d"
+        },
+        "SEPDISP": {
+            "type": "numeric",
+            "end_pos": 2082,
+            "start_pos": 2081
+        },
+        "SEPTIME": {
+            "type": "time",
+            "end_pos": 2087,
+			"format": "%H:%M",
+            "start_pos": 2083
+        },
+        "SERV1": {
+            "type": "numeric",
+            "end_pos": 2089,
+            "start_pos": 2088
+        },
+        "SERV2": {
+            "type": "numeric",
+            "end_pos": 2091,
+            "start_pos": 2090
+        },
+        "SERV3": {
+            "type": "numeric",
+            "end_pos": 2093,
+            "start_pos": 2092
+        },
+        "SMEDDAYS": {
+            "type": "numeric",
+            "end_pos": 2098,
+            "start_pos": 2094
+        },
+        "SRV1": {
+            "type": "numeric",
+            "end_pos": 2103,
+            "start_pos": 2099
+        },
+        "SRV2": {
+            "type": "numeric",
+            "end_pos": 2108,
+            "start_pos": 2104
+        },
+        "SRV3": {
+            "type": "numeric",
+            "end_pos": 2113,
+            "start_pos": 2109
+        },
+        "SRV4": {
+            "type": "numeric",
+            "end_pos": 2118,
+            "start_pos": 2114
+        },
+        "SRV5": {
+            "type": "numeric",
+            "end_pos": 2123,
+            "start_pos": 2119
+        },
+        "SRV6": {
+            "type": "numeric",
+            "end_pos": 2128,
+            "start_pos": 2124
+        },
+        "SRV7": {
+            "type": "numeric",
+            "end_pos": 2133,
+            "start_pos": 2129
+        },
+        "SRV8": {
+            "type": "numeric",
+            "end_pos": 2138,
+            "start_pos": 2134
+        },
+        "SRV9": {
+            "type": "numeric",
+            "end_pos": 2143,
+            "start_pos": 2139
+        },
+        "SRV10": {
+            "type": "numeric",
+            "end_pos": 2148,
+            "start_pos": 2144
+        },
+        "SRV11": {
+            "type": "numeric",
+            "end_pos": 2153,
+            "start_pos": 2149
+        },
+        "SRV12": {
+            "type": "numeric",
+            "end_pos": 2158,
+            "start_pos": 2154
+        },
+        "SRV13": {
+            "type": "numeric",
+            "end_pos": 2163,
+            "start_pos": 2159
+        },
+        "SRV14": {
+            "type": "numeric",
+            "end_pos": 2168,
+            "start_pos": 2164
+        },
+        "SRV15": {
+            "type": "numeric",
+            "end_pos": 2173,
+            "start_pos": 2169
+        },
+        "SRV16": {
+            "type": "numeric",
+            "end_pos": 2178,
+            "start_pos": 2174
+        },
+        "SRV17": {
+            "type": "numeric",
+            "end_pos": 2183,
+            "start_pos": 2179
+        },
+        "SRV18": {
+            "type": "numeric",
+            "end_pos": 2188,
+            "start_pos": 2184
+        },
+        "SRV19": {
+            "type": "numeric",
+            "end_pos": 2193,
+            "start_pos": 2189
+        },
+        "SRV20": {
+            "type": "numeric",
+            "end_pos": 2198,
+            "start_pos": 2194
+        },
+        "SSRGDAYS": {
+            "type": "numeric",
+            "end_pos": 2203,
+            "start_pos": 2199
+        },
+        "SURG1": {
+            "type": "text",
+            "end_pos": 2208,
+            "start_pos": 2204
+        },
+        "SURG2": {
+            "type": "text",
+            "end_pos": 2213,
+            "start_pos": 2209
+        },
+        "SURG3": {
+            "type": "text",
+            "end_pos": 2218,
+            "start_pos": 2214
+        },
+        "SURG4": {
+            "type": "text",
+            "end_pos": 2223,
+            "start_pos": 2219
+        },
+        "SURG5": {
+            "type": "text",
+            "end_pos": 2228,
+            "start_pos": 2224
+        },
+        "SURG6": {
+            "type": "text",
+            "end_pos": 2233,
+            "start_pos": 2229
+        },
+        "SURG7": {
+            "type": "text",
+            "end_pos": 2238,
+            "start_pos": 2234
+        },
+        "SURG8": {
+            "type": "text",
+            "end_pos": 2243,
+            "start_pos": 2239
+        },
+        "SURG9": {
+            "type": "text",
+            "end_pos": 2248,
+            "start_pos": 2244
+        },
+        "SURG10": {
+            "type": "text",
+            "end_pos": 2253,
+            "start_pos": 2249
+        },
+        "SURG11": {
+            "type": "text",
+            "end_pos": 2258,
+            "start_pos": 2254
+        },
+        "SURG12": {
+            "type": "text",
+            "end_pos": 2263,
+            "start_pos": 2259
+        },
+        "SURG13": {
+            "type": "text",
+            "end_pos": 2268,
+            "start_pos": 2264
+        },
+        "SURG14": {
+            "type": "text",
+            "end_pos": 2273,
+            "start_pos": 2269
+        },
+        "SURG15": {
+            "type": "text",
+            "end_pos": 2278,
+            "start_pos": 2274
+        },
+        "SURG16": {
+            "type": "text",
+            "end_pos": 2283,
+            "start_pos": 2279
+        },
+        "SURG17": {
+            "type": "text",
+            "end_pos": 2288,
+            "start_pos": 2284
+        },
+        "SURG18": {
+            "type": "text",
+            "end_pos": 2293,
+            "start_pos": 2289
+        },
+        "SURG19": {
+            "type": "text",
+            "end_pos": 2298,
+            "start_pos": 2294
+        },
+        "SURG20": {
+            "type": "text",
+            "end_pos": 2303,
+            "start_pos": 2299
+        },
+        "SURGCASE2": {
+            "type": "text",
+            "end_pos": 2304,
+            "start_pos": 2304
+        },
+        "SURGDAYS": {
+            "type": "numeric",
+            "end_pos": 2309,
+            "start_pos": 2305
+        },
+        "TDAYS": {
+            "type": "numeric",
+            "end_pos": 2314,
+            "start_pos": 2310
+        },
+        "TRAUDAYS": {
+            "type": "numeric",
+            "end_pos": 2319,
+            "start_pos": 2315
+        },
+        "TRDPARTY": {
+            "type": "text",
+            "end_pos": 2320,
+            "start_pos": 2320
+        },
+        "UNDEFDAY": {
+            "type": "numeric",
+            "end_pos": 2325,
+            "start_pos": 2321
+        },
+        "VENTDIS": {
+            "type": "text",
+            "end_pos": 2326,
+            "start_pos": 2326
+        },
+        "VENTHOURS": {
+            "type": "numeric",
+            "end_pos": 2331,
+            "start_pos": 2327
+        },
+        "VENTIND": {
+            "type": "text",
+            "end_pos": 2332,
+            "start_pos": 2332
+        },
+        "DPREFX1": {
+            "type": "text",
+            "end_pos": 2333,
+            "start_pos": 2333
+        },
+        "DPREFX2": {
+            "type": "text",
+            "end_pos": 2334,
+            "start_pos": 2334
+        },
+        "DPREFX3": {
+            "type": "text",
+            "end_pos": 2335,
+            "start_pos": 2335
+        },
+        "DPREFX4": {
+            "type": "text",
+            "end_pos": 2336,
+            "start_pos": 2336
+        },
+        "DPREFX5": {
+            "type": "text",
+            "end_pos": 2337,
+            "start_pos": 2337
+        },
+        "DPREFX6": {
+            "type": "text",
+            "end_pos": 2338,
+            "start_pos": 2338
+        },
+        "DPREFX7": {
+            "type": "text",
+            "end_pos": 2339,
+            "start_pos": 2339
+        },
+        "DPREFX8": {
+            "type": "text",
+            "end_pos": 2340,
+            "start_pos": 2340
+        },
+        "DPREFX9": {
+            "type": "text",
+            "end_pos": 2341,
+            "start_pos": 2341
+        },
+        "DPREFX10": {
+            "type": "text",
+            "end_pos": 2342,
+            "start_pos": 2342
+        },
+        "DPREFX11": {
+            "type": "text",
+            "end_pos": 2343,
+            "start_pos": 2343
+        },
+        "DPREFX12": {
+            "type": "text",
+            "end_pos": 2344,
+            "start_pos": 2344
+        },
+        "DPREFX13": {
+            "type": "text",
+            "end_pos": 2345,
+            "start_pos": 2345
+        },
+        "DPREFX14": {
+            "type": "text",
+            "end_pos": 2346,
+            "start_pos": 2346
+        },
+        "DPREFX15": {
+            "type": "text",
+            "end_pos": 2347,
+            "start_pos": 2347
+        },
+        "DPREFX16": {
+            "type": "text",
+            "end_pos": 2348,
+            "start_pos": 2348
+        },
+        "DPREFX17": {
+            "type": "text",
+            "end_pos": 2349,
+            "start_pos": 2349
+        },
+        "DPREFX18": {
+            "type": "text",
+            "end_pos": 2350,
+            "start_pos": 2350
+        },
+        "DPREFX19": {
+            "type": "text",
+            "end_pos": 2351,
+            "start_pos": 2351
+        },
+        "DPREFX20": {
+            "type": "text",
+            "end_pos": 2352,
+            "start_pos": 2352
+        },
+        "DPREFX21": {
+            "type": "text",
+            "end_pos": 2353,
+            "start_pos": 2353
+        },
+        "DPREFX22": {
+            "type": "text",
+            "end_pos": 2354,
+            "start_pos": 2354
+        },
+        "DPREFX23": {
+            "type": "text",
+            "end_pos": 2355,
+            "start_pos": 2355
+        },
+        "DPREFX24": {
+            "type": "text",
+            "end_pos": 2356,
+            "start_pos": 2356
+        },
+        "DPREFX25": {
+            "type": "text",
+            "end_pos": 2357,
+            "start_pos": 2357
+        },
+        "ERTIME": {
+            "type": "numeric",
+            "end_pos": 2360,
+            "start_pos": 2358
+        },
+        "GLASGOW": {
+            "type": "numeric",
+            "end_pos": 2362,
+            "start_pos": 2361
+        },
+        "ILOC1": {
+            "type": "text",
+            "end_pos": 2364,
+            "start_pos": 2363
+        },
+        "ILOC2": {
+            "type": "text",
+            "end_pos": 2366,
+            "start_pos": 2365
+        },
+        "ILOC3": {
+            "type": "text",
+            "end_pos": 2368,
+            "start_pos": 2367
+        },
+        "ILOC4": {
+            "type": "text",
+            "end_pos": 2370,
+            "start_pos": 2369
+        },
+        "ILOC5": {
+            "type": "text",
+            "end_pos": 2372,
+            "start_pos": 2371
+        },
+        "ILOC6": {
+            "type": "text",
+            "end_pos": 2374,
+            "start_pos": 2373
+        },
+        "ILOC7": {
+            "type": "text",
+            "end_pos": 2376,
+            "start_pos": 2375
+        },
+        "ILOC8": {
+            "type": "text",
+            "end_pos": 2378,
+            "start_pos": 2377
+        },
+        "ILOC9": {
+            "type": "text",
+            "end_pos": 2380,
+            "start_pos": 2379
+        },
+        "ILOC10": {
+            "type": "text",
+            "end_pos": 2382,
+            "start_pos": 2381
+        },
+        "ILOC11": {
+            "type": "text",
+            "end_pos": 2384,
+            "start_pos": 2383
+        },
+        "ILOC12": {
+            "type": "text",
+            "end_pos": 2386,
+            "start_pos": 2385
+        },
+        "ILOC13": {
+            "type": "text",
+            "end_pos": 2388,
+            "start_pos": 2387
+        },
+        "ILOC14": {
+            "type": "text",
+            "end_pos": 2390,
+            "start_pos": 2389
+        },
+        "ILOC15": {
+            "type": "text",
+            "end_pos": 2392,
+            "start_pos": 2391
+        },
+        "ILOC16": {
+            "type": "text",
+            "end_pos": 2394,
+            "start_pos": 2393
+        },
+        "ILOC17": {
+            "type": "text",
+            "end_pos": 2396,
+            "start_pos": 2395
+        },
+        "ILOC18": {
+            "type": "text",
+            "end_pos": 2398,
+            "start_pos": 2397
+        },
+        "ILOC19": {
+            "type": "text",
+            "end_pos": 2400,
+            "start_pos": 2399
+        },
+        "ILOC20": {
+            "type": "text",
+            "end_pos": 2402,
+            "start_pos": 2401
+        },
+        "PREDELDAYS": {
+            "type": "numeric",
+            "end_pos": 2407,
+            "start_pos": 2403
+        },
+        "PRETDEL": {
+            "type": "text",
+            "end_pos": 2409,
+            "start_pos": 2408
+        },
+        "PROVnumeric2": {
+            "type": "numeric",
+            "end_pos": 2414,
+            "start_pos": 2410
+        },
+        "PROVnumeric3": {
+            "type": "numeric",
+            "end_pos": 2419,
+            "start_pos": 2415
+        },
+        "PROVnumeric4": {
+            "type": "numeric",
+            "end_pos": 2424,
+            "start_pos": 2420
+        },
+        "PROVnumeric5": {
+            "type": "numeric",
+            "end_pos": 2429,
+            "start_pos": 2425
+        },
+        "PROVnumeric6": {
+            "type": "numeric",
+            "end_pos": 2434,
+            "start_pos": 2430
+        },
+        "PROVnumeric7": {
+            "type": "numeric",
+            "end_pos": 2439,
+            "start_pos": 2435
+        },
+        "PROVnumeric8": {
+            "type": "text",
+            "end_pos": 2444,
+            "start_pos": 2440
+        },
+        "PROVSRV2": {
+            "type": "text",
+            "end_pos": 2449,
+            "start_pos": 2445
+        },
+        "PROVSRV3": {
+            "type": "text",
+            "end_pos": 2454,
+            "start_pos": 2450
+        },
+        "PROVSRV4": {
+            "type": "text",
+            "end_pos": 2459,
+            "start_pos": 2455
+        },
+        "PROVSRV5": {
+            "type": "text",
+            "end_pos": 2464,
+            "start_pos": 2460
+        },
+        "PROVSRV6": {
+            "type": "text",
+            "end_pos": 2469,
+            "start_pos": 2465
+        },
+        "PROVSRV7": {
+            "type": "text",
+            "end_pos": 2474,
+            "start_pos": 2470
+        },
+        "PROVSRV8": {
+            "type": "text",
+            "end_pos": 2479,
+            "start_pos": 2475
+        },
+        "PROVTYP1": {
+            "type": "text",
+            "end_pos": 2480,
+            "start_pos": 2480
+        },
+        "PROVTYP2": {
+            "type": "text",
+            "end_pos": 2481,
+            "start_pos": 2481
+        },
+        "PROVTYP3": {
+            "type": "text",
+            "end_pos": 2482,
+            "start_pos": 2482
+        },
+        "PROVTYP4": {
+            "type": "text",
+            "end_pos": 2483,
+            "start_pos": 2483
+        },
+        "PROVTYP5": {
+            "type": "text",
+            "end_pos": 2484,
+            "start_pos": 2484
+        },
+        "PROVTYP6": {
+            "type": "text",
+            "end_pos": 2485,
+            "start_pos": 2485
+        },
+        "PROVTYP7": {
+            "type": "text",
+            "end_pos": 2486,
+            "start_pos": 2486
+        },
+        "PROVTYP8": {
+            "type": "text",
+            "end_pos": 2487,
+            "start_pos": 2487
+        },
+        "SCU1ADDT": {
+            "type": "DATE",
+            "end_pos": 2497,
+            "start_pos": 2488,
+            "format": "%Y-%m-%d"
+        },
+        "SCU2ADDT": {
+            "type": "DATE",
+            "end_pos": 2507,
+            "start_pos": 2498,
+            "format": "%Y-%m-%d"
+        },
+        "SCU3ADDT": {
+            "type": "DATE",
+            "end_pos": 2517,
+            "start_pos": 2508,
+            "format": "%Y-%m-%d"
+        },
+        "SCU4ADDT": {
+            "type": "DATE",
+            "end_pos": 2527,
+            "start_pos": 2518,
+            "format": "%Y-%m-%d"
+        },
+        "SCU5ADDT": {
+            "type": "DATE",
+            "end_pos": 2537,
+            "start_pos": 2528,
+            "format": "%Y-%m-%d"
+        },
+        "SCU6ADDT": {
+            "type": "DATE",
+            "end_pos": 2547,
+            "start_pos": 2538,
+            "format": "%Y-%m-%d"
+        },
+        "SCU1ADTM": {
+            "type": "time",
+            "end_pos": 2555,
+			"format": "%H:%M:%S",
+            "start_pos": 2548
+        },
+        "SCU2ADTM": {
+            "type": "time",
+            "end_pos": 2563,
+			"format": "%H:%M:%S",
+            "start_pos": 2556
+        },
+        "SCU3ADTM": {
+            "type": "time",
+            "end_pos": 2571,
+			"format": "%H:%M:%S",
+            "start_pos": 2564
+        },
+        "SCU4ADTM": {
+            "type": "time",
+            "end_pos": 2579,
+			"format": "%H:%M:%S",
+            "start_pos": 2572
+        },
+        "SCU5ADTM": {
+            "type": "time",
+            "end_pos": 2587,
+			"format": "%H:%M:%S",
+            "start_pos": 2580
+        },
+        "SCU6ADTM": {
+            "type": "time",
+            "end_pos": 2595,
+			"format": "%H:%M:%S",
+            "start_pos": 2588
+        },
+        "SCU1DSDT": {
+            "type": "DATE",
+            "end_pos": 2605,
+            "start_pos": 2596,
+            "format": "%Y-%m-%d"
+        },
+        "SCU2DSDT": {
+            "type": "DATE",
+            "end_pos": 2615,
+            "start_pos": 2606,
+            "format": "%Y-%m-%d"
+        },
+        "SCU3DSDT": {
+            "type": "DATE",
+            "end_pos": 2625,
+            "start_pos": 2616,
+            "format": "%Y-%m-%d"
+        },
+        "SCU4DSDT": {
+            "type": "DATE",
+            "end_pos": 2635,
+            "start_pos": 2626,
+            "format": "%Y-%m-%d"
+        },
+        "SCU5DSDT": {
+            "type": "DATE",
+            "end_pos": 2645,
+            "start_pos": 2636,
+            "format": "%Y-%m-%d"
+        },
+        "SCU6DSDT": {
+            "type": "DATE",
+            "end_pos": 2655,
+            "start_pos": 2646,
+            "format": "%Y-%m-%d"
+        },
+        "SCU1DSTM": {
+            "type": "time",
+            "end_pos": 2663,
+			"format": "%H:%M:%S",
+            "start_pos": 2656
+        },
+        "SCU2DSTM": {
+            "type": "time",
+            "end_pos": 2671,
+			"format": "%H:%M:%S",
+            "start_pos": 2664
+        },
+        "SCU3DSTM": {
+            "type": "time",
+            "end_pos": 2679,
+			"format": "%H:%M:%S",
+            "start_pos": 2672
+        },
+        "SCU4DSTM": {
+            "type": "time",
+            "end_pos": 2687,
+			"format": "%H:%M:%S",
+            "start_pos": 2680
+        },
+        "SCU5DSTM": {
+            "type": "time",
+            "end_pos": 2695,
+			"format": "%H:%M:%S",
+            "start_pos": 2688
+        },
+        "SCU6DSTM": {
+            "type": "time",
+            "end_pos": 2703,
+			"format": "%H:%M:%S",
+            "start_pos": 2696
+        },
+        "SCU1HRS": {
+            "type": "interval",
+            "end_pos": 2707,
+			"format": "%H",
+            "start_pos": 2704
+        },
+        "SCU2HRS": {
+            "type": "interval",
+            "end_pos": 2711,
+			"format": "%H",
+            "start_pos": 2708
+        },
+        "SCU3HRS": {
+            "type": "interval",
+            "end_pos": 2715,
+			"format": "%H",
+            "start_pos": 2712
+        },
+        "SCU4HRS": {
+            "type": "interval",
+            "end_pos": 2719,
+			"format": "%H",
+            "start_pos": 2716
+        },
+        "SCU5HRS": {
+            "type": "interval",
+            "end_pos": 2723,
+			"format": "%H",
+            "start_pos": 2720
+        },
+        "SCU6HRS": {
+            "type": "interval",
+            "end_pos": 2727,
+			"format": "%H",
+            "start_pos": 2724
+        },
+        "SCU1numeric": {
+            "type": "text",
+            "end_pos": 2729,
+            "start_pos": 2728
+        },
+        "SCU2numeric": {
+            "type": "text",
+            "end_pos": 2731,
+            "start_pos": 2730
+        },
+        "SCU3numeric": {
+            "type": "text",
+            "end_pos": 2733,
+            "start_pos": 2732
+        },
+        "SCU4numeric": {
+            "type": "text",
+            "end_pos": 2735,
+            "start_pos": 2734
+        },
+        "SCU5numeric": {
+            "type": "text",
+            "end_pos": 2737,
+            "start_pos": 2736
+        },
+        "SCU6numeric": {
+            "type": "text",
+            "end_pos": 2739,
+            "start_pos": 2738
+        },
+        "SCULOS": {
+            "type": "numeric",
+            "end_pos": 2744,
+            "start_pos": 2740
+        },
+        "TERMDEL": {
+            "type": "numeric",
+            "end_pos": 2746,
+            "start_pos": 2745
+        },
+        "DATAYR": {
+            "type": "text",
+            "end_pos": 2750,
+            "start_pos": 2747
+        },
+        "VERSION": {
+            "type": "text",
+            "end_pos": 2752,
+            "start_pos": 2751
+        },
+        "SEQNO": {
+            "type": "text",
+            "end_pos": 2762,
+            "start_pos": 2753
+        },
+        "STUDYID": {
+            "type": "text",
+            "end_pos": 2772,
+            "start_pos": 2763
+        }
+    }
+}

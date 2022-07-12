@@ -1,0 +1,212 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "nacrs D",
+    "DESCRIPTION": "national ambulatory crs file",
+    "CONFIG": {
+        "STUDYID": {
+            "end_pos": 10,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "FILEYEAR": {
+            "end_pos": 14,
+            "start_pos": 11,
+            "type": "DATE",
+            "format": "%Y"
+        },
+        "AGE1": {
+            "end_pos": 15,
+            "start_pos": 15,
+            "type": "numeric"
+        },
+        "AGE10": {
+            "end_pos": 17,
+            "start_pos": 16,
+            "type": "numeric"
+        },
+        "AGEYRS": {
+            "end_pos": 20,
+            "start_pos": 18,
+            "type": "numeric"
+        },
+        "AMBULANC": {
+            "end_pos": 21,
+            "start_pos": 21,
+            "type": "text"
+        },
+        "ASSESSDATETIME": {
+            "end_pos": 51,
+            "start_pos": 22,
+            "type": "timestamp",
+            "format": "%Y-%m-%d %H:%M:%S",
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2}": "{ASSESSDATETIME}[:10] 00:00:00"
+			}
+        },
+        "BATPD": {
+            "end_pos": 53,
+            "start_pos": 52,
+            "type": "numeric"
+        },
+        "CDU": {
+            "end_pos": 54,
+            "start_pos": 54,
+            "type": "text"
+        },
+        "CDUINDATE": {
+            "end_pos": 64,
+            "start_pos": 55,
+            "type": "date",
+            "format": "%Y-%m-%d"
+        },
+        "CDUOUTDATE": {
+            "end_pos": 74,
+            "start_pos": 65,
+            "type": "date",
+            "format": "%Y-%m-%d"
+        },
+        "COMPLAINT1": {
+            "end_pos": 77,
+            "start_pos": 75,
+            "type": "text"
+        },
+        "COMPLAINT2": {
+            "end_pos": 80,
+            "start_pos": 78,
+            "type": "text"
+        },
+        "COMPLAINT3": {
+            "end_pos": 83,
+            "start_pos": 81,
+            "type": "text"
+        },
+        "DISPDATETIME": {
+            "end_pos": 113,
+            "start_pos": 84,
+            "type": "timestamp",
+            "format": "%Y-%m-%d %H:%M:%S",
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2}": "{DISPDATETIME}[:10] 00:00:00"
+			}
+        },
+        "DOB": {
+            "end_pos": 120,
+            "start_pos": 114,
+            "type": "DATE",
+            "format": "%Y-%m"
+        },
+        "DOBEST": {
+            "end_pos": 121,
+            "start_pos": 121,
+            "type": "text"
+        },
+        "DOC_SPEC": {
+            "end_pos": 126,
+            "start_pos": 122,
+            "type": "numeric"
+        },
+        "EDDIAG1": {
+            "end_pos": 132,
+            "start_pos": 127,
+            "type": "text"
+        },
+        "EDDIAG2": {
+            "end_pos": 138,
+            "start_pos": 133,
+            "type": "text"
+        },
+        "EDDIAG3": {
+            "end_pos": 144,
+            "start_pos": 139,
+            "type": "text"
+        },
+        "EDVISIT": {
+            "end_pos": 145,
+            "start_pos": 145,
+            "type": "text"
+        },
+        "GENDER": {
+            "end_pos": 146,
+            "start_pos": 146,
+            "type": "text"
+        },
+        "HCNPROV": {
+            "end_pos": 148,
+            "start_pos": 147,
+            "type": "text"
+        },
+        "HOSP": {
+            "end_pos": 151,
+            "start_pos": 149,
+            "type": "numeric"
+        },
+        "HOSPPROV": {
+            "end_pos": 152,
+            "start_pos": 152,
+            "type": "text"
+        },
+        "INST_NUM": {
+            "end_pos": 156,
+            "start_pos": 153,
+            "type": "numeric"
+        },
+        "LEFTERDATETIME": {
+            "end_pos": 186,
+            "start_pos": 157,
+            "type": "timestamp",
+            "format": "%Y-%m-%d %H:%M:%S",
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2}": "{LEFTERDATETIME}[:10] 00:00:00"
+			}
+        },
+        "POSTAL3CHAR": {
+            "end_pos": 189,
+            "start_pos": 187,
+            "type": "text"
+        },
+        "PROVSTCD": {
+            "end_pos": 191,
+            "start_pos": 190,
+            "type": "text"
+        },
+        "PROVTYP1": {
+            "end_pos": 192,
+            "start_pos": 192,
+            "type": "text"
+        },
+        "REGDATETIME": {
+            "end_pos": 222,
+            "start_pos": 193,
+            "type": "timestamp",
+            "format": "%Y-%m-%d %H:%M:%S",
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2}": "{REGDATETIME}[:10] 00:00:00"
+			}
+        },
+        "RESPPHYS": {
+            "end_pos": 227,
+            "start_pos": 223,
+            "type": "text"
+        },
+        "RFP": {
+            "end_pos": 229,
+            "start_pos": 228,
+            "type": "text"
+        },
+        "TRIAGELEVEL": {
+            "end_pos": 230,
+            "start_pos": 230,
+            "type": "text"
+        },
+        "TRIAGEDATETIME": {
+            "end_pos": 260,
+            "start_pos": 231,
+            "type": "text"
+        },
+        "VISDISP": {
+            "end_pos": 262,
+            "start_pos": 261,
+            "type": "text"
+        }
+    }
+}

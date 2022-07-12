@@ -1,0 +1,440 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "schlstud 1991-2017",
+    "DESCRIPTION": "Student level data as provided by PopData BC.",
+    "CONFIG": {
+        "COLLEGE_COURSE_COUNT": {
+            "required": true,
+            "type": "numeric",
+            "start_pos": 1,
+            "end_pos": 12
+        },
+        "COUNT_OF_STUDENTS": {
+            "required": true,
+            "type": "numeric",
+            "start_pos": 13,
+            "end_pos": 24
+        },
+        "GRADUATION_COURSE_COUNT": {
+            "required": true,
+            "type": "numeric",
+            "start_pos": 25,
+            "end_pos": 36
+        },
+        "OTHER_COURSE_COUNT": {
+            "required": true,
+            "type": "numeric",
+            "start_pos": 37,
+            "end_pos": 48
+        },
+        "SLD_FUNDED_FTE": {
+            "required": true,
+            "type": "text",
+            "start_pos": 49,
+            "end_pos": 60
+        },
+        "SLD_TOTAL_FTE": {
+            "required": true,
+            "type": "text",
+            "start_pos": 61,
+            "end_pos": 72
+        },
+        "BIRTHDATE_YYMM": {
+            "required": true,
+            "type": "date",
+            "start_pos": 73,
+            "end_pos": 82,
+            "format": "%Y-%m"
+        },
+        "SCHOOL_YEAR": {
+            "required": true,
+            "type": "text",
+            "start_pos": 83,
+            "end_pos": 93
+        },
+        "TOP_LEV_ORG_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 94,
+            "end_pos": 126
+        },
+        "DISTRICT_NUMBER_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 127,
+            "end_pos": 135
+        },
+        "DIST_AREA_OF_OPS_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 136,
+            "end_pos": 148
+        },
+        "DIST_AREA_OPS_DESCR": {
+            "required": true,
+            "type": "text",
+            "start_pos": 149,
+            "end_pos": 178
+        },
+        "MINCODE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 179,
+            "end_pos": 197
+        },
+        "SCHOOL_CALENDAR_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 198,
+            "end_pos": 227
+        },
+        "BC_PUBLIC_INDEP_DELIVERY": {
+            "required": true,
+            "type": "text",
+            "start_pos": 228,
+            "end_pos": 243
+        },
+        "FACILITY_TYPE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 244,
+            "end_pos": 267
+        },
+        "ELIGIBILITY_CAT_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 268,
+            "end_pos": 280
+        },
+        "HOME_LANG_GROUP_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 281,
+            "end_pos": 298
+        },
+        "ESL_THIS_COLL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["ESL"],
+            "false_values": ["Non ESL"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 299,
+            "end_pos": 307
+        },
+        "ESL_IN_YEAR_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["ESL"],
+            "false_values": ["Non ESL"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 308,
+            "end_pos": 316
+        },
+        "SPEC_NEED_PERF_GRP_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 317,
+            "end_pos": 348
+        },
+        "SPECIAL_NEED_GROUP_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 349,
+            "end_pos": 351
+        },
+        "SPECIAL_NEED_CODE_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 352,
+            "end_pos": 369
+        },
+        "SPECIAL_NEED_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 370,
+            "end_pos": 411
+        },
+        "FRENCH_IMM_THIS_COLL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["French Immersion"],
+            "false_values": ["Non French Immersion"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 412,
+            "end_pos": 433
+        },
+        "FRENCH_IMM_IN_YEAR_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["French Immersion"],
+            "false_values": ["Non French Immersion"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 434,
+            "end_pos": 455
+        },
+        "GENDER": {
+            "required": true,
+            "type": "text",
+            "start_pos": 456,
+            "end_pos": 458
+        },
+        "AGE_GROUP_JUN_30": {
+            "required": true,
+            "type": "text",
+            "start_pos": 459,
+            "end_pos": 473
+        },
+        "AGE_IN_YEARS_JUN_30": {
+            "required": true,
+            "type": "text",
+            "start_pos": 474,
+            "end_pos": 478
+        },
+        "AGE_GROUP_DEC_31": {
+            "required": true,
+            "type": "text",
+            "start_pos": 479,
+            "end_pos": 493
+        },
+        "AGE_IN_YEARS_DEC_31": {
+            "required": true,
+            "type": "text",
+            "start_pos": 494,
+            "end_pos": 498
+        },
+        "IS_SEP_30_REF_ENROL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Authority School"],
+            "false_values": ["Non Authority School"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 499,
+            "end_pos": 520
+        },
+        "IS_FEB_01_REF_ENROL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Authority School Feb 1"],
+            "false_values": ["Non Authority School Feb 1"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 521,
+            "end_pos": 548
+        },
+        "IS_PRESENT_SEP_30_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Present Sept 30"],
+            "false_values": ["Not Present Sept 30"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 549,
+            "end_pos": 569
+        },
+        "IS_PRESENT_FEB_01_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Present Feb 01"],
+            "false_values": ["Not Present Feb 01"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 570,
+            "end_pos": 589
+        },
+        "STUDENT_POSTAL_CODE_3C": {
+            "required": true,
+            "type": "text",
+            "start_pos": 590,
+            "end_pos": 598
+        },
+        "SCHOOL_POSTAL_CODE": {
+            "required": true,
+            "type": "text",
+            "start_pos": 599,
+            "end_pos": 606
+        },
+        "DATA_SYSTEM_ORIGIN": {
+            "required": true,
+            "type": "text",
+            "start_pos": 607,
+            "end_pos": 612
+        },
+        "ENROLMENT_TYPE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 613,
+            "end_pos": 625
+        },
+        "IS_ADULT_GRAD_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Adult Grad"],
+            "false_values": ["Not Adult Grad"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 626,
+            "end_pos": 641
+        },
+        "IS_TRAX_GRAD_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["TRAX Grad"],
+            "false_values": ["Not TRAX Grad"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 642,
+            "end_pos": 656
+        },
+        "IS_SCHOOL_GRAD_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["School Grad"],
+            "false_values": ["Not School Grad"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 657,
+            "end_pos": 673
+        },
+        "NON_RES_THIS_COLL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Resident"],
+            "false_values": ["Non Resident"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 674,
+            "end_pos": 687
+        },
+        "GRADE_TYPE_THIS_ENROLMENT": {
+            "required": true,
+            "type": "text",
+            "start_pos": 688,
+            "end_pos": 706
+        },
+        "GRADE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 707,
+            "end_pos": 729
+        },
+        "ABORIGINAL_THIS_COLL_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Aboriginal"],
+            "false_values": ["Non Aboriginal"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 730,
+            "end_pos": 745
+        },
+        "ABORIGINAL_EVER_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Aboriginal"],
+            "false_values": ["Non Aboriginal"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 746,
+            "end_pos": 761
+        },
+        "ABORIGINAL_IN_YEAR_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Aboriginal"],
+            "false_values": ["Non Aboriginal"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 762,
+            "end_pos": 777
+        },
+        "ABORIGINAL_FEB_01_FLAG": {
+            "required": false,
+            "type": "boolean",
+            "true_values": ["Aboriginal"],
+            "false_values": ["Non Aboriginal"],
+            "null_values": ["Not Applicable"],
+            "start_pos": 778,
+            "end_pos": 793
+        },
+        "BAND_RESIDENCY_STATUS": {
+            "required": true,
+            "type": "text",
+            "start_pos": 794,
+            "end_pos": 812
+        },
+        "FIRST_NATION_BAND_NUMBER": {
+            "required": true,
+            "type": "text",
+            "start_pos": 813,
+            "end_pos": 831
+        },
+        "FIRST_NATION_BAND_NAME": {
+            "required": true,
+            "type": "text",
+            "start_pos": 832,
+            "end_pos": 866
+        },
+        "DISTRICT_LONG_NAME_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 867,
+            "end_pos": 957
+        },
+        "SCHOOL_NAME_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 958,
+            "end_pos": 999
+        },
+        "SCHOOL_TYPE_GROUP_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1000,
+            "end_pos": 1022
+        },
+        "SCHOOL_TYPE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1023,
+            "end_pos": 1045
+        },
+        "SLD_FUND_CODE_THIS_ENROL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1046,
+            "end_pos": 1071
+        },
+        "HOME_LANG_CODE_THIS_COLL": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1072,
+            "end_pos": 1102
+        },
+        "PEN_CORID": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1103,
+            "end_pos": 1113
+        },
+        "DATAYR": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1114,
+            "end_pos": 1117
+        },
+        "VERSION": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1118,
+            "end_pos": 1119
+        },
+        "SEQNO": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1120,
+            "end_pos": 1129
+        },
+        "STUDYID": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1130,
+            "end_pos": 1139
+        },
+        "LINEFEED": {
+            "required": true,
+            "type": "text",
+            "start_pos": 1140,
+            "end_pos": 1140
+        }
+    }
+}

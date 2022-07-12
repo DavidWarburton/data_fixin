@@ -1,0 +1,641 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "baby new-born",
+    "DESCRIPTION": "These are words. Not helpful words, but words none the less",
+    "CONFIG": {
+        "BABY_SEQUENCE": {
+            "start_pos": 1,
+            "type": "Numeric",
+            "end_pos": 3
+        },
+        "MULTIPLE_BIRTH_COUNT": {
+            "start_pos": 4,
+            "type": "Numeric",
+            "end_pos": 6
+        },
+        "B_INSTITUTION_ID_": {
+            "start_pos": 7,
+            "type": "Numeric",
+            "end_pos": 12
+        },
+        "B_INSTITUTION_TO_": {
+            "start_pos": 13,
+            "type": "Numeric",
+            "end_pos": 18
+        },
+        "NB_TRANSFER_HIGHER": {
+            "start_pos": 19,
+            "type": "boolean",
+            "end_pos": 21,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "B_ADMISSION_DATEYYYY": {
+            "start_pos": 22,
+            "type": "Date",
+            "end_pos": 25,
+            "format": "%Y"
+        },
+        "B_ADMISSION_DATEMM": {
+            "start_pos": 26,
+            "type": "Date",
+            "end_pos": 27,
+            "format": "%m"
+        },
+        "B_ADMISSION_HOUR": {
+            "start_pos": 28,
+            "type": "Time",
+            "end_pos": 45,
+            "format": "%H:%M:%S.%f0"
+        },
+        "B_DISCHARGE_DATEYYYY": {
+            "start_pos": 46,
+            "type": "Date",
+            "end_pos": 49,
+            "format": "%Y"
+        },
+        "B_DISCHARGE_DATEMM": {
+            "start_pos": 50,
+            "type": "Date",
+            "end_pos": 51,
+            "format": "%m"
+        },
+        "B_DISCHARGE_HOUR": {
+            "start_pos": 52,
+            "type": "Time",
+            "end_pos": 69,
+            "format": "%H:%M:%S.%f0"
+        },
+        "B_FISCAL_YR": {
+            "start_pos": 70,
+            "type": "Text",
+            "end_pos": 80
+        },
+        "B_TOT_LOS": {
+            "start_pos": 81,
+            "type": "Numeric",
+            "end_pos": 92,
+            "null_values": [
+                "."
+            ]
+        },
+        "NICU_II": {
+            "start_pos": 93,
+            "type": "Numeric",
+            "end_pos": 97
+        },
+        "NICU_III": {
+            "start_pos": 98,
+            "type": "Numeric",
+            "end_pos": 102
+        },
+        "B_ADMISSION_WEIGHT": {
+            "start_pos": 103,
+            "type": "Numeric",
+            "end_pos": 108
+        },
+        "DISCHARGE_WEIGHT": {
+            "start_pos": 109,
+            "type": "Numeric",
+            "end_pos": 114
+        },
+        "GEST_AGE_BY_EXAM": {
+            "start_pos": 115,
+            "type": "Numeric",
+            "end_pos": 118
+        },
+        "GEST_AGE_FROM_DOCUMENT": {
+            "start_pos": 119,
+            "type": "Numeric",
+            "end_pos": 122
+        },
+        "FINAL_GA": {
+            "start_pos": 123,
+            "type": "Numeric",
+            "end_pos": 126
+        },
+        "BIRTH_LENGTH": {
+            "start_pos": 127,
+            "type": "Numeric",
+            "end_pos": 130
+        },
+        "BIRTH_HEAD_CIRCUMFERENCE": {
+            "start_pos": 131,
+            "type": "Numeric",
+            "end_pos": 134
+        },
+        "B_BIRTH_TYPE": {
+            "start_pos": 135,
+            "type": "Text",
+            "end_pos": 147
+        },
+        "STILLBIRTH": {
+            "start_pos": 148,
+            "type": "Text",
+            "end_pos": 150
+        },
+        "VITAMIN_K": {
+            "start_pos": 151,
+            "type": "boolean",
+            "end_pos": 153,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "EYE_PROPHYLAXIS": {
+            "start_pos": 154,
+            "type": "boolean",
+            "end_pos": 156,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "BREAST_FEED_AT_DISCHARGE": {
+            "start_pos": 157,
+            "type": "boolean",
+            "end_pos": 159,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "NEWBORN_FEEDING": {
+            "start_pos": 160,
+            "type": "Text",
+            "end_pos": 163
+        },
+        "BREAST_FEEDING_INITIATION": {
+            "start_pos": 164,
+            "type": "Numeric",
+            "end_pos": 167
+        },
+        "DISCHARGE_TO": {
+            "start_pos": 168,
+            "type": "Text",
+            "end_pos": 170
+        },
+        "TEMPERATURE_FIRST": {
+            "start_pos": 171,
+            "type": "Numeric",
+            "end_pos": 182,
+            "null_values": [
+                "."
+            ]
+        },
+        "SURFACTANT": {
+            "start_pos": 183,
+            "type": "boolean",
+            "end_pos": 185,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "B_ANTIBIOTICS": {
+            "start_pos": 186,
+            "type": "boolean",
+            "end_pos": 188,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "APGAR_1_MINUTE": {
+            "start_pos": 189,
+            "type": "Numeric",
+            "end_pos": 192
+        },
+        "APGAR_5_MINUTES": {
+            "start_pos": 193,
+            "type": "Numeric",
+            "end_pos": 196
+        },
+        "APGAR_10_MINUTES": {
+            "start_pos": 197,
+            "type": "Numeric",
+            "end_pos": 200
+        },
+        "MECONIUM_THICK": {
+            "start_pos": 201,
+            "type": "boolean",
+            "end_pos": 203,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "MECONIUM": {
+            "start_pos": 204,
+            "type": "boolean",
+            "end_pos": 206,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "DRUGS": {
+            "start_pos": 207,
+            "type": "boolean",
+            "end_pos": 209,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "SUCTION_PERINEUM": {
+            "start_pos": 210,
+            "type": "boolean",
+            "end_pos": 212,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "SUCTION_OROPHARYNX": {
+            "start_pos": 213,
+            "type": "boolean",
+            "end_pos": 215,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "SUCTION_TRACHEA": {
+            "start_pos": 216,
+            "type": "boolean",
+            "end_pos": 218,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "SUCTION_UNSPECIFIED": {
+            "start_pos": 219,
+            "type": "boolean",
+            "end_pos": 221,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "OXYGEN_FLG": {
+            "start_pos": 222,
+            "type": "boolean",
+            "end_pos": 224,
+            "format": "BCPDR Reference Manuals",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "AGE_START_OXYGEN": {
+            "start_pos": 225,
+            "type": "Numeric",
+            "end_pos": 236,
+            "null_values": [
+                "."
+            ]
+        },
+        "AGE_STOP_OXYGEN": {
+            "start_pos": 237,
+            "type": "Numeric",
+            "end_pos": 248,
+            "null_values": [
+                "."
+            ]
+        },
+        "B_RESUS_DUR_OXYGEN": {
+            "start_pos": 249,
+            "type": "Numeric",
+            "end_pos": 260,
+            "null_values": [
+                "."
+            ]
+        },
+        "IPPV_MASK_FLG": {
+            "start_pos": 261,
+            "type": "boolean",
+            "end_pos": 263,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "AGE_START_IPPV_MASK": {
+            "start_pos": 264,
+            "type": "Numeric",
+            "end_pos": 275,
+            "null_values": [
+                "."
+            ]
+        },
+        "AGE_STOP_IPPV_MASK": {
+            "start_pos": 276,
+            "type": "Numeric",
+            "end_pos": 287,
+            "null_values": [
+                "."
+            ]
+        },
+        "B_RESUS_DUR_IPPV_MASK": {
+            "start_pos": 288,
+            "type": "Numeric",
+            "end_pos": 299,
+            "null_values": [
+                "."
+            ]
+        },
+        "IPPV_ETT_FLG": {
+            "start_pos": 300,
+            "type": "boolean",
+            "end_pos": 302,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "AGE_START_IPPV_ETT": {
+            "start_pos": 303,
+            "type": "Numeric",
+            "end_pos": 314,
+            "null_values": [
+                "."
+            ]
+        },
+        "AGE_STOP_IPPV_ETT": {
+            "start_pos": 315,
+            "type": "Numeric",
+            "end_pos": 326,
+            "null_values": [
+                "."
+            ]
+        },
+        "B_RESUS_DUR_IPPV_ETT": {
+            "start_pos": 327,
+            "type": "Numeric",
+            "end_pos": 338,
+            "null_values": [
+                "."
+            ]
+        },
+        "CHEST_COMPRESS_FLG": {
+            "start_pos": 339,
+            "type": "boolean",
+            "end_pos": 341,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "AGE_START_CHEST_COMPRESS": {
+            "start_pos": 342,
+            "type": "Numeric",
+            "end_pos": 353,
+            "null_values": [
+                "."
+            ]
+        },
+        "AGE_STOP_CHEST_COMPRESS": {
+            "start_pos": 354,
+            "type": "Numeric",
+            "end_pos": 365,
+            "null_values": [
+                "."
+            ]
+        },
+        "B_RESUS_DUR_CHEST_COMPRESS": {
+            "start_pos": 366,
+            "type": "Numeric",
+            "end_pos": 377,
+            "null_values": [
+                "."
+            ]
+        },
+        "VENTILATOR_DAYS": {
+            "start_pos": 378,
+            "type": "Numeric",
+            "end_pos": 382
+        },
+        "CPAP_DAYS": {
+            "start_pos": 383,
+            "type": "Numeric",
+            "end_pos": 387
+        },
+        "OXYGEN_DAYS": {
+            "start_pos": 388,
+            "type": "Numeric",
+            "end_pos": 392
+        },
+        "TPN_DAYS": {
+            "start_pos": 393,
+            "type": "Numeric",
+            "end_pos": 397
+        },
+        "CORD_ARTERIAL_GASES_PH": {
+            "start_pos": 398,
+            "type": "Numeric",
+            "end_pos": 409,
+            "null_values": [
+                "."
+            ]
+        },
+        "CORD_ARTERIAL_GASES_BASE": {
+            "start_pos": 410,
+            "type": "Numeric",
+            "end_pos": 421,
+            "null_values": [
+                "."
+            ]
+        },
+        "BABY_POS_BLOOD_CULTURE": {
+            "start_pos": 422,
+            "type": "boolean",
+            "end_pos": 424,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_BLOOD_INFECT_AGENT_1": {
+            "start_pos": 425,
+            "type": "Text",
+            "end_pos": 431
+        },
+        "BABY_BLOOD_INFECT_AGENT_2": {
+            "start_pos": 432,
+            "type": "Text",
+            "end_pos": 438
+        },
+        "BABY_POS_URINE_CULTURE": {
+            "start_pos": 439,
+            "type": "boolean",
+            "end_pos": 441,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_URINE_INFECT_AGENT_1": {
+            "start_pos": 442,
+            "type": "Text",
+            "end_pos": 448
+        },
+        "BABY_URINE_INFECT_AGENT_2": {
+            "start_pos": 449,
+            "type": "Text",
+            "end_pos": 455
+        },
+        "BABY_POS_OTHER_CULTURE": {
+            "start_pos": 456,
+            "type": "boolean",
+            "end_pos": 458,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_OTHER_INFECT_AGENT_1": {
+            "start_pos": 459,
+            "type": "Text",
+            "end_pos": 465
+        },
+        "BABY_OTHER_INFECT_AGENT_2": {
+            "start_pos": 466,
+            "type": "Text",
+            "end_pos": 472
+        },
+        "B_MAIN_PATIENT_SERVICE": {
+            "start_pos": 473,
+            "type": "Text",
+            "end_pos": 476
+        },
+        "B_DATE_OF_BIRTHYYYY": {
+            "start_pos": 477,
+            "type": "Date",
+            "end_pos": 480,
+            "format": "%Y"
+        },
+        "B_DATE_OF_BIRTHMM": {
+            "start_pos": 481,
+            "type": "Date",
+            "end_pos": 482,
+            "format": "%m"
+        },
+        "SEX": {
+            "start_pos": 483,
+            "type": "Text",
+            "end_pos": 483
+        },
+        "NEWBORN_BABYID_": {
+            "start_pos": 484,
+            "type": "numeric",
+            "end_pos": 493
+        },
+        "LINKBABY_": {
+            "start_pos": 494,
+            "type": "numeric",
+            "end_pos": 503
+        },
+        "LINKPREGNANCY_": {
+            "start_pos": 504,
+            "type": "Numeric",
+            "end_pos": 513
+        },
+        "SOURCE": {
+            "start_pos": 514,
+            "type": "text",
+            "end_pos": 517
+        },
+        "VERSION": {
+            "start_pos": 518,
+            "type": "text",
+            "end_pos": 519
+        },
+        "SEQNO": {
+            "start_pos": 520,
+            "type": "text",
+            "end_pos": 529
+        },
+        "STUDYID1": {
+            "start_pos": 530,
+            "type": "text",
+            "end_pos": 539
+        },
+        "STUDYID2": {
+            "start_pos": 540,
+            "type": "text",
+            "end_pos": 549
+        }
+    }
+}

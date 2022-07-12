@@ -1,0 +1,297 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "idomed final mark",
+    "DESCRIPTION": "Final marks for students from 1991 - 2017",
+    "CONFIG": {
+        "COURSE_C_MINUS_OR_BETTER_COUNT": {
+            "start_pos": 1,
+            "end_pos": 12,
+            "type": "numeric"
+        },
+        "COURSE_C_PLUS_OR_BETTER_COUNT": {
+            "start_pos": 13,
+            "end_pos": 24,
+            "type": "numeric"
+        },
+        "COURSE_MARK_COUNT": {
+            "start_pos": 25,
+            "end_pos": 36,
+            "type": "numeric"
+        },
+        "COURSE_PERCENT": {
+            "start_pos": 37,
+            "end_pos": 48,
+            "type": "numeric"
+        },
+        "EXAM_C_MINUS_OR_BETTER_COUNT": {
+            "start_pos": 49,
+            "end_pos": 60,
+            "type": "numeric"
+        },
+        "EXAM_C_PLUS_OR_BETTER_COUNT": {
+            "start_pos": 61,
+            "end_pos": 72,
+            "type": "numeric"
+        },
+        "EXAM_PERCENT": {
+            "start_pos": 73,
+            "end_pos": 84,
+            "type": "numeric"
+        },
+        "EXAM_WRITTEN_COUNT": {
+            "start_pos": 85,
+            "end_pos": 96,
+            "type": "numeric"
+        },
+        "FINAL_C_MINUS_OR_BETTER_COUNT": {
+            "start_pos": 97,
+            "end_pos": 108,
+            "type": "numeric"
+        },
+        "FINAL_C_PLUS_OR_BETTER_COUNT": {
+            "start_pos": 109,
+            "end_pos": 120,
+            "type": "numeric"
+        },
+        "FINAL_MARK_COUNT": {
+            "start_pos": 121,
+            "end_pos": 132,
+            "type": "numeric"
+        },
+        "FINAL_MARK_SAME_GRADE_COUNT": {
+            "start_pos": 133,
+            "end_pos": 144,
+            "type": "numeric"
+        },
+        "FINAL_PERCENT": {
+            "start_pos": 145,
+            "end_pos": 156,
+            "type": "numeric"
+        },
+        "OPTIONAL_EXAM_COUNT": {
+            "start_pos": 157,
+            "end_pos": 168,
+            "type": "numeric"
+        },
+        "REQUIRED_EXAM_COUNT": {
+            "start_pos": 169,
+            "end_pos": 180,
+            "type": "numeric"
+        },
+        "SCHOOL_YEAR": {
+            "start_pos": 181,
+            "end_pos": 191,
+            "type": "text"
+        },
+        "TOP_LEVEL_ORG_ATTRIB": {
+            "start_pos": 192,
+            "end_pos": 224,
+            "type": "text"
+        },
+        "DISTRICT_NUMBER_ATTRIB": {
+            "start_pos": 225,
+            "end_pos": 233,
+            "type": "text"
+        },
+        "MINCODE_ATTRIB": {
+            "start_pos": 234,
+            "end_pos": 252,
+            "type": "text"
+        },
+        "SUBJECT": {
+            "start_pos": 253,
+            "end_pos": 268,
+            "type": "text"
+        },
+        "COMBINED_CURR_CODE": {
+            "start_pos": 269,
+            "end_pos": 280,
+            "type": "text"
+        },
+        "COMBINED_CURR_DESCR": {
+            "start_pos": 281,
+            "end_pos": 327,
+            "type": "text"
+        },
+        "CURRICULUM_LABEL": {
+            "start_pos": 328,
+            "end_pos": 369,
+            "type": "text"
+        },
+        "CURRICULUM": {
+            "start_pos": 370,
+            "end_pos": 437,
+            "type": "text"
+        },
+        "COURSE_GRADE": {
+            "start_pos": 438,
+            "end_pos": 441,
+            "type": "numeric"
+        },
+        "LANGUAGE_OF_INSTRUCTION": {
+            "start_pos": 442,
+            "end_pos": 450,
+            "type": "text"
+        },
+        "NON_RES_LAST_KNWN_ENRL_IND": {
+            "start_pos": 451,
+            "end_pos": 464,
+            "type": "text"
+        },
+        "BC_PUBLIC_INDEP_ATTRIB": {
+            "start_pos": 465,
+            "end_pos": 480,
+            "type": "text"
+        },
+        "FACILITY_TYPE_ATTRIB": {
+            "start_pos": 481,
+            "end_pos": 504,
+            "type": "text"
+        },
+        "SCHOOL_CALENDAR": {
+            "start_pos": 505,
+            "end_pos": 534,
+            "type": "text"
+        },
+        "FINAL_LETTER_GRD_BAND": {
+            "start_pos": 535,
+            "end_pos": 542,
+            "type": "text"
+        },
+        "FINAL_LETTER_GRADE": {
+            "start_pos": 543,
+            "end_pos": 546,
+            "type": "text"
+        },
+        "COURSE_LETTER_GRD_BAND": {
+            "start_pos": 547,
+            "end_pos": 554,
+            "type": "text"
+        },
+        "COURSE_LETTER_GRADE": {
+            "start_pos": 555,
+            "end_pos": 558,
+            "type": "text"
+        },
+        "EXAM_LETTER_GRD_BAND": {
+            "start_pos": 559,
+            "end_pos": 566,
+            "type": "text"
+        },
+        "EXAM_LETTER_GRADE": {
+            "start_pos": 567,
+            "end_pos": 570,
+            "type": "text"
+        },
+        "ESL_IN_SCHOOL_YEAR_IND": {
+            "start_pos": 571,
+            "end_pos": 579,
+            "type": "text"
+        },
+        "FR_IMM_IN_SCHOOL_YEAR_IND": {
+            "start_pos": 580,
+            "end_pos": 601,
+            "type": "text"
+        },
+        "HOME_LANG_GROUP_LST_KNWN_ENRL": {
+            "start_pos": 602,
+            "end_pos": 619,
+            "type": "text"
+        },
+        "SPEC_NEED_PERF_GRP_THIS_ENROL": {
+            "start_pos": 620,
+            "end_pos": 651,
+            "type": "text"
+        },
+        "SPEC_ND_LST_KNWN_ENRL_CAT_GRP": {
+            "start_pos": 652,
+            "end_pos": 654,
+            "type": "text"
+        },
+        "SPEC_ND_LST_KNWN_ENRL": {
+            "start_pos": 655,
+            "end_pos": 672,
+            "type": "text"
+        },
+        "SPEC_ND_LST_KNWN_ENRL_CAT": {
+            "start_pos": 673,
+            "end_pos": 714,
+            "type": "text"
+        },
+        "GENDER": {
+            "start_pos": 715,
+            "end_pos": 722,
+            "type": "text"
+        },
+        "SPECIAL_CASE_CODE": {
+            "start_pos": 723,
+            "end_pos": 746,
+            "type": "text"
+        },
+        "STUDENT_GRADUATION_PROGRAM": {
+            "start_pos": 747,
+            "end_pos": 755,
+            "type": "text"
+        },
+        "STUDENT_GRADE_LAST_KNOWN": {
+            "start_pos": 756,
+            "end_pos": 778,
+            "type": "text"
+        },
+        "ABOR_EVER_IND": {
+            "start_pos": 779,
+            "end_pos": 794,
+            "type": "text"
+        },
+        "DISTRICT_LONG_NAME_ATTRIB": {
+            "start_pos": 795,
+            "end_pos": 885,
+            "type": "text"
+        },
+        "SCHOOL_NAME_ATTRIB": {
+            "start_pos": 886,
+            "end_pos": 927,
+            "type": "text"
+        },
+        "SCHOOL_TYPE_GROUP_ATTRIB": {
+            "start_pos": 928,
+            "end_pos": 950,
+            "type": "text"
+        },
+        "SCHOOL_TYPE_ATTRIB": {
+            "start_pos": 951,
+            "end_pos": 973,
+            "type": "text"
+        },
+        "HOME_LANG_LST_KNWN_ENRL": {
+            "start_pos": 974,
+            "end_pos": 995,
+            "type": "text"
+        },
+        "PEN_CORID": {
+            "start_pos": 996,
+            "end_pos": 1006,
+            "type": "text"
+        },
+        "DATAYR": {
+            "start_pos": 1007,
+            "end_pos": 1010,
+            "type": "text"
+        },
+        "VERSION": {
+            "start_pos": 1011,
+            "end_pos": 1012,
+            "type": "text"
+        },
+        "SEQNO": {
+            "start_pos": 1013,
+            "end_pos": 1022,
+            "type": "text"
+        },
+        "STUDYID": {
+            "start_pos": 1023,
+            "end_pos": 1032,
+            "type": "text"
+        }
+    }
+}

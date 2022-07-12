@@ -1,0 +1,1620 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "Mother's Delivery",
+    "DESCRIPTION": "I still don't have anything useful to put here",
+    "CONFIG": {
+        "M_INSTITUTION_ID_": {
+            "start_pos": 1,
+            "type": "numeric",
+            "end_pos": 6
+        },
+        "M_INSTITUTION_FROM_": {
+            "start_pos": 7,
+            "type": "numeric",
+            "end_pos": 12
+        },
+        "M_TRANS_IN": {
+            "start_pos": 13,
+            "type": "boolean",
+            "end_pos": 15,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_INSTITUTION_TO_": {
+            "start_pos": 16,
+            "type": "numeric",
+            "end_pos": 21
+        },
+        "M_TRANS_OUT": {
+            "start_pos": 22,
+            "type": "boolean",
+            "end_pos": 24,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_ADMISSION_DATEYYYY": {
+            "start_pos": 25,
+            "type": "date",
+            "end_pos": 28,
+            "format": "%Y"
+        },
+        "M_ADMISSION_DATEMM": {
+            "start_pos": 29,
+            "type": "date",
+            "end_pos": 30,
+            "format": "%m"
+        },
+        "M_ADMISSION_HOUR": {
+            "start_pos": 31,
+            "type": "time",
+            "end_pos": 48,
+            "format": "%H:%M:%S.%f0"
+        },
+        "M_DISCHARGE_DATEYYYY": {
+            "start_pos": 49,
+            "type": "date",
+            "end_pos": 52,
+            "format": "%Y"
+        },
+        "M_DISCHARGE_DATEMM": {
+            "start_pos": 53,
+            "type": "date",
+            "end_pos": 54,
+            "format": "%m"
+        },
+        "M_DISCHARGE_HOUR": {
+            "start_pos": 55,
+            "type": "time",
+            "end_pos": 72,
+            "format": "%H:%M:%S.%f0"
+        },
+        "M_FISCAL_YR": {
+            "start_pos": 73,
+            "type": "text",
+            "end_pos": 83
+        },
+        "M_TOT_LOS": {
+            "start_pos": 84,
+            "type": "numeric",
+            "end_pos": 95,
+            "null_values": [
+                "."
+            ]
+        },
+        "BLOOD_TRANSFUSION_FLG": {
+            "start_pos": 96,
+            "type": "boolean",
+            "end_pos": 98,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "UNITS_POSTPARTUM": {
+            "start_pos": 99,
+            "type": "numeric",
+            "end_pos": 102
+        },
+        "PP_HELLP_SYNDROME": {
+            "start_pos": 103,
+            "type": "boolean",
+            "end_pos": 105,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_FATTY_LIVER": {
+            "start_pos": 106,
+            "type": "boolean",
+            "end_pos": 108,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_LIVER_HEMATOMA": {
+            "start_pos": 109,
+            "type": "boolean",
+            "end_pos": 111,
+            "format": "BCPDR Reference Manuals",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_SCU_DAYS": {
+            "start_pos": 112,
+            "type": "numeric",
+            "end_pos": 115
+        },
+        "PP_HEMOGLOBIN_DATEYYYY": {
+            "start_pos": 116,
+            "type": "date",
+            "end_pos": 119,
+            "format": "%Y"
+        },
+        "PP_HEMOGLOBIN_DATEMM": {
+            "start_pos": 120,
+            "type": "date",
+            "end_pos": 121,
+            "format": "%m"
+        },
+        "PP_HEMOGLOBIN_VALUE": {
+            "start_pos": 122,
+            "type": "numeric",
+            "end_pos": 126
+        },
+        "PP_INFECTION": {
+            "start_pos": 127,
+            "type": "boolean",
+            "end_pos": 129,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "PP_WOUND_INFECTION": {
+            "start_pos": 130,
+            "type": "boolean",
+            "end_pos": 132,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_WOUND_TYPE": {
+            "start_pos": 133,
+            "type": "text",
+            "end_pos": 136
+        },
+        "PP_WOUND_SEVERITY": {
+            "start_pos": 137,
+            "type": "text",
+            "end_pos": 140
+        },
+        "PP_UTI": {
+            "start_pos": 141,
+            "type": "text",
+            "end_pos": 144
+        },
+        "PP_URINE_AGENT_1": {
+            "start_pos": 145,
+            "type": "text",
+            "end_pos": 151
+        },
+        "PP_URINE_AGENT_2": {
+            "start_pos": 152,
+            "type": "text",
+            "end_pos": 158
+        },
+        "PP_POS_BLOOD_CULTURE": {
+            "start_pos": 159,
+            "type": "text",
+            "end_pos": 161
+        },
+        "PP_BLOOD_AGENT_1": {
+            "start_pos": 162,
+            "type": "text",
+            "end_pos": 168
+        },
+        "PP_BLOOD_AGENT_2": {
+            "start_pos": 169,
+            "type": "text",
+            "end_pos": 175
+        },
+        "PP_POS_OTHER_CULTURE": {
+            "start_pos": 176,
+            "type": "text",
+            "end_pos": 178
+        },
+        "PP_OTHER_INFECT_AGENT_1": {
+            "start_pos": 179,
+            "type": "text",
+            "end_pos": 185
+        },
+        "PP_OTHER_INFECT_AGENT_2": {
+            "start_pos": 186,
+            "type": "text",
+            "end_pos": 192
+        },
+        "M_MAIN_PATIENT_SERVICE": {
+            "start_pos": 193,
+            "type": "text",
+            "end_pos": 196
+        },
+        "M_NUM_BIRTHS": {
+            "start_pos": 197,
+            "type": "numeric",
+            "end_pos": 199
+        },
+        "M_TRANSFER_HIGHER": {
+            "start_pos": 200,
+            "type": "boolean",
+            "end_pos": 202,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_AP_LOS": {
+            "start_pos": 203,
+            "type": "numeric",
+            "end_pos": 214,
+            "null_values": [
+                "."
+            ]
+        },
+        "M_PP_LOS": {
+            "start_pos": 215,
+            "type": "numeric",
+            "end_pos": 226,
+            "null_values": [
+                "."
+            ]
+        },
+        "GRAVIDA": {
+            "start_pos": 227,
+            "type": "numeric",
+            "end_pos": 230
+        },
+        "PARITY": {
+            "start_pos": 231,
+            "type": "text",
+            "end_pos": 238
+        },
+        "TERM": {
+            "start_pos": 239,
+            "type": "numeric",
+            "end_pos": 242
+        },
+        "PREMATURE": {
+            "start_pos": 243,
+            "type": "numeric",
+            "end_pos": 246
+        },
+        "LIVING": {
+            "start_pos": 247,
+            "type": "numeric",
+            "end_pos": 250
+        },
+        "SPONT_ABORTIONS": {
+            "start_pos": 251,
+            "type": "numeric",
+            "end_pos": 254
+        },
+        "PREV_CESAREAN_DELIV": {
+            "start_pos": 255,
+            "type": "numeric",
+            "end_pos": 258
+        },
+        "PREV_VAGINAL_DELIV": {
+            "start_pos": 259,
+            "type": "numeric",
+            "end_pos": 262
+        },
+        "R_PRIOR_NND": {
+            "start_pos": 263,
+            "type": "boolean",
+            "end_pos": 265,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_SB": {
+            "start_pos": 266,
+            "type": "boolean",
+            "end_pos": 268,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_LBW": {
+            "start_pos": 269,
+            "type": "boolean",
+            "end_pos": 271,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_MACRO": {
+            "start_pos": 272,
+            "type": "boolean",
+            "end_pos": 274,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_RH_ISO": {
+            "start_pos": 275,
+            "type": "boolean",
+            "end_pos": 277,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_ANOM": {
+            "start_pos": 278,
+            "type": "boolean",
+            "end_pos": 280,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_HX_MENTAL_ILLNESS": {
+            "start_pos": 281,
+            "type": "boolean",
+            "end_pos": 283,
+            "format": "Numeric",
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_ANXIETY": {
+            "start_pos": 284,
+            "type": "boolean",
+            "end_pos": 286,
+            "format": "Numeric",
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_DEPRESS": {
+            "start_pos": 287,
+            "type": "boolean",
+            "end_pos": 289,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_BIPOLAR": {
+            "start_pos": 290,
+            "type": "boolean",
+            "end_pos": 292,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PRIOR_PPD": {
+            "start_pos": 293,
+            "type": "boolean",
+            "end_pos": 295,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_OTHER_MENTAL": {
+            "start_pos": 296,
+            "type": "boolean",
+            "end_pos": 298,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_UNK_MENTAL": {
+            "start_pos": 299,
+            "type": "boolean",
+            "end_pos": 301,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "FIRST_CONTACT_PHYS_DATEYYYY": {
+            "start_pos": 302,
+            "type": "date",
+            "end_pos": 305,
+            "format": "%Y"
+        },
+        "FIRST_CONTACT_PHYS_DATEMM": {
+            "start_pos": 306,
+            "type": "date",
+            "end_pos": 307,
+            "format": "%m"
+        },
+        "NUM_ANTENATAL_VISITS": {
+            "start_pos": 308,
+            "type": "numeric",
+            "end_pos": 311
+        },
+        "TOTAL_PRIOR_ADMISS": {
+            "start_pos": 312,
+            "type": "numeric",
+            "end_pos": 315
+        },
+        "PRE_PREGNANCY_WEIGHT": {
+            "start_pos": 316,
+            "type": "numeric",
+            "end_pos": 327,
+            "format": "None"
+        },
+        "M_ADMISSION_WEIGHT": {
+            "start_pos": 328,
+            "type": "numeric",
+            "end_pos": 339,
+            "format": "None"
+        },
+        "M_WT_GAIN": {
+            "start_pos": 340,
+            "type": "numeric",
+            "end_pos": 351,
+            "format": "None"
+        },
+        "HEIGHT": {
+            "start_pos": 352,
+            "type": "numeric",
+            "end_pos": 363,
+            "format": "None"
+        },
+        "M_BMI_NO": {
+            "start_pos": 364,
+            "type": "numeric",
+            "end_pos": 375,
+            "format": "None"
+        },
+        "M_BMI_CAT": {
+            "start_pos": 376,
+            "type": "text",
+            "end_pos": 388
+        },
+        "LONE_PARENT_FLAG": {
+            "start_pos": 389,
+            "type": "boolean",
+            "end_pos": 391,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "BLOOD_ABO_AND_RH": {
+            "start_pos": 392,
+            "type": "text",
+            "end_pos": 396
+        },
+        "FINAL_GA": {
+            "start_pos": 397,
+            "type": "numeric",
+            "end_pos": 400
+        },
+        "RH_IMMUN_ANTEPARTUM_DATEYYYY": {
+            "start_pos": 401,
+            "type": "date",
+            "end_pos": 404,
+            "format": "%Y"
+        },
+        "RH_IMMUN_ANTEPARTUM_DATEMM": {
+            "start_pos": 405,
+            "type": "date",
+            "end_pos": 406,
+            "format": "%m"
+        },
+        "HEMOGLOB_THIRD_TRIMESTER": {
+            "start_pos": 407,
+            "type": "numeric",
+            "end_pos": 411
+        },
+        "R_APH_LESS20": {
+            "start_pos": 412,
+            "type": "boolean",
+            "end_pos": 414,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_APH_20PLUS": {
+            "start_pos": 415,
+            "type": "boolean",
+            "end_pos": 417,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PIH": {
+            "start_pos": 418,
+            "type": "boolean",
+            "end_pos": 420,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_PROTEINURIA": {
+            "start_pos": 421,
+            "type": "boolean",
+            "end_pos": 423,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_BL_ANTI_RH": {
+            "start_pos": 424,
+            "type": "boolean",
+            "end_pos": 426,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_BL_ANTI_OTH": {
+            "start_pos": 427,
+            "type": "boolean",
+            "end_pos": 429,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_IUGR": {
+            "start_pos": 430,
+            "type": "boolean",
+            "end_pos": 432,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_DIABETES": {
+            "start_pos": 433,
+            "type": "boolean",
+            "end_pos": 435,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_P_IDDM": {
+            "start_pos": 436,
+            "type": "boolean",
+            "end_pos": 438,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_P_NIDDM": {
+            "start_pos": 439,
+            "type": "boolean",
+            "end_pos": 441,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_IDDM": {
+            "start_pos": 442,
+            "type": "boolean",
+            "end_pos": 444,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_NIDDM": {
+            "start_pos": 445,
+            "type": "boolean",
+            "end_pos": 447,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_AGF": {
+            "start_pos": 448,
+            "type": "boolean",
+            "end_pos": 450,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_HIGH_BP": {
+            "start_pos": 451,
+            "type": "boolean",
+            "end_pos": 453,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_ANTI_HTN_RX": {
+            "start_pos": 454,
+            "type": "boolean",
+            "end_pos": 456,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_HTN_RENAL_DIS": {
+            "start_pos": 457,
+            "type": "boolean",
+            "end_pos": 459,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_OTHER_HTN": {
+            "start_pos": 460,
+            "type": "boolean",
+            "end_pos": 462,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_DRUGS_FLG": {
+            "start_pos": 463,
+            "type": "boolean",
+            "end_pos": 465,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "R_SUBSTANCE_USE": {
+            "start_pos": 466,
+            "type": "boolean",
+            "end_pos": 468,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_HEROIN": {
+            "start_pos": 469,
+            "type": "boolean",
+            "end_pos": 471,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_COCAINE": {
+            "start_pos": 472,
+            "type": "boolean",
+            "end_pos": 474,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_METHADONE": {
+            "start_pos": 475,
+            "type": "boolean",
+            "end_pos": 477,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_SOLVENTS": {
+            "start_pos": 478,
+            "type": "boolean",
+            "end_pos": 480,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_RX": {
+            "start_pos": 481,
+            "type": "boolean",
+            "end_pos": 483,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_MARIJUANA": {
+            "start_pos": 484,
+            "type": "boolean",
+            "end_pos": 486,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_OTHER_DRUG": {
+            "start_pos": 487,
+            "type": "boolean",
+            "end_pos": 489,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_UNK_DRUG": {
+            "start_pos": 490,
+            "type": "boolean",
+            "end_pos": 492,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_NONE": {
+            "start_pos": 493,
+            "type": "boolean",
+            "end_pos": 495,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "R_ALC_FLG": {
+            "start_pos": 496,
+            "type": "boolean",
+            "end_pos": 498,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "T_ACE_SCORE": {
+            "start_pos": 499,
+            "type": "numeric",
+            "end_pos": 501
+        },
+        "TWEAK_SCORE": {
+            "start_pos": 502,
+            "type": "numeric",
+            "end_pos": 504,
+            "format": "None"
+        },
+        "ALCOHOL_PER_WK": {
+            "start_pos": 505,
+            "type": "numeric",
+            "end_pos": 509
+        },
+        "BINGE_DRINKING": {
+            "start_pos": 510,
+            "type": "boolean",
+            "end_pos": 512,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "SMOKER_TYPE_CD": {
+            "start_pos": 513,
+            "type": "text",
+            "end_pos": 515
+        },
+        "CIGS_PER_DAY": {
+            "start_pos": 516,
+            "type": "numeric",
+            "end_pos": 520,
+            "format": "BCPDR Reference Manuals"
+        },
+        "SECOND_HAND_SMOKE": {
+            "start_pos": 521,
+            "type": "boolean",
+            "end_pos": 523,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "HIV_TEST": {
+            "start_pos": 524,
+            "type": "boolean",
+            "end_pos": 526,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "MAT_SERUM_SCREEN": {
+            "start_pos": 527,
+            "type": "boolean",
+            "end_pos": 529,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "B_STREP": {
+            "start_pos": 530,
+            "type": "boolean",
+            "end_pos": 532,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "B_STREP_RESULT": {
+            "start_pos": 533,
+            "type": "boolean",
+            "end_pos": 537,
+            "true_values": [
+                "Pos"
+            ],
+            "false_values": [
+                "Neg"
+            ],
+            "null_values": [
+                "Unk"
+            ]
+        },
+        "HBSAG_TEST": {
+            "start_pos": 538,
+            "type": "boolean",
+            "end_pos": 540,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "HBSAG_RESULT": {
+            "start_pos": 541,
+            "type": "boolean",
+            "end_pos": 545,
+            "true_values": [
+                "Pos"
+            ],
+            "false_values": [
+                "Neg"
+            ],
+            "null_values": [
+                "Unk",
+                "w"
+            ]
+        },
+        "IVF": {
+            "start_pos": 546,
+            "type": "boolean",
+            "end_pos": 548,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "SCHOOL_YEARS": {
+            "start_pos": 549,
+            "type": "numeric",
+            "end_pos": 552,
+            "format": "None"
+        },
+        "CERVICAL_DILATION_ON_ADMIS": {
+            "start_pos": 553,
+            "type": "numeric",
+            "end_pos": 556
+        },
+        "CERVICAL_DILATION_PRIOR_CS": {
+            "start_pos": 557,
+            "type": "numeric",
+            "end_pos": 560
+        },
+        "M_ROM_TO_1ST_STAGE": {
+            "start_pos": 561,
+            "type": "interval",
+            "end_pos": 572,
+            "format": "%H",
+            "null_values": [
+                "."
+            ]
+        },
+        "M_DUR_1ST_STAGE": {
+            "start_pos": 573,
+            "type": "interval",
+            "end_pos": 584,
+            "format": "%H",
+            "null_values": [
+                "."
+            ]
+        },
+        "M_DUR_2ND_STAGE": {
+            "start_pos": 585,
+            "type": "interval",
+            "end_pos": 596,
+            "format": "%H",
+            "null_values": [
+                "."
+            ]
+        },
+        "M_DUR_3RD_STAGE": {
+            "start_pos": 597,
+            "type": "interval",
+            "end_pos": 608,
+            "format": "%H",
+            "null_values": [
+                "."
+            ]
+        },
+        "M_ROM_TO_DELIVERY": {
+            "start_pos": 609,
+            "type": "interval",
+            "end_pos": 620,
+            "format": "%H",
+            "null_values": [
+                "."
+            ]
+        },
+        "M_FETAL_MONITOR_LAB": {
+            "start_pos": 621,
+            "type": "text",
+            "end_pos": 638
+        },
+        "M_LABOUR_TYPE": {
+            "start_pos": 639,
+            "type": "text",
+            "end_pos": 651
+        },
+        "ANES_NONE_FLG": {
+            "start_pos": 652,
+            "type": "boolean",
+            "end_pos": 654,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "ENTONOX_FLG": {
+            "start_pos": 655,
+            "type": "boolean",
+            "end_pos": 657,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "LOCAL_FLG": {
+            "start_pos": 658,
+            "type": "boolean",
+            "end_pos": 660,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PUDENDAL_FLG": {
+            "start_pos": 661,
+            "type": "boolean",
+            "end_pos": 663,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "EPIDURAL_FLG": {
+            "start_pos": 664,
+            "type": "boolean",
+            "end_pos": 666,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "SPINAL_FLG": {
+            "start_pos": 667,
+            "type": "boolean",
+            "end_pos": 669,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "GENERAL_FLG": {
+            "start_pos": 670,
+            "type": "boolean",
+            "end_pos": 672,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "NARCOTIC_FLG": {
+            "start_pos": 673,
+            "type": "boolean",
+            "end_pos": 675,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "ANES_OTHER_FLG": {
+            "start_pos": 676,
+            "type": "boolean",
+            "end_pos": 678,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "ANES_UNK_FLG": {
+            "start_pos": 679,
+            "type": "boolean",
+            "end_pos": 681,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "M_MODE_DEL": {
+            "start_pos": 682,
+            "type": "text",
+            "end_pos": 690
+        },
+        "M_MODE_DEL2": {
+            "start_pos": 691,
+            "type": "text",
+            "end_pos": 710
+        },
+        "M_ELIGIBLE_FOR_VBAC": {
+            "start_pos": 711,
+            "type": "boolean",
+            "end_pos": 713,
+            "true_values": [
+                "1"
+            ],
+            "false_values": [
+                "0"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_ATTEMPTED_VBAC": {
+            "start_pos": 714,
+            "type": "boolean",
+            "end_pos": 716,
+            "true_values": [
+                "1"
+            ],
+            "false_values": [
+                "0"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_SUCCESS_VBAC": {
+            "start_pos": 717,
+            "type": "boolean",
+            "end_pos": 719,
+            "true_values": [
+                "1"
+            ],
+            "false_values": [
+                "0"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_TRAUMA": {
+            "start_pos": 720,
+            "type": "boolean",
+            "end_pos": 722,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "INTACT_FLG": {
+            "start_pos": 723,
+            "type": "boolean",
+            "end_pos": 725,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "CONDITION_UNKNOWN_FLG": {
+            "start_pos": 726,
+            "type": "boolean",
+            "end_pos": 728,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "EPISIOTOMY_FLG": {
+            "start_pos": 729,
+            "type": "boolean",
+            "end_pos": 731,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "EPISIOTOMY_TYPE": {
+            "start_pos": 732,
+            "type": "numeric",
+            "end_pos": 734
+        },
+        "LACERATION_FLG": {
+            "start_pos": 735,
+            "type": "boolean",
+            "end_pos": 737,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "LACERATION_DEGREE": {
+            "start_pos": 738,
+            "type": "numeric",
+            "end_pos": 740
+        },
+        "CERVICAL_TEAR_FLG": {
+            "start_pos": 741,
+            "type": "boolean",
+            "end_pos": 743,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "OTHER_TEAR_FLG": {
+            "start_pos": 744,
+            "type": "boolean",
+            "end_pos": 746,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "UNITS_ANTEPARTUM": {
+            "start_pos": 747,
+            "type": "numeric",
+            "end_pos": 750
+        },
+        "UNITS_INTRAPARTUM": {
+            "start_pos": 751,
+            "type": "numeric",
+            "end_pos": 754
+        },
+        "M_TRANSFUSE_UNITS": {
+            "start_pos": 755,
+            "type": "numeric",
+            "end_pos": 758,
+            "format": "None"
+        },
+        "RH_IMMUN_POSTPART_ELIG": {
+            "start_pos": 759,
+            "type": "boolean",
+            "end_pos": 761,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "RH_IMMUN_POSTPART_DATEYYYY": {
+            "start_pos": 762,
+            "type": "date",
+            "end_pos": 765,
+            "format": "%Y"
+        },
+        "RH_IMMUN_POSTPART_DATEMM": {
+            "start_pos": 766,
+            "type": "date",
+            "end_pos": 767,
+            "format": "%m"
+        },
+        "ANTIHYPERTENSIVE": {
+            "start_pos": 768,
+            "type": "boolean",
+            "end_pos": 770,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "STEROIDS_FOR_LUNG_MATURATION": {
+            "start_pos": 771,
+            "type": "boolean",
+            "end_pos": 773,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "OTHER_FOR_LUNG_MATURATION": {
+            "start_pos": 774,
+            "type": "boolean",
+            "end_pos": 776,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "M_ANTIBIOTICS": {
+            "start_pos": 777,
+            "type": "boolean",
+            "end_pos": 779,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "CS_PROPHYLACTIC_ANTIBIOTICS": {
+            "start_pos": 780,
+            "type": "boolean",
+            "end_pos": 782,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "TOCOLYTIC": {
+            "start_pos": 783,
+            "type": "boolean",
+            "end_pos": 785,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "M_MIDWIFERY_CARE": {
+            "start_pos": 786,
+            "type": "boolean",
+            "end_pos": 797,
+            "true_values": [
+                "midwife"
+            ],
+            "false_values": [
+                "no midwife"
+            ]
+        },
+        "INTENDED_PLACE_OF_DELIVERY": {
+            "start_pos": 798,
+            "type": "boolean",
+            "end_pos": 801,
+            "true_values": [
+                "1"
+            ],
+            "false_values": [
+                "2"
+            ],
+            "null_values": [
+                "99"
+            ]
+        },
+        "ACTUAL_PLACE_OF_DELIVERY": {
+            "start_pos": 802,
+            "type": "boolean",
+            "end_pos": 805,
+            "true_values": [
+                "1"
+            ],
+            "false_values": [
+                "2"
+            ],
+            "null_values": [
+                "3"
+            ]
+        },
+        "LAST_MENSTRUAL_PERIODYYYY": {
+            "start_pos": 806,
+            "type": "date",
+            "end_pos": 809,
+            "format": "%Y"
+        },
+        "LAST_MENSTRUAL_PERIODMM": {
+            "start_pos": 810,
+            "type": "date",
+            "end_pos": 811,
+            "format": "%m"
+        },
+        "FIRST_US_DATEYYYY": {
+            "start_pos": 812,
+            "type": "date",
+            "end_pos": 815,
+            "format": "%Y"
+        },
+        "FIRST_US_DATEMM": {
+            "start_pos": 816,
+            "type": "date",
+            "end_pos": 817,
+            "format": "%m"
+        },
+        "FIRST_US_G_AGE": {
+            "start_pos": 818,
+            "type": "numeric",
+            "end_pos": 821
+        },
+        "FIRST_US_G_AGE_DAYS": {
+            "start_pos": 822,
+            "type": "numeric",
+            "end_pos": 825
+        },
+        "LMPGAW": {
+            "start_pos": 826,
+            "type": "numeric",
+            "end_pos": 829
+        },
+        "USGAW": {
+            "start_pos": 830,
+            "type": "numeric",
+            "end_pos": 833
+        },
+        "M_DATE_OF_BIRTHYYYY": {
+            "start_pos": 834,
+            "type": "date",
+            "end_pos": 837,
+            "format": "%Y"
+        },
+        "M_DATE_OF_BIRTHMM": {
+            "start_pos": 838,
+            "type": "date",
+            "end_pos": 839,
+            "format": "%m"
+        },
+        "DELIVERY_MOTHERID_": {
+            "start_pos": 840,
+            "type": "numeric",
+            "end_pos": 849
+        },
+        "LINKPREGNANCY_": {
+            "start_pos": 850,
+            "type": "numeric",
+            "end_pos": 859
+        },
+        "SOURCE": {
+            "start_pos": 860,
+            "type": "numeric",
+            "end_pos": 863
+        },
+        "VERSION": {
+            "start_pos": 864,
+            "type": "text",
+            "end_pos": 865
+        },
+        "SEQNO": {
+            "start_pos": 866,
+            "type": "numeric",
+            "end_pos": 875
+        },
+        "STUDYID": {
+            "start_pos": 876,
+            "type": "text",
+            "end_pos": 885
+        }
+    }
+}

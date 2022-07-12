@@ -1,0 +1,62 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "registry D",
+    "DESCRIPTION": "full registry file",
+    "CONFIG": {
+        "contract_no": {
+            "end_pos": 9,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "depno": {
+            "end_pos": 11,
+            "start_pos": 10,
+            "type": "text"
+        },
+        "PC3": {
+            "end_pos": 14,
+            "start_pos": 12,
+            "type": "text"
+        },
+        "HSDA": {
+            "end_pos": 16,
+            "start_pos": 15,
+            "type": "Numeric"
+        },
+        "HA": {
+            "end_pos": 17,
+            "start_pos": 17,
+            "type": "Numeric"
+        },
+        "STARTDAY": {
+            "end_pos": 22,
+            "start_pos": 18,
+            "type": "Numeric"
+        },
+        "DAYSREG": {
+            "end_pos": 27,
+            "start_pos": 23,
+            "type": "Numeric"
+        },
+        "YEAR": {
+            "end_pos": 31,
+            "start_pos": 28,
+            "type": "text"
+        },
+        "VERSION": {
+            "end_pos": 33,
+            "start_pos": 32,
+            "type": "text"
+        },
+        "SEQNO": {
+            "end_pos": 43,
+            "start_pos": 34,
+            "type": "text"
+        },
+        "STUDYID": {
+            "end_pos": 53,
+            "start_pos": 44,
+            "type": "text"
+        }
+    }
+}

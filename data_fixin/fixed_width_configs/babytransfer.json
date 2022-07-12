@@ -1,0 +1,271 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "baby transfer",
+    "DESCRIPTION": "These are words. Not helpful words, but words none the less",
+    "CONFIG": {
+        "BABY_SEQUENCE": {
+            "end_pos": 3,
+            "start_pos": 1,
+            "type": "Numeric"
+        },
+        "MULTIPLE_BIRTH_COUNT": {
+            "end_pos": 6,
+            "start_pos": 4,
+            "type": "Numeric"
+        },
+        "B_INSTITUTION_ID_": {
+            "end_pos": 12,
+            "start_pos": 7,
+            "type": "Numeric"
+        },
+        "B_INSTITUTION_FROM_": {
+            "end_pos": 18,
+            "start_pos": 13,
+            "type": "Numeric"
+        },
+        "B_INSTITUTION_TO_": {
+            "end_pos": 24,
+            "start_pos": 19,
+            "type": "Numeric"
+        },
+        "B_ADMISSION_DATEYYYY": {
+            "end_pos": 28,
+            "start_pos": 25,
+            "type": "Date",
+            "format": "%Y"
+        },
+        "B_ADMISSION_DATEMM": {
+            "end_pos": 30,
+            "start_pos": 29,
+            "type": "Date",
+            "format": "%m"
+        },
+        "B_ADMISSION_HOUR": {
+            "end_pos": 48,
+            "start_pos": 31,
+            "type": "Time",
+            "format": "%H:%M:%S.%f0"
+        },
+        "B_DISCHARGE_DATEYYYY": {
+            "end_pos": 52,
+            "start_pos": 49,
+            "type": "Date",
+            "format": "%Y"
+        },
+        "B_DISCHARGE_DATEMM": {
+            "end_pos": 54,
+            "start_pos": 53,
+            "type": "Date",
+            "format": "%m"
+        },
+        "B_DISCHARGE_HOUR": {
+            "end_pos": 72,
+            "start_pos": 55,
+            "type": "Time",
+            "format": "%H:%M:%S.%f0"
+        },
+        "B_FISCAL_YR": {
+            "end_pos": 83,
+            "start_pos": 73,
+            "type": "Text"
+        },
+        "B_TOT_LOS": {
+            "end_pos": 95,
+            "start_pos": 84,
+            "type": "Numeric"
+        },
+        "NICU_II": {
+            "end_pos": 100,
+            "start_pos": 96,
+            "type": "Numeric"
+        },
+        "NICU_III": {
+            "end_pos": 105,
+            "start_pos": 101,
+            "type": "Numeric"
+        },
+        "B_ADMISSION_WEIGHT": {
+            "end_pos": 111,
+            "start_pos": 106,
+            "type": "Numeric"
+        },
+        "DISCHARGE_WEIGHT": {
+            "end_pos": 117,
+            "start_pos": 112,
+            "type": "Numeric"
+        },
+        "DISCHARGE_TO": {
+            "end_pos": 120,
+            "start_pos": 118,
+            "type": "Text"
+        },
+        "TEMPERATURE_FIRST": {
+            "end_pos": 132,
+            "start_pos": 121,
+            "type": "Numeric",
+            "null_values": [
+                "."
+            ]
+        },
+        "SURFACTANT": {
+            "end_pos": 135,
+            "start_pos": 133,
+            "type": "boolean",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "B_ANTIBIOTICS": {
+            "end_pos": 138,
+            "start_pos": 136,
+            "type": "boolean",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "VENTILATOR_DAYS": {
+            "end_pos": 143,
+            "start_pos": 139,
+            "type": "Numeric"
+        },
+        "CPAP_DAYS": {
+            "end_pos": 148,
+            "start_pos": 144,
+            "type": "Numeric"
+        },
+        "OXYGEN_DAYS": {
+            "end_pos": 153,
+            "start_pos": 149,
+            "type": "Numeric"
+        },
+        "TPN_DAYS": {
+            "end_pos": 158,
+            "start_pos": 154,
+            "type": "Numeric"
+        },
+        "BABY_POS_BLOOD_CULTURE": {
+            "end_pos": 161,
+            "start_pos": 159,
+            "type": "boolean",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_BLOOD_INFECT_AGENT_1": {
+            "end_pos": 168,
+            "start_pos": 162,
+            "type": "Text"
+        },
+        "BABY_BLOOD_INFECT_AGENT_2": {
+            "end_pos": 175,
+            "start_pos": 169,
+            "type": "Text"
+        },
+        "BABY_POS_URINE_CULTURE": {
+            "end_pos": 178,
+            "start_pos": 176,
+            "type": "boolean",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_URINE_INFECT_AGENT_1": {
+            "end_pos": 185,
+            "start_pos": 179,
+            "type": "Text"
+        },
+        "BABY_URINE_INFECT_AGENT_2": {
+            "end_pos": 192,
+            "start_pos": 186,
+            "type": "Text"
+        },
+        "BABY_POS_OTHER_CULTURE": {
+            "end_pos": 195,
+            "start_pos": 193,
+            "type": "boolean",
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "BABY_OTHER_INFECT_AGENT_1": {
+            "end_pos": 202,
+            "start_pos": 196,
+            "type": "Text"
+        },
+        "BABY_OTHER_INFECT_AGENT_2": {
+            "end_pos": 209,
+            "start_pos": 203,
+            "type": "Text"
+        },
+        "B_MAIN_PATIENT_SERVICE": {
+            "end_pos": 213,
+            "start_pos": 210,
+            "type": "Text"
+        },
+        "SEX": {
+            "end_pos": 214,
+            "start_pos": 214,
+            "type": "Text"
+        },
+        "TRANSFER_BABYID_": {
+            "end_pos": 224,
+            "start_pos": 215,
+            "type": "numeric"
+        },
+        "LINKBABY_": {
+            "end_pos": 234,
+            "start_pos": 225,
+            "type": "numeric"
+        },
+        "LINKPREGNANCY_": {
+            "end_pos": 244,
+            "start_pos": 235,
+            "type": "numeric"
+        },
+        "SOURCE": {
+            "end_pos": 248,
+            "start_pos": 245,
+            "type": "text"
+        },
+        "VERSION": {
+            "end_pos": 250,
+            "start_pos": 249,
+            "type": "text"
+        },
+        "SEQNO": {
+            "end_pos": 260,
+            "start_pos": 251,
+            "type": "text"
+        },
+        "STUDYID1": {
+            "end_pos": 270,
+            "start_pos": 261,
+            "type": "text"
+        },
+        "STUDYID2": {
+            "end_pos": 280,
+            "start_pos": 271,
+            "type": "text"
+        }
+    }
+}

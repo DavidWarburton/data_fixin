@@ -1,0 +1,252 @@
+{
+    "ORIGIN": "unused", 
+    "SHORT_NAME": "unused", 
+    "DESCRIPTION": "unused", 
+    "CONFIG": {
+        "MARRIAGE_DT": {
+            "length": 5, 
+            "end_pos": 6, 
+            "type": "DATE", 
+            "start_pos": 1, 
+            "format": "YYYYMM"
+        }, 
+        "P1BIRTHDT_YR": {
+            "length": 3, 
+            "end_pos": 10, 
+            "type": "DATE", 
+            "start_pos": 7, 
+            "format": "YYYY"
+        }, 
+        "P1BIRTHDT_MM": {
+            "length": 1, 
+            "end_pos": 12, 
+            "type": "DATE", 
+            "start_pos": 11, 
+            "format": "MM"
+        }, 
+        "P1SEX": {
+            "length": 0, 
+            "end_pos": 13, 
+            "type": "Alphanumeric", 
+            "start_pos": 13, 
+            "format": "N/A"
+        }, 
+        "P1BTHPROV": {
+            "length": 49, 
+            "end_pos": 63, 
+            "type": "Alphanumeric", 
+            "start_pos": 14, 
+            "format": "String"
+        }, 
+        "P1BTHCNTRY": {
+            "length": 49, 
+            "end_pos": 113, 
+            "type": "CHAR", 
+            "start_pos": 64, 
+            "format": "String"
+        }, 
+        "P1PRVMARTL": {
+            "length": 0, 
+            "end_pos": 114, 
+            "type": "Alphanumeric", 
+            "start_pos": 114, 
+            "format": "N/A"
+        }, 
+        "P1PROV": {
+            "length": 49, 
+            "end_pos": 164, 
+            "type": "CHAR", 
+            "start_pos": 115, 
+            "format": "String"
+        }, 
+        "P1COUNTRY": {
+            "length": 49, 
+            "end_pos": 214, 
+            "type": "CHAR", 
+            "start_pos": 165, 
+            "format": "N/A"
+        }, 
+        "P1PC_3": {
+            "length": 2, 
+            "end_pos": 217, 
+            "type": "Alphanumeric", 
+            "start_pos": 215, 
+            "format": "A9A"
+        }, 
+        "P1FBTHPROV": {
+            "length": 49, 
+            "end_pos": 267, 
+            "type": "CHAR", 
+            "start_pos": 218, 
+            "format": "String"
+        }, 
+        "P1FBTHCNTRY": {
+            "length": 49, 
+            "end_pos": 317, 
+            "type": "CHAR", 
+            "start_pos": 268, 
+            "format": "N/A"
+        }, 
+        "P1MBTHPROV": {
+            "length": 49, 
+            "end_pos": 367, 
+            "type": "CHAR", 
+            "start_pos": 318, 
+            "format": "N/A"
+        }, 
+        "P1MBTHCNTRY": {
+            "length": 49, 
+            "end_pos": 417, 
+            "type": "CHAR", 
+            "start_pos": 368, 
+            "format": "N/A"
+        }, 
+        "P2BIRTHDT_YR": {
+            "length": 3, 
+            "end_pos": 421, 
+            "type": "DATE", 
+            "start_pos": 418, 
+            "format": "YYYY"
+        }, 
+        "P2BIRTHDT_MM": {
+            "length": 1, 
+            "end_pos": 423, 
+            "type": "DATE", 
+            "start_pos": 422, 
+            "format": "MM"
+        }, 
+        "P2SEX": {
+            "length": 0, 
+            "end_pos": 424, 
+            "type": "CHAR", 
+            "start_pos": 424, 
+            "format": "N/A"
+        }, 
+        "P2BTHPROV": {
+            "length": 49, 
+            "end_pos": 474, 
+            "type": "CHAR", 
+            "start_pos": 425, 
+            "format": "String"
+        }, 
+        "P2BTHCNTRY": {
+            "length": 49, 
+            "end_pos": 524, 
+            "type": "CHAR", 
+            "start_pos": 475, 
+            "format": "N/A"
+        }, 
+        "P2PRVMARTL": {
+            "length": 0, 
+            "end_pos": 525, 
+            "type": "CHAR", 
+            "start_pos": 525, 
+            "format": "N/A"
+        }, 
+        "P2PROV": {
+            "length": 49, 
+            "end_pos": 575, 
+            "type": "CHAR", 
+            "start_pos": 526, 
+            "format": "N/A"
+        }, 
+        "P2COUNTRY": {
+            "length": 49, 
+            "end_pos": 625, 
+            "type": "CHAR", 
+            "start_pos": 576, 
+            "format": "N/A"
+        }, 
+        "P2PC_3": {
+            "length": 2, 
+            "end_pos": 628, 
+            "type": "Alphanumeric", 
+            "start_pos": 626, 
+            "format": "A9A"
+        }, 
+        "P2FBTHPROV": {
+            "length": 49, 
+            "end_pos": 678, 
+            "type": "CHAR", 
+            "start_pos": 629, 
+            "format": "N/A"
+        }, 
+        "P2FBTHCNTRY": {
+            "length": 49, 
+            "end_pos": 728, 
+            "type": "CHAR", 
+            "start_pos": 679, 
+            "format": "N/A"
+        }, 
+        "P2MBTHPROV": {
+            "length": 49, 
+            "end_pos": 778, 
+            "type": "", 
+            "start_pos": 729
+        }, 
+        "P2MBTHCNTRY": {
+            "length": 49, 
+            "end_pos": 828, 
+            "type": "Alphanumeric", 
+            "start_pos": 779, 
+            "format": "N/A"
+        }, 
+        "REGDT": {
+            "length": 7, 
+            "end_pos": 836, 
+            "type": "DATE", 
+            "start_pos": 829, 
+            "format": "YYYYMMDD"
+        }, 
+        "OFFCNT_TP": {
+            "length": 0, 
+            "end_pos": 837, 
+            "type": "Alphanumeric", 
+            "start_pos": 837, 
+            "format": "N/A"
+        }, 
+        "OFFCNT_CD": {
+            "length": 1, 
+            "end_pos": 839, 
+            "type": "NUM", 
+            "start_pos": 838, 
+            "format": "N/A"
+        }, 
+        "DATAYR": {
+            "length": 3, 
+            "end_pos": 843, 
+            "type": "", 
+            "start_pos": 840
+        }, 
+        "VERSION": {
+            "length": 1, 
+            "end_pos": 845, 
+            "type": "", 
+            "start_pos": 844
+        }, 
+        "SEQNO": {
+            "length": 9, 
+            "end_pos": 855, 
+            "type": "", 
+            "start_pos": 846
+        }, 
+        "STUDYID1": {
+            "length": 9, 
+            "end_pos": 865, 
+            "type": "", 
+            "start_pos": 856
+        }, 
+        "STUDYID2": {
+            "length": 9, 
+            "end_pos": 875, 
+            "type": "", 
+            "start_pos": 866
+        }, 
+        "Linefeed": {
+            "length": 0, 
+            "end_pos": 876, 
+            "type": "", 
+            "start_pos": 876
+        }
+    }
+}

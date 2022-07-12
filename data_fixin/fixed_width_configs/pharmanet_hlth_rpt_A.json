@@ -1,0 +1,57 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "pharmanet health report A",
+    "DESCRIPTION": "Pharmanet health report from 1996-01-01 to 2018-03-31",
+    "CONFIG": {
+        "HP_DIN_PIN": {
+            "end_pos": 10,
+            "start_pos": 1,
+            "type": "text"
+        },
+        "HP_DRUG_BRAND_NM": {
+            "end_pos": 74,
+            "start_pos": 11,
+            "type": "text"
+        },
+        "HP_GEN_DRUG": {
+            "end_pos": 114,
+            "start_pos": 75,
+            "type": "text"
+        },
+        "HP_GCN_SEQ_NUM": {
+            "end_pos": 134,
+            "start_pos": 115,
+            "type": "text"
+        },
+        "HP_GEN_DRUG_STRGTH_VAL": {
+            "end_pos": 144,
+            "start_pos": 135,
+            "type": "text"
+        },
+        "HP_GEN_DRUG_STRGTH_UNIT": {
+            "end_pos": 154,
+            "start_pos": 145,
+            "type": "text"
+        },
+        "HP_GEN_DSG_FORM_CD": {
+            "end_pos": 156,
+            "start_pos": 155,
+            "type": "text"
+        },
+        "HP_GEN_DSG_FORM": {
+            "end_pos": 176,
+            "start_pos": 157,
+            "type": "text"
+        },
+        "HP_AHFS_3_CD": {
+            "end_pos": 186,
+            "start_pos": 177,
+            "type": "text"
+        },
+        "HP_TC5_CD": {
+            "end_pos": 206,
+            "start_pos": 187,
+            "type": "text"
+        }
+    }
+}

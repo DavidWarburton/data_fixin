@@ -1,0 +1,37 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "bcea iop",
+    "DESCRIPTION": "bcea iop",
+    "CONFIG": {
+        "_ym": {
+            "start_pos": 1,
+            "type": "text",
+            "end_pos": 6
+        },
+        "_fileid": {
+            "start_pos": 7,
+            "type": "text",
+            "end_pos": 16
+        },
+        "iop": {
+            "start_pos": 17,
+            "type": "text",
+            "end_pos": 19
+        },
+        "data_year": {
+            "start_pos": 20,
+            "type": "text",
+            "end_pos": 23
+        },
+        "version": {
+            "start_pos": 24,
+            "type": "text",
+            "end_pos": 25
+        },
+        "seqno": {
+            "start_pos": 26,
+            "type": "text",
+            "end_pos": 35
+        }
+    }
+}

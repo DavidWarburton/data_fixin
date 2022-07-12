@@ -1,0 +1,139 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "MSP A",
+    "DESCRIPTION": "Medical Service Plan payments from 1985-04-01 to 1995-03-01",
+    "CONFIG": {
+        "Subsidy": {
+            "start_pos": 1,
+            "type": "text",
+            "end_pos": 1
+        },
+        "ServDate": {
+            "start_pos": 2,
+            "type": "DATE",
+            "end_pos": 9,
+            "format": "%Y%m%d"
+        },
+        "Pracnum_": {
+            "start_pos": 10,
+            "type": "numeric",
+            "end_pos": 14
+        },
+        "spec": {
+            "start_pos": 15,
+            "type": "numeric",
+            "end_pos": 16
+        },
+        "Paynum_": {
+            "start_pos": 17,
+            "type": "numeric",
+            "end_pos": 21
+        },
+        "rfr_pracnum_": {
+            "start_pos": 22,
+            "type": "numeric",
+            "end_pos": 26
+        },
+        "ServCode": {
+            "start_pos": 27,
+            "type": "numeric",
+            "end_pos": 28
+        },
+        "ServUnits": {
+            "start_pos": 29,
+            "type": "numeric",
+            "end_pos": 32
+        },
+        "FeeItem": {
+            "start_pos": 33,
+            "type": "numeric",
+            "end_pos": 37
+        },
+        "PaidAmt": {
+            "start_pos": 38,
+            "type": "numeric",
+            "end_pos": 44
+        },
+        "expl_cd": {
+            "start_pos": 45,
+            "type": "text",
+            "end_pos": 50
+        },
+        "PaidDate": {
+            "start_pos": 51,
+            "type": "numeric",
+            "end_pos": 58,
+            "format": ["%Y%m", "%Y%m%d"]
+        },
+        "PaidTo": {
+            "start_pos": 59,
+            "type": "text",
+            "end_pos": 59
+        },
+        "ServWhere": {
+            "start_pos": 60,
+            "type": "text",
+            "end_pos": 61
+        },
+        "Prov": {
+            "start_pos": 62,
+            "type": "text",
+            "end_pos": 63
+        },
+        "servloc": {
+            "start_pos": 64,
+            "type": "text",
+            "end_pos": 64
+        },
+        "Retro": {
+            "start_pos": 65,
+            "type": "text",
+            "end_pos": 65
+        },
+        "disc_amt": {
+            "start_pos": 66,
+            "type": "numeric",
+            "end_pos": 72
+        },
+        "rback_amt": {
+            "start_pos": 73,
+            "type": "numeric",
+            "end_pos": 79
+        },
+        "retro_amt": {
+            "start_pos": 80,
+            "type": "numeric",
+            "end_pos": 86
+        },
+        "ICD9": {
+            "start_pos": 87,
+            "type": "text",
+            "end_pos": 91
+        },
+        "clmtype": {
+            "start_pos": 92,
+            "type": "text",
+            "end_pos": 93
+        },
+        "datayr": {
+            "start_pos": 94,
+            "type": "text",
+            "end_pos": 97
+        },
+        "Version": {
+            "start_pos": 98,
+            "type": "text",
+            "end_pos": 99
+        },
+        "Seqno": {
+            "start_pos": 100,
+            "type": "text",
+            "end_pos": 109
+        },
+        "STUDYID": {
+            "start_pos": 110,
+            "type": "text",
+            "end_pos": 119
+        }
+    }
+}

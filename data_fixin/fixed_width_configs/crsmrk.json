@@ -1,0 +1,456 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "course mark 1991-2017",
+    "DESCRIPTION": "Course marks for all students from 1991-2017",
+    "CONFIG": {
+        "COURSE_CNT": {
+            "end_pos": 12,
+            "type": "numeric",
+            "start_pos": 1,
+            "null_values": [
+                "."
+            ]
+        },
+        "EXAMINABLE_COURSE_CNT": {
+            "end_pos": 24,
+            "type": "numeric",
+            "start_pos": 13,
+            "null_values": [
+                "."
+            ]
+        },
+        "NONEXAMINABLE_COURSE_CNT": {
+            "end_pos": 36,
+            "type": "numeric",
+            "start_pos": 25,
+            "null_values": [
+                "."
+            ]
+        },
+        "COURSE_PCT": {
+            "end_pos": 48,
+            "type": "numeric",
+            "start_pos": 37,
+            "null_values": [
+                "."
+            ]
+        },
+        "C_MINUS_OR_BETTER_COURSE_CNT": {
+            "end_pos": 60,
+            "type": "numeric",
+            "start_pos": 49,
+            "null_values": [
+                "."
+            ]
+        },
+        "C_PLUS_OR_BETTER_COURSE_CNT": {
+            "end_pos": 72,
+            "type": "numeric",
+            "start_pos": 61,
+            "null_values": [
+                "."
+            ]
+        },
+        "COURSE_MARK_SAME_GRADE_CNT": {
+            "end_pos": 84,
+            "type": "numeric",
+            "start_pos": 73,
+            "null_values": [
+                "."
+            ]
+        },
+        "USED_FOR_GRAD": {
+            "end_pos": 87,
+            "type": "text",
+            "start_pos": 85
+        },
+        "FND_CREDITS": {
+            "end_pos": 90,
+            "type": "text",
+            "start_pos": 88
+        },
+        "HST_SEQUENCE": {
+            "end_pos": 95,
+            "type": "text",
+            "start_pos": 91
+        },
+        "SCHOOL_YEAR": {
+            "end_pos": 106,
+            "type": "text",
+            "start_pos": 96
+        },
+        "TOP_LEVEL_ORG_ATTRIB": {
+            "end_pos": 139,
+            "type": "text",
+            "start_pos": 107
+        },
+        "DISTRICT_NUMBER_ATTRIB": {
+            "end_pos": 148,
+            "type": "text",
+            "start_pos": 140
+        },
+        "MINCODE_ATTRIB": {
+            "end_pos": 167,
+            "type": "text",
+            "start_pos": 149
+        },
+        "SCHOOL_CALENDAR": {
+            "end_pos": 197,
+            "type": "text",
+            "start_pos": 168
+        },
+        "FACILITY_TYPE_ATTRIB": {
+            "end_pos": 221,
+            "type": "text",
+            "start_pos": 198
+        },
+        "SUBJECT": {
+            "end_pos": 251,
+            "type": "text",
+            "start_pos": 222
+        },
+        "COURSE_CODE": {
+            "end_pos": 262,
+            "type": "text",
+            "start_pos": 252
+        },
+        "COURSE_DESC": {
+            "end_pos": 304,
+            "type": "text",
+            "start_pos": 263
+        },
+        "COURSE_GRADE": {
+            "end_pos": 308,
+            "type": "text",
+            "start_pos": 305
+        },
+        "COMBINED_CURR_CODE": {
+            "end_pos": 321,
+            "type": "text",
+            "start_pos": 309
+        },
+        "COMBINED_CURR_DESC": {
+            "end_pos": 368,
+            "type": "text",
+            "start_pos": 322
+        },
+        "CURRICULUM_LABEL": {
+            "end_pos": 410,
+            "type": "text",
+            "start_pos": 369
+        },
+        "CURRICULUM": {
+            "end_pos": 478,
+            "type": "text",
+            "start_pos": 411
+        },
+        "SP_NEED_NAME_LST_KNWN_COLL": {
+            "end_pos": 520,
+            "type": "text",
+            "start_pos": 479
+        },
+        "FI_IN_YEAR_FLAG": {
+            "end_pos": 542,
+            "type": "boolean",
+            "start_pos": 521,
+            "true_values": [
+                "French Immersion"
+            ],
+            "false_values": [
+                "Non French Immersion"
+            ]
+        },
+        "GENDER": {
+            "end_pos": 550,
+            "type": "text",
+            "start_pos": 543
+        },
+        "LANG_OF_INSTRUCTION": {
+            "end_pos": 559,
+            "type": "text",
+            "start_pos": 551
+        },
+        "COURSE_TYPE": {
+            "end_pos": 594,
+            "type": "text",
+            "start_pos": 560
+        },
+        "STUDENT_GRADUATION_PROGRAM": {
+            "end_pos": 603,
+            "type": "text",
+            "start_pos": 595
+        },
+        "STUDENT_GRADE_LST_KNOWN_COLL": {
+            "end_pos": 626,
+            "type": "text",
+            "start_pos": 604
+        },
+        "COURSE_SESSION": {
+            "end_pos": 635,
+            "type": "date",
+            "start_pos": 627,
+			"format": "%Y.%m"
+        },
+        "COURSE_CREDITS": {
+            "end_pos": 648,
+            "type": "text",
+            "start_pos": 636
+        },
+        "SPECIAL_CASE_CODE": {
+            "end_pos": 661,
+            "type": "text",
+            "start_pos": 649
+        },
+        "DATA_SOURCE": {
+            "end_pos": 678,
+            "type": "text",
+            "start_pos": 662
+        },
+        "NON_RES_LST_KNWN_COLL_FLAG": {
+            "end_pos": 692,
+            "type": "boolean",
+            "start_pos": 679,
+            "true_values": [
+                "Resident"
+            ],
+            "false_values": [
+                "Non Resident"
+            ]
+        },
+        "ESL_IN_YEAR_FLAG": {
+            "end_pos": 701,
+            "type": "boolean",
+            "start_pos": 693,
+            "true_values": [
+                "ESL"
+            ],
+            "false_values": [
+                "Non ESL"
+            ]
+        },
+        "COURSE_LETTER_GRADE_BAND": {
+            "end_pos": 709,
+            "type": "text",
+            "start_pos": 702
+        },
+        "COURSE_LETTER_GRADE": {
+            "end_pos": 713,
+            "type": "text",
+            "start_pos": 710
+        },
+        "RELATED_SUBJECT": {
+            "end_pos": 743,
+            "type": "text",
+            "start_pos": 714
+        },
+        "RELATED_COURSE_CODE": {
+            "end_pos": 755,
+            "type": "text",
+            "start_pos": 744
+        },
+        "RELATED_COURSE_DESC": {
+            "end_pos": 797,
+            "type": "text",
+            "start_pos": 756
+        },
+        "RELATED_COURSE_TYPE": {
+            "end_pos": 832,
+            "type": "text",
+            "start_pos": 798
+        },
+        "HST_MAIN_CAT": {
+            "end_pos": 841,
+            "type": "text",
+            "start_pos": 833
+        },
+        "HST_MAIN_CAT_DESC": {
+            "end_pos": 913,
+            "type": "text",
+            "start_pos": 842
+        },
+        "HST_MAIN_CAT_LDESC": {
+            "end_pos": 1893,
+            "type": "text",
+            "start_pos": 914
+        },
+        "HST_SUB_CAT": {
+            "end_pos": 1901,
+            "type": "text",
+            "start_pos": 1894
+        },
+        "HST_SUB_CAT_DESC": {
+            "end_pos": 1971,
+            "type": "text",
+            "start_pos": 1902
+        },
+        "MIN_SUBJECT": {
+            "end_pos": 1980,
+            "type": "text",
+            "start_pos": 1972
+        },
+        "MIN_SUBJECT_DESC": {
+            "end_pos": 2023,
+            "type": "text",
+            "start_pos": 1981
+        },
+        "GRAD_PROG_AT_GRAD_OR_LAST_ENRO": {
+            "end_pos": 2032,
+            "type": "text",
+            "start_pos": 2024
+        },
+        "GRAD_PROG_GRAD_LAST_ENROL_DESC": {
+            "end_pos": 2071,
+            "type": "text",
+            "start_pos": 2033
+        },
+        "ELECTIVE_FLAG": {
+            "end_pos": 2079,
+            "type": "boolean",
+            "start_pos": 2072,
+            "true_values": [
+                "ELECT"
+            ],
+            "false_values": [
+                "NELECT"
+            ],
+            "null_values": [
+                "UELECT"
+            ]
+        },
+        "ELECTIVE_FLG_DESC": {
+            "end_pos": 2124,
+            "type": "text",
+            "start_pos": 2080
+        },
+        "GRAD_REQT_CAND_1": {
+            "end_pos": 2137,
+            "type": "text",
+            "start_pos": 2125
+        },
+        "GRAD_REQT_CAND_1_DESC": {
+            "end_pos": 2189,
+            "type": "text",
+            "start_pos": 2138
+        },
+        "GRAD_REQT_CAND_2": {
+            "end_pos": 2202,
+            "type": "text",
+            "start_pos": 2190
+        },
+        "GRAD_REQT_CAND_2_DESC": {
+            "end_pos": 2238,
+            "type": "text",
+            "start_pos": 2203
+        },
+        "ELECTIVE_FLAG_2004": {
+            "end_pos": 2246,
+            "type": "boolean",
+            "start_pos": 2239,
+            "true_values": [
+                "ELECT"
+            ],
+            "false_values": [
+                "NELECT"
+            ],
+            "null_values": [
+                "UELECT"
+            ]
+        },
+        "ELECTIVE_FLAG_2004_DESC": {
+            "end_pos": 2291,
+            "type": "text",
+            "start_pos": 2247
+        },
+        "GRAD_REQT_CAND_2004_1": {
+            "end_pos": 2304,
+            "type": "text",
+            "start_pos": 2292
+        },
+        "GRAD_REQT_CAND_2004_1_DESC": {
+            "end_pos": 2343,
+            "type": "text",
+            "start_pos": 2305
+        },
+        "GRAD_REQT_CAND_2004_2": {
+            "end_pos": 2356,
+            "type": "text",
+            "start_pos": 2344
+        },
+        "GRAD_REQT_CAND_2004_2_DESC": {
+            "end_pos": 2392,
+            "type": "text",
+            "start_pos": 2357
+        },
+        "GRAD_REQT_MET": {
+            "end_pos": 2405,
+            "type": "text",
+            "start_pos": 2393
+        },
+        "GRAD_REQT_MET_DESC": {
+            "end_pos": 2444,
+            "type": "text",
+            "start_pos": 2406
+        },
+        "DISTRICT_NAME_ATTRIB": {
+            "end_pos": 2535,
+            "type": "text",
+            "start_pos": 2445
+        },
+        "SCHOOL_NAME_ATTRIB": {
+            "end_pos": 2577,
+            "type": "text",
+            "start_pos": 2536
+        },
+        "SCHOOL_TYPE_GRP_ATTRIB": {
+            "end_pos": 2600,
+            "type": "text",
+            "start_pos": 2578
+        },
+        "SCHOOL_TYPE_ATTRIB": {
+            "end_pos": 2623,
+            "type": "text",
+            "start_pos": 2601
+        },
+        "HOME_LANG_LST_KNWN_COLL": {
+            "end_pos": 2654,
+            "type": "text",
+            "start_pos": 2624
+        },
+        "ABOR_EVER_FLAG": {
+            "end_pos": 2670,
+            "type": "boolean",
+            "start_pos": 2655,
+            "true_values": [
+                "Aboriginal"
+            ],
+            "false_values": [
+                "Non Aboriginal"
+            ]
+        },
+        "PEN_CORID": {
+            "end_pos": 2681,
+            "type": "text",
+            "start_pos": 2671
+        },
+        "DATAYR": {
+            "end_pos": 2685,
+            "type": "text",
+            "start_pos": 2682
+        },
+        "VERSION": {
+            "end_pos": 2687,
+            "type": "text",
+            "start_pos": 2686
+        },
+        "SEQNO": {
+            "end_pos": 2697,
+            "type": "text",
+            "start_pos": 2688
+        },
+        "STUDYID": {
+            "end_pos": 2707,
+            "type": "text",
+            "start_pos": 2698
+        }
+    }
+}

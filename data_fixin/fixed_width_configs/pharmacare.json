@@ -1,0 +1,154 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "pharmacare",
+    "DESCRIPTION": "pharmacare from 2002 - 2017",
+    "CONFIG": {
+        "acctcd": {
+            "end_pos": 1,
+            "type": "text",
+            "start_pos": 1
+        },
+        "dinpin": {
+            "end_pos": 9,
+            "type": "text",
+            "start_pos": 2
+        },
+        "dtofserv": {
+            "end_pos": 17,
+            "type": "date",
+            "start_pos": 10,
+            "format": "%Y%m%d"
+        },
+        "dysupac": {
+            "end_pos": 21,
+            "type": "numeric",
+            "start_pos": 18
+        },
+        "dyspdisp": {
+            "end_pos": 25,
+            "type": "numeric",
+            "start_pos": 22
+        },
+        "ingrac": {
+            "end_pos": 33,
+            "type": "numeric",
+            "start_pos": 26
+        },
+        "ingrclm": {
+            "end_pos": 41,
+            "type": "numeric",
+            "start_pos": 34
+        },
+        "ingrpd": {
+            "end_pos": 49,
+            "type": "text",
+            "start_pos": 42
+        },
+        "pracnumeric_": {
+            "end_pos": 54,
+            "type": "text",
+            "start_pos": 50
+        },
+        "prodsel": {
+            "end_pos": 55,
+            "type": "text",
+            "start_pos": 55
+        },
+        "profeac": {
+            "end_pos": 61,
+            "type": "numeric",
+            "start_pos": 56
+        },
+        "profeclm": {
+            "end_pos": 67,
+            "type": "numeric",
+            "start_pos": 62
+        },
+        "profepd": {
+            "end_pos": 73,
+            "type": "numeric",
+            "start_pos": 68
+        },
+        "qtyac": {
+            "end_pos": 80,
+            "type": "numeric",
+            "start_pos": 74
+        },
+        "qtydisp": {
+            "end_pos": 87,
+            "type": "numeric",
+            "start_pos": 81
+        },
+        "sa": {
+            "end_pos": 88,
+            "type": "text",
+            "start_pos": 88
+        },
+        "salca": {
+            "end_pos": 89,
+            "type": "text",
+            "start_pos": 89
+        },
+        "sanonben": {
+            "end_pos": 90,
+            "type": "text",
+            "start_pos": 90
+        },
+        "sardp": {
+            "end_pos": 91,
+            "type": "text",
+            "start_pos": 91
+        },
+        "sbdyind": {
+            "end_pos": 92,
+            "type": "boolean",
+            "start_pos": 92,
+            "true_values": [
+                "1",
+                "Y"
+            ],
+            "false_values": [
+                "0",
+                "N"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "totpd": {
+            "end_pos": 101,
+            "type": "numeric",
+            "start_pos": 93
+        },
+        "accexpamt": {
+            "end_pos": 110,
+            "type": "numeric",
+            "start_pos": 102
+        },
+        "totcopay": {
+            "end_pos": 119,
+            "type": "numeric",
+            "start_pos": 111
+        },
+        "source": {
+            "end_pos": 123,
+            "type": "text",
+            "start_pos": 120
+        },
+        "version": {
+            "end_pos": 125,
+            "type": "text",
+            "start_pos": 124
+        },
+        "seqno": {
+            "end_pos": 135,
+            "type": "text",
+            "start_pos": 126
+        },
+        "STUDYID": {
+            "end_pos": 145,
+            "type": "text",
+            "start_pos": 136
+        }
+    }
+}

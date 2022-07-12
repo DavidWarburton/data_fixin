@@ -1,0 +1,60 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "registry lite 1986-2017",
+    "DESCRIPTION": "Registration and premium billing file containing group ID",
+    "CONFIG": {
+        "EFFECTIVEDATE": {
+            "end_pos": 8,
+            "type": "DATE",
+            "start_pos": 1,
+			"format": "%Y%m%d"
+        },
+        "CANCELDATE": {
+            "end_pos": 16,
+            "type": "DATE",
+            "start_pos": 9,
+            "format": "%Y%m%d"
+        },
+        "CANCELREASON": {
+            "end_pos": 18,
+            "type": "text",
+            "start_pos": 17
+        },
+        "GROUPID_": {
+            "end_pos": 25,
+            "type": "numeric",
+            "start_pos": 19
+        },
+        "POSTALCODEFSA": {
+            "end_pos": 28,
+            "type": "text",
+            "start_pos": 26
+        },
+        "STARTDAY": {
+            "end_pos": 33,
+            "type": "text",
+            "start_pos": 29
+        },
+        "DAYSREGISTERED": {
+            "end_pos": 38,
+            "type": "interval",
+            "start_pos": 34,
+            "format": "%d"
+        },
+        "VERSIONING": {
+            "end_pos": 40,
+            "type": "text",
+            "start_pos": 39
+        },
+        "SEQNO": {
+            "end_pos": 50,
+            "type": "text",
+            "start_pos": 41
+        },
+        "STUDYID": {
+            "end_pos": 60,
+            "type": "text",
+            "start_pos": 51
+        }
+    }
+}

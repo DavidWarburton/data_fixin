@@ -1,0 +1,64 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "bcea involv",
+    "DESCRIPTION": "bcea involvement",
+    "CONFIG": {
+        "ym": {
+            "end_pos": 8,
+            "type": "text",
+            "start_pos": 1
+        },
+        "fileid": {
+            "end_pos": 18,
+            "type": "text",
+            "start_pos": 9
+        },
+        "deprltncd": {
+            "end_pos": 33,
+            "type": "text",
+            "start_pos": 19
+        },
+        "birthdt_YYYYMM": {
+            "end_pos": 39,
+            "type": "date",
+            "start_pos": 34,
+            "format": "%Y%m",
+			"null_values": ["\\N"]
+        },
+        "gender": {
+            "end_pos": 42,
+            "type": "text",
+            "start_pos": 40
+        },
+        "per_corid": {
+            "end_pos": 52,
+            "type": "text",
+            "start_pos": 43
+        },
+        "datayr": {
+            "end_pos": 56,
+            "type": "text",
+            "start_pos": 53
+        },
+        "version": {
+            "end_pos": 58,
+            "type": "text",
+            "start_pos": 57
+        },
+        "seqno": {
+            "end_pos": 68,
+            "type": "text",
+            "start_pos": 59
+        },
+        "studyida": {
+            "end_pos": 69,
+            "type": "text",
+            "start_pos": 69
+        },
+        "studyid": {
+            "end_pos": 78,
+            "type": "text",
+            "start_pos": 70
+        }
+    }
+}

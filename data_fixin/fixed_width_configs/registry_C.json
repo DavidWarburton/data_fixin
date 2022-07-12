@@ -1,0 +1,52 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "registry 1986 - 2017",
+    "DESCRIPTION": "Annual file showing number of days registered with MSP.",
+    "CONFIG": {
+        "PC3": {
+            "type": "text",
+            "start_pos": 1,
+            "end_pos": 3
+        },
+        "HSDA": {
+            "type": "numeric",
+            "start_pos": 4,
+            "end_pos": 5
+        },
+        "HA": {
+            "type": "numeric",
+            "start_pos": 6,
+            "end_pos": 6
+        },
+        "STARTDAY": {
+            "type": "numeric",
+            "start_pos": 7,
+            "end_pos": 11
+        },
+        "DAYSREG": {
+            "type": "numeric",
+            "start_pos": 12,
+            "end_pos": 16
+        },
+        "YEAR": {
+            "type": "numeric",
+            "start_pos": 17,
+            "end_pos": 20
+        },
+        "VERSION": {
+            "type": "text",
+            "start_pos": 21,
+            "end_pos": 22
+        },
+        "SEQNO": {
+            "type": "text",
+            "start_pos": 23,
+            "end_pos": 32
+        },
+        "STUDYID": {
+            "type": "text",
+            "start_pos": 33,
+            "end_pos": 42
+        }
+    }
+}

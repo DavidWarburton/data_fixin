@@ -1,0 +1,203 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "pharmanet claim report A",
+    "DESCRIPTION": "Pharmanet claim report from 1996-01-01 to 2018-03-31",
+    "CONFIG": {
+        "PC_STUDYID": {
+            "type": "text",
+            "end_pos": 10,
+            "start_pos": 1
+        },
+        "PC_CLNT_GENDER_LABEL": {
+            "type": "text",
+            "end_pos": 11,
+            "start_pos": 11
+        },
+        "DM_CL_MRG_CLNT_BRTH_MTH": {
+            "type": "date",
+            "end_pos": 19,
+            "start_pos": 12,
+            "format": "%Y%m"
+        },
+        "DM_CL_AGE_AT_SERVICE_YEAR": {
+            "type": "numeric",
+            "end_pos": 29,
+            "start_pos": 20
+        },
+        "CL_GEO_CLNT_HA_AREA_CD": {
+            "type": "text",
+            "end_pos": 39,
+            "start_pos": 30
+        },
+        "PC_FCTY_LABEL_": {
+            "type": "text",
+            "end_pos": 64,
+            "start_pos": 40
+        },
+        "FC_GEO_FCTY_HA_AREA_CD": {
+            "type": "text",
+            "end_pos": 74,
+            "start_pos": 65
+        },
+        "PR_GEO_PRSCR_PRAC_HA_AREA_CD": {
+            "type": "text",
+            "end_pos": 84,
+            "start_pos": 75
+        },
+        "PR_PRAC_PRSCR_PRAC_LIC_BODY_IDNT": {
+            "type": "text",
+            "end_pos": 94,
+            "start_pos": 85
+        },
+        "PR_INFO_PRSCR_SPTY_FLG": {
+            "type": "boolean",
+            "end_pos": 95,
+            "start_pos": 95,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ]
+        },
+        "PR_INFO_RCNT_CLG_SPTY_1_LABEL": {
+            "type": "text",
+            "end_pos": 105,
+            "start_pos": 96
+        },
+        "PR_INFO_RCNT_CLG_SPTY_2_LABEL": {
+            "type": "text",
+            "end_pos": 115,
+            "start_pos": 106
+        },
+        "PC_HLTH_PROD_LABEL": {
+            "type": "text",
+            "end_pos": 125,
+            "start_pos": 116
+        },
+        "PC_PCARE_PLAN_LABEL": {
+            "type": "text",
+            "end_pos": 127,
+            "start_pos": 126
+        },
+        "PC_SRV_DATE": {
+            "type": "date",
+            "end_pos": 137,
+            "start_pos": 128,
+            "format": "%Y-%m-%d"
+        },
+        "PC_DSPD_QTY": {
+            "type": "numeric",
+            "end_pos": 147,
+            "start_pos": 138
+        },
+        "PC_ACPT_QTY": {
+            "type": "numeric",
+            "end_pos": 157,
+            "start_pos": 148
+        },
+        "PC_DSPD_DAYS_SPLY": {
+            "type": "numeric",
+            "end_pos": 167,
+            "start_pos": 158
+        },
+        "PC_ACPT_DAYS_SPLY": {
+            "type": "numeric",
+            "end_pos": 187,
+            "start_pos": 168
+        },
+        "PC_BLD_PROD_COST": {
+            "type": "numeric",
+            "end_pos": 197,
+            "start_pos": 188
+        },
+        "PC_ACPT_PROD_COST": {
+            "type": "numeric",
+            "end_pos": 207,
+            "start_pos": 198
+        },
+        "PC_PD_PROD_COST": {
+            "type": "numeric",
+            "end_pos": 217,
+            "start_pos": 208
+        },
+        "PC_BLD_PROF_FEE": {
+            "type": "numeric",
+            "end_pos": 227,
+            "start_pos": 218
+        },
+        "PC_ACPT_PROF_FEE": {
+            "type": "numeric",
+            "end_pos": 237,
+            "start_pos": 228
+        },
+        "PC_PD_PROF_FEE": {
+            "type": "numeric",
+            "end_pos": 247,
+            "start_pos": 238
+        },
+        "PC_BLD_SPEC_SRV_FEE": {
+            "type": "numeric",
+            "end_pos": 257,
+            "start_pos": 248
+        },
+        "PC_PD_SPEC_SRV_FEE": {
+            "type": "numeric",
+            "end_pos": 267,
+            "start_pos": 258
+        },
+        "PC_TOT_CLNT_PD_AMT": {
+            "type": "numeric",
+            "end_pos": 277,
+            "start_pos": 268
+        },
+        "PC_TOT_PCARE_PD_AMT": {
+            "type": "numeric",
+            "end_pos": 287,
+            "start_pos": 278
+        },
+        "PC_SPEC_AUTHY_FLG": {
+            "type": "boolean",
+            "end_pos": 288,
+            "start_pos": 288,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ]
+        },
+        "PC_SPEC_AUTHY_LCA_FLG": {
+            "type": "text",
+            "end_pos": 289,
+            "start_pos": 289
+        },
+        "PC_SPEC_AUTHY_RDP_FLG": {
+            "type": "text",
+            "end_pos": 290,
+            "start_pos": 290
+        },
+        "PC_SPEC_AUTHY_XCPNL_LTD_CVG_FLG": {
+            "type": "boolean",
+            "end_pos": 291,
+            "start_pos": 291,
+			"true_values": ["Y"],
+			"false_values": ["N"]
+        },
+        "PC_ACUM_EXP_AMT": {
+            "type": "numeric",
+            "end_pos": 313,
+            "start_pos": 292
+        },
+        "PC_PCARE_PMT_STS_LABEL": {
+            "type": "text",
+            "end_pos": 315,
+            "start_pos": 314
+        },
+        "PR_PRAC_PRSCR_PRAC_IDNT_": {
+            "type": "text",
+            "end_pos": 320,
+            "start_pos": 316
+        }
+    }
+}

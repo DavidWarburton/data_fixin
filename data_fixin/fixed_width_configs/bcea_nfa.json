@@ -1,0 +1,37 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "bcea nfa",
+    "DESCRIPTION": "bcea nfa",
+    "CONFIG": {
+        "_ym": {
+            "start_pos": 1,
+            "end_pos": 6,
+            "type": "text"
+        },
+        "_fileid": {
+            "start_pos": 7,
+            "end_pos": 16,
+            "type": "text"
+        },
+        "nfa": {
+            "start_pos": 17,
+            "end_pos": 19,
+            "type": "text"
+        },
+        "datayr": {
+            "start_pos": 20,
+            "end_pos": 23,
+            "type": "text"
+        },
+        "version": {
+            "start_pos": 24,
+            "end_pos": 25,
+            "type": "text"
+        },
+        "seqno": {
+            "start_pos": 26,
+            "end_pos": 35,
+            "type": "text"
+        }
+    }
+}

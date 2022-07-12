@@ -1,0 +1,247 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "births",
+    "DESCRIPTION": "birth records 1985-2017",
+    "CONFIG": {
+        "regnum": {
+            "start_pos": 1,
+            "end_pos": 10,
+            "type": "numeric"
+        },
+        "c_dobyyyymm": {
+            "start_pos": 11,
+            "end_pos": 16,
+            "type": "DATE",
+            "format": "%Y%m"
+        },
+        "time_bth": {
+            "start_pos": 17,
+            "end_pos": 20,
+            "type": "time",
+            "format": "%M%S"
+        },
+        "pc_bth_3": {
+            "start_pos": 21,
+            "end_pos": 23,
+            "type": "text"
+        },
+        "place_type": {
+            "start_pos": 24,
+            "end_pos": 25,
+            "type": "numeric"
+        },
+        "hosp_id": {
+            "start_pos": 26,
+            "end_pos": 35,
+            "type": "numeric"
+        },
+        "married": {
+            "start_pos": 36,
+            "end_pos": 36,
+            "type": "text"
+        },
+        "c_sex": {
+            "start_pos": 37,
+            "end_pos": 37,
+            "type": "text"
+        },
+        "totlive_bth": {
+            "start_pos": 38,
+            "end_pos": 39,
+            "type": "numeric"
+        },
+        "totstll_bth": {
+            "start_pos": 40,
+            "end_pos": 41,
+            "type": "numeric"
+        },
+        "n_pregs": {
+            "start_pos": 42,
+            "end_pos": 43,
+            "type": "numeric"
+        },
+        "m_provbth": {
+            "start_pos": 44,
+            "end_pos": 93,
+            "type": "text"
+        },
+        "m_coubth": {
+            "start_pos": 94,
+            "end_pos": 143,
+            "type": "text"
+        },
+        "m_marstat": {
+            "start_pos": 144,
+            "end_pos": 144,
+            "type": "text"
+        },
+        "m_dobyyyymm": {
+            "start_pos": 145,
+            "end_pos": 150,
+            "type": "date",
+            "format": "%Y%m"
+        },
+        "m_age": {
+            "start_pos": 151,
+            "end_pos": 153,
+            "type": "numeric"
+        },
+        "m_astatus": {
+            "start_pos": 154,
+            "end_pos": 154,
+            "type": "Boolean",
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ]
+        },
+        "m_onresrv": {
+            "start_pos": 155,
+            "end_pos": 155,
+            "type": "text"
+        },
+        "m_prov": {
+            "start_pos": 156,
+            "end_pos": 205,
+            "type": "text"
+        },
+        "m_cou": {
+            "start_pos": 206,
+            "end_pos": 255,
+            "type": "text"
+        },
+        "m_pc_3": {
+            "start_pos": 256,
+            "end_pos": 258,
+            "type": "text"
+        },
+        "cp_dobyyyymm": {
+            "start_pos": 259,
+            "end_pos": 264,
+            "type": "DATE",
+            "format": "%Y%m"
+        },
+        "cp_age": {
+            "start_pos": 265,
+            "end_pos": 267,
+            "type": "numeric"
+        },
+        "cp_sex": {
+            "start_pos": 268,
+            "end_pos": 268,
+            "type": "text"
+        },
+        "cp_provbth": {
+            "start_pos": 269,
+            "end_pos": 318,
+            "type": "text"
+        },
+        "cp_coubth": {
+            "start_pos": 319,
+            "end_pos": 368,
+            "type": "text"
+        },
+        "cp_astatus": {
+            "start_pos": 369,
+            "end_pos": 369,
+            "type": "text"
+        },
+        "cp_onresrv": {
+            "start_pos": 370,
+            "end_pos": 370,
+            "type": "text"
+        },
+        "at_type": {
+            "start_pos": 371,
+            "end_pos": 371,
+            "type": "numeric"
+        },
+        "at_mscno": {
+            "start_pos": 372,
+            "end_pos": 382,
+            "type": "numeric"
+        },
+        "born_alive": {
+            "start_pos": 383,
+            "end_pos": 383,
+            "type": "text"
+        },
+        "kind_bth": {
+            "start_pos": 384,
+            "end_pos": 384,
+            "type": "numeric"
+        },
+        "bth_order": {
+            "start_pos": 385,
+            "end_pos": 386,
+            "type": "numeric"
+        },
+        "apgar_1m": {
+            "start_pos": 387,
+            "end_pos": 388,
+            "type": "numeric"
+        },
+        "apgar_5m": {
+            "start_pos": 389,
+            "end_pos": 390,
+            "type": "numeric"
+        },
+        "bth_wgt": {
+            "start_pos": 391,
+            "end_pos": 394,
+            "type": "numeric"
+        },
+        "gestperiod": {
+            "start_pos": 395,
+            "end_pos": 396,
+            "type": "numeric"
+        },
+        "headcircum": {
+            "start_pos": 397,
+            "end_pos": 399,
+            "type": "numeric"
+        },
+        "bodylength": {
+            "start_pos": 400,
+            "end_pos": 402,
+            "type": "numeric"
+        },
+        "deliv_mode": {
+            "start_pos": 403,
+            "end_pos": 403,
+            "type": "text"
+        },
+        "ver_year": {
+            "start_pos": 404,
+            "end_pos": 407,
+            "type": "text"
+        },
+        "ver_num": {
+            "start_pos": 408,
+            "end_pos": 409,
+            "type": "text"
+        },
+        "seqno": {
+            "start_pos": 410,
+            "end_pos": 419,
+            "type": "text"
+        },
+        "STUDYID1": {
+            "start_pos": 420,
+            "end_pos": 429,
+            "type": "text"
+        },
+        "STUDYID2": {
+            "start_pos": 430,
+            "end_pos": 439,
+            "type": "text"
+        },
+        "STUDYID3": {
+            "start_pos": 440,
+            "end_pos": 449,
+            "type": "text"
+        }
+    }
+}

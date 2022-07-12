@@ -1,0 +1,962 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "Hospital A",
+    "DESCRIPTION": "Discharge Abstract from 1985-04-01 to 2001-03-31",
+    "CONFIG": {
+        "HOSP_": {
+            "start_pos": 1,
+            "end_pos": 3,
+            "type": "numeric"
+        },
+        "LEVEL": {
+            "start_pos": 4,
+            "end_pos": 4,
+            "type": "text"
+        },
+        "ADDATE": {
+            "start_pos": 5,
+            "end_pos": 16,
+            "type": "timestamp",
+            "format": "%Y-%m-%d%H",
+			"null_values": ["ZZZZ-ZZ-ZZ"],
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2} \\d{1}": "{ADDATE}[:-2]{ADDATE}[-1:]",
+				"\\d{4}-\\d{2}-\\d{4}": "{ADDATE}[:-2]0",
+				"ZZZZ-ZZ-ZZ\\d{2}": "{ADDATE}[:-2]"
+			}
+        },
+        "SEPDATE": {
+            "start_pos": 17,
+            "end_pos": 28,
+            "type": "timestamp",
+            "format": "%Y-%m-%d%H",
+			"solutions": {
+				"\\d{4}-\\d{2}-\\d{2} \\d{1}": "{SEPDATE}[:-2]{SEPDATE}[-1:]",
+				"\\d{4}-\\d{2}-\\d{4}": "{SEPDATE}[:-2]0",
+				"ZZZZ-ZZ-ZZ\\d{2}": "{SEPDATE}[:-2]"
+			}
+        },
+        "ADMIT": {
+            "start_pos": 29,
+            "end_pos": 29,
+            "type": "text"
+        },
+        "ENTRY": {
+            "start_pos": 30,
+            "end_pos": 30,
+            "type": "text"
+        },
+        "EXIT": {
+            "start_pos": 31,
+            "end_pos": 31,
+            "type": "text"
+        },
+        "DTHCDE": {
+            "start_pos": 32,
+            "end_pos": 40,
+            "type": "text"
+        },
+        "AGE2001": {
+            "start_pos": 41,
+            "end_pos": 41,
+            "type": "numeric"
+        },
+        "ALCDAYS": {
+            "start_pos": 42,
+            "end_pos": 46,
+            "type": "numeric"
+        },
+        "AMBTYPE": {
+            "start_pos": 47,
+            "end_pos": 47,
+            "type": "text"
+        },
+        "AMBULANC": {
+            "start_pos": 48,
+            "end_pos": 48,
+            "type": "text"
+        },
+        "ANA1": {
+            "start_pos": 49,
+            "end_pos": 49,
+            "type": "numeric"
+        },
+        "ANA2": {
+            "start_pos": 50,
+            "end_pos": 50,
+            "type": "numeric"
+        },
+        "ANA3": {
+            "start_pos": 51,
+            "end_pos": 51,
+            "type": "numeric"
+        },
+        "ANA4": {
+            "start_pos": 52,
+            "end_pos": 52,
+            "type": "numeric"
+        },
+        "ANA5": {
+            "start_pos": 53,
+            "end_pos": 53,
+            "type": "numeric"
+        },
+        "ANA6": {
+            "start_pos": 54,
+            "end_pos": 54,
+            "type": "numeric"
+        },
+        "ANA7": {
+            "start_pos": 55,
+            "end_pos": 55,
+            "type": "numeric"
+        },
+        "ANA8": {
+            "start_pos": 56,
+            "end_pos": 56,
+            "type": "numeric"
+        },
+        "ANA9": {
+            "start_pos": 57,
+            "end_pos": 57,
+            "type": "numeric"
+        },
+        "ANA10": {
+            "start_pos": 58,
+            "end_pos": 58,
+            "type": "numeric"
+        },
+        "ANA11": {
+            "start_pos": 59,
+            "end_pos": 59,
+            "type": "numeric"
+        },
+        "ANA12": {
+            "start_pos": 60,
+            "end_pos": 60,
+            "type": "numeric"
+        },
+        "AR_DAYS": {
+            "start_pos": 61,
+            "end_pos": 65,
+            "type": "numeric"
+        },
+        "ASS_LTC": {
+            "start_pos": 66,
+            "end_pos": 66,
+            "type": "text"
+        },
+        "ASS_DPU": {
+            "start_pos": 67,
+            "end_pos": 67,
+            "type": "text"
+        },
+        "AUTOPSY": {
+            "start_pos": 68,
+            "end_pos": 68,
+            "type": "numeric"
+        },
+        "BIRTHWT": {
+            "start_pos": 69,
+            "end_pos": 73,
+            "type": "numeric"
+        },
+        "CBDDAYS": {
+            "start_pos": 74,
+            "end_pos": 78,
+            "type": "numeric"
+        },
+        "CCMG01": {
+            "start_pos": 79,
+            "end_pos": 81,
+            "type": "numeric"
+        },
+        "CCUDAYS": {
+            "start_pos": 82,
+            "end_pos": 86,
+            "type": "numeric"
+        },
+        "CD800999": {
+            "start_pos": 87,
+            "end_pos": 92,
+            "type": "text"
+        },
+        "CEXCLF01": {
+            "start_pos": 93,
+            "end_pos": 93,
+            "type": "numeric"
+        },
+        "CMG_OP": {
+            "start_pos": 94,
+            "end_pos": 94,
+            "type": "numeric"
+        },
+        "CORONER": {
+            "start_pos": 95,
+            "end_pos": 95,
+            "type": "numeric"
+        },
+        "CRIW01": {
+            "start_pos": 96,
+            "end_pos": 103,
+            "type": "numeric"
+        },
+        "DAYS1": {
+            "start_pos": 104,
+            "end_pos": 108,
+            "type": "numeric"
+        },
+        "DAYS2": {
+            "start_pos": 109,
+            "end_pos": 113,
+            "type": "numeric"
+        },
+        "DAYS3": {
+            "start_pos": 114,
+            "end_pos": 118,
+            "type": "numeric"
+        },
+        "DIAG1": {
+            "start_pos": 119,
+            "end_pos": 124,
+            "type": "text"
+        },
+        "DIAG2": {
+            "start_pos": 125,
+            "end_pos": 130,
+            "type": "text"
+        },
+        "DIAG3": {
+            "start_pos": 131,
+            "end_pos": 136,
+            "type": "text"
+        },
+        "DIAG4": {
+            "start_pos": 137,
+            "end_pos": 142,
+            "type": "text"
+        },
+        "DIAG5": {
+            "start_pos": 143,
+            "end_pos": 148,
+            "type": "text"
+        },
+        "DIAG6": {
+            "start_pos": 149,
+            "end_pos": 154,
+            "type": "text"
+        },
+        "DIAG7": {
+            "start_pos": 155,
+            "end_pos": 160,
+            "type": "text"
+        },
+        "DIAG8": {
+            "start_pos": 161,
+            "end_pos": 166,
+            "type": "text"
+        },
+        "DIAG9": {
+            "start_pos": 167,
+            "end_pos": 172,
+            "type": "text"
+        },
+        "DIAG10": {
+            "start_pos": 173,
+            "end_pos": 178,
+            "type": "text"
+        },
+        "DIAG11": {
+            "start_pos": 179,
+            "end_pos": 184,
+            "type": "text"
+        },
+        "DIAG12": {
+            "start_pos": 185,
+            "end_pos": 190,
+            "type": "text"
+        },
+        "DIAG13": {
+            "start_pos": 191,
+            "end_pos": 196,
+            "type": "text"
+        },
+        "DIAG14": {
+            "start_pos": 197,
+            "end_pos": 202,
+            "type": "text"
+        },
+        "DIAG15": {
+            "start_pos": 203,
+            "end_pos": 208,
+            "type": "text"
+        },
+        "DIAG16": {
+            "start_pos": 209,
+            "end_pos": 214,
+            "type": "text"
+        },
+        "DIAGCLS": {
+            "start_pos": 215,
+            "end_pos": 216,
+            "type": "numeric"
+        },
+        "DOC_SPEC": {
+            "start_pos": 217,
+            "end_pos": 218,
+            "type": "numeric"
+        },
+        "DPG01": {
+            "start_pos": 219,
+            "end_pos": 220,
+            "type": "numeric"
+        },
+        "DPUDAYS": {
+            "start_pos": 221,
+            "end_pos": 225,
+            "type": "numeric"
+        },
+        "DRIW01": {
+            "start_pos": 226,
+            "end_pos": 233,
+            "type": "numeric"
+        },
+        "DSL": {
+            "start_pos": 234,
+            "end_pos": 236,
+            "type": "numeric"
+        },
+        "DTYP1": {
+            "start_pos": 237,
+            "end_pos": 237,
+            "type": "text"
+        },
+        "DTYP2": {
+            "start_pos": 238,
+            "end_pos": 238,
+            "type": "text"
+        },
+        "DTYP3": {
+            "start_pos": 239,
+            "end_pos": 239,
+            "type": "text"
+        },
+        "DTYP4": {
+            "start_pos": 240,
+            "end_pos": 240,
+            "type": "text"
+        },
+        "DTYP5": {
+            "start_pos": 241,
+            "end_pos": 241,
+            "type": "text"
+        },
+        "DTYP6": {
+            "start_pos": 242,
+            "end_pos": 242,
+            "type": "text"
+        },
+        "DTYP7": {
+            "start_pos": 243,
+            "end_pos": 243,
+            "type": "text"
+        },
+        "DTYP8": {
+            "start_pos": 244,
+            "end_pos": 244,
+            "type": "text"
+        },
+        "DTYP9": {
+            "start_pos": 245,
+            "end_pos": 245,
+            "type": "text"
+        },
+        "DTYP10": {
+            "start_pos": 246,
+            "end_pos": 246,
+            "type": "text"
+        },
+        "DTYP11": {
+            "start_pos": 247,
+            "end_pos": 247,
+            "type": "text"
+        },
+        "DTYP12": {
+            "start_pos": 248,
+            "end_pos": 248,
+            "type": "text"
+        },
+        "DTYP13": {
+            "start_pos": 249,
+            "end_pos": 249,
+            "type": "text"
+        },
+        "DTYP14": {
+            "start_pos": 250,
+            "end_pos": 250,
+            "type": "text"
+        },
+        "DTYP15": {
+            "start_pos": 251,
+            "end_pos": 251,
+            "type": "text"
+        },
+        "DTYP16": {
+            "start_pos": 252,
+            "end_pos": 252,
+            "type": "text"
+        },
+        "ECODE1": {
+            "start_pos": 253,
+            "end_pos": 258,
+            "type": "text"
+        },
+        "ECODE2": {
+            "start_pos": 259,
+            "end_pos": 264,
+            "type": "text"
+        },
+        "ELOS01": {
+            "start_pos": 265,
+            "end_pos": 270,
+            "type": "numeric"
+        },
+        "ANAS1_": {
+            "start_pos": 271,
+            "end_pos": 275,
+            "type": "numeric"
+        },
+        "ANAS2_": {
+            "start_pos": 276,
+            "end_pos": 280,
+            "type": "numeric"
+        },
+        "ANAS3_": {
+            "start_pos": 281,
+            "end_pos": 285,
+            "type": "numeric"
+        },
+        "ANAS4_": {
+            "start_pos": 286,
+            "end_pos": 290,
+            "type": "numeric"
+        },
+        "ANAS5_": {
+            "start_pos": 291,
+            "end_pos": 295,
+            "type": "numeric"
+        },
+        "ANAS6_": {
+            "start_pos": 296,
+            "end_pos": 300,
+            "type": "numeric"
+        },
+        "ANAS7_": {
+            "start_pos": 301,
+            "end_pos": 305,
+            "type": "numeric"
+        },
+        "ANAS8_": {
+            "start_pos": 306,
+            "end_pos": 310,
+            "type": "numeric"
+        },
+        "ANAS9_": {
+            "start_pos": 311,
+            "end_pos": 315,
+            "type": "numeric"
+        },
+        "ANAS10_": {
+            "start_pos": 316,
+            "end_pos": 320,
+            "type": "numeric"
+        },
+        "ANAS11_": {
+            "start_pos": 321,
+            "end_pos": 325,
+            "type": "numeric"
+        },
+        "ANAS12_": {
+            "start_pos": 326,
+            "end_pos": 330,
+            "type": "numeric"
+        },
+        "RESPHY_": {
+            "start_pos": 331,
+            "end_pos": 335,
+            "type": "numeric"
+        },
+        "SURG1_": {
+            "start_pos": 336,
+            "end_pos": 340,
+            "type": "numeric"
+        },
+        "SURG2_": {
+            "start_pos": 341,
+            "end_pos": 345,
+            "type": "numeric"
+        },
+        "SURG3_": {
+            "start_pos": 346,
+            "end_pos": 350,
+            "type": "numeric"
+        },
+        "SURG4_": {
+            "start_pos": 351,
+            "end_pos": 355,
+            "type": "numeric"
+        },
+        "SURG5_": {
+            "start_pos": 356,
+            "end_pos": 360,
+            "type": "numeric"
+        },
+        "SURG6_": {
+            "start_pos": 361,
+            "end_pos": 365,
+            "type": "numeric"
+        },
+        "SURG7_": {
+            "start_pos": 366,
+            "end_pos": 370,
+            "type": "numeric"
+        },
+        "SURG8_": {
+            "start_pos": 371,
+            "end_pos": 375,
+            "type": "numeric"
+        },
+        "SURG9_": {
+            "start_pos": 376,
+            "end_pos": 380,
+            "type": "numeric"
+        },
+        "SURG10_": {
+            "start_pos": 381,
+            "end_pos": 385,
+            "type": "numeric"
+        },
+        "SURG11_": {
+            "start_pos": 386,
+            "end_pos": 390,
+            "type": "numeric"
+        },
+        "SURG12_": {
+            "start_pos": 391,
+            "end_pos": 395,
+            "type": "numeric"
+        },
+        "GESTAGE": {
+            "start_pos": 396,
+            "end_pos": 397,
+            "type": "numeric"
+        },
+        "GRADE01": {
+            "start_pos": 398,
+            "end_pos": 398,
+            "type": "numeric"
+        },
+        "HOSPFROM_": {
+            "start_pos": 399,
+            "end_pos": 401,
+            "type": "numeric"
+        },
+        "HOSPSIZE": {
+            "start_pos": 402,
+            "end_pos": 402,
+            "type": "numeric"
+        },
+        "HOSPTO_": {
+            "start_pos": 403,
+            "end_pos": 405,
+            "type": "numeric"
+        },
+        "ICUDAYS": {
+            "start_pos": 406,
+            "end_pos": 410,
+            "type": "numeric"
+        },
+        "LEVLFROM": {
+            "start_pos": 411,
+            "end_pos": 411,
+            "type": "text"
+        },
+        "LEVLTO": {
+            "start_pos": 412,
+            "end_pos": 412,
+            "type": "text"
+        },
+        "LOS_1": {
+            "start_pos": 413,
+            "end_pos": 414,
+            "type": "numeric"
+        },
+        "LOS_2": {
+            "start_pos": 415,
+            "end_pos": 416,
+            "type": "numeric"
+        },
+        "LVL01": {
+            "start_pos": 417,
+            "end_pos": 417,
+            "type": "numeric"
+        },
+        "MCC01": {
+            "start_pos": 418,
+            "end_pos": 419,
+            "type": "numeric"
+        },
+        "NICU_L2": {
+            "start_pos": 420,
+            "end_pos": 421,
+            "type": "numeric"
+        },
+        "NICU_L3": {
+            "start_pos": 422,
+            "end_pos": 423,
+            "type": "numeric"
+        },
+        "OOPHOSP_": {
+            "start_pos": 424,
+            "end_pos": 427,
+            "type": "text"
+        },
+        "OOPPROV": {
+            "start_pos": 428,
+            "end_pos": 429,
+            "type": "text"
+        },
+        "OPDEATH": {
+            "start_pos": 430,
+            "end_pos": 430,
+            "type": "text"
+        },
+        "OPNONOP": {
+            "start_pos": 431,
+            "end_pos": 431,
+            "type": "numeric"
+        },
+        "OP_GRP1": {
+            "start_pos": 432,
+            "end_pos": 433,
+            "type": "numeric"
+        },
+        "OP_GRP2": {
+            "start_pos": 434,
+            "end_pos": 435,
+            "type": "numeric"
+        },
+        "OP_GRP3": {
+            "start_pos": 436,
+            "end_pos": 437,
+            "type": "numeric"
+        },
+        "OTHERAPY": {
+            "start_pos": 438,
+            "end_pos": 438,
+            "type": "text"
+        },
+        "PATSERV": {
+            "start_pos": 439,
+            "end_pos": 440,
+            "type": "numeric"
+        },
+        "PDATE1": {
+            "start_pos": 441,
+            "end_pos": 450,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE2": {
+            "start_pos": 451,
+            "end_pos": 460,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE3": {
+            "start_pos": 461,
+            "end_pos": 470,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE4": {
+            "start_pos": 471,
+            "end_pos": 480,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE5": {
+            "start_pos": 481,
+            "end_pos": 490,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE6": {
+            "start_pos": 491,
+            "end_pos": 500,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE7": {
+            "start_pos": 501,
+            "end_pos": 510,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE8": {
+            "start_pos": 511,
+            "end_pos": 520,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE9": {
+            "start_pos": 521,
+            "end_pos": 530,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE10": {
+            "start_pos": 531,
+            "end_pos": 540,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE11": {
+            "start_pos": 541,
+            "end_pos": 550,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PDATE12": {
+            "start_pos": 551,
+            "end_pos": 560,
+            "type": "DATE",
+            "format": "%Y-%m-%d"
+        },
+        "PREADMIT": {
+            "start_pos": 561,
+            "end_pos": 566,
+            "type": "text"
+        },
+        "PROC1": {
+            "start_pos": 567,
+            "end_pos": 571,
+            "type": "text"
+        },
+        "PROC2": {
+            "start_pos": 572,
+            "end_pos": 576,
+            "type": "text"
+        },
+        "PROC3": {
+            "start_pos": 577,
+            "end_pos": 581,
+            "type": "text"
+        },
+        "PROC4": {
+            "start_pos": 582,
+            "end_pos": 586,
+            "type": "text"
+        },
+        "PROC5": {
+            "start_pos": 587,
+            "end_pos": 591,
+            "type": "text"
+        },
+        "PROC6": {
+            "start_pos": 592,
+            "end_pos": 596,
+            "type": "text"
+        },
+        "PROC7": {
+            "start_pos": 597,
+            "end_pos": 601,
+            "type": "text"
+        },
+        "PROC8": {
+            "start_pos": 602,
+            "end_pos": 606,
+            "type": "text"
+        },
+        "PROC9": {
+            "start_pos": 607,
+            "end_pos": 611,
+            "type": "text"
+        },
+        "PROC10": {
+            "start_pos": 612,
+            "end_pos": 616,
+            "type": "text"
+        },
+        "PROC11": {
+            "start_pos": 617,
+            "end_pos": 621,
+            "type": "text"
+        },
+        "PROC12": {
+            "start_pos": 622,
+            "end_pos": 626,
+            "type": "text"
+        },
+        "PROV": {
+            "start_pos": 627,
+            "end_pos": 628,
+            "type": "text"
+        },
+        "PTHERAPY": {
+            "start_pos": 629,
+            "end_pos": 629,
+            "type": "text"
+        },
+        "REHABDAY": {
+            "start_pos": 630,
+            "end_pos": 634,
+            "type": "numeric"
+        },
+        "RESIND": {
+            "start_pos": 635,
+            "end_pos": 635,
+            "type": "numeric"
+        },
+        "RFP": {
+            "start_pos": 636,
+            "end_pos": 637,
+            "type": "text"
+        },
+        "RTHERAPY": {
+            "start_pos": 638,
+            "end_pos": 638,
+            "type": "numeric"
+        },
+        "SDSURG": {
+            "start_pos": 639,
+            "end_pos": 639,
+            "type": "text"
+        },
+        "SERV1": {
+            "start_pos": 640,
+            "end_pos": 641,
+            "type": "numeric"
+        },
+        "SERV2": {
+            "start_pos": 642,
+            "end_pos": 643,
+            "type": "numeric"
+        },
+        "SERV3": {
+            "start_pos": 644,
+            "end_pos": 645,
+            "type": "numeric"
+        },
+        "SERVGRP": {
+            "start_pos": 646,
+            "end_pos": 646,
+            "type": "numeric"
+        },
+        "SRV1": {
+            "start_pos": 647,
+            "end_pos": 648,
+            "type": "numeric"
+        },
+        "SRV2": {
+            "start_pos": 649,
+            "end_pos": 650,
+            "type": "numeric"
+        },
+        "SRV3": {
+            "start_pos": 651,
+            "end_pos": 652,
+            "type": "numeric"
+        },
+        "SRV4": {
+            "start_pos": 653,
+            "end_pos": 654,
+            "type": "numeric"
+        },
+        "SRV5": {
+            "start_pos": 655,
+            "end_pos": 656,
+            "type": "numeric"
+        },
+        "SRV6": {
+            "start_pos": 657,
+            "end_pos": 658,
+            "type": "numeric"
+        },
+        "SRV7": {
+            "start_pos": 659,
+            "end_pos": 660,
+            "type": "numeric"
+        },
+        "SRV8": {
+            "start_pos": 661,
+            "end_pos": 662,
+            "type": "numeric"
+        },
+        "SRV9": {
+            "start_pos": 663,
+            "end_pos": 664,
+            "type": "numeric"
+        },
+        "SRV10": {
+            "start_pos": 665,
+            "end_pos": 666,
+            "type": "numeric"
+        },
+        "SSL": {
+            "start_pos": 667,
+            "end_pos": 669,
+            "type": "numeric"
+        },
+        "STHERAPY": {
+            "start_pos": 670,
+            "end_pos": 670,
+            "type": "numeric"
+        },
+        "SUPDEATH": {
+            "start_pos": 671,
+            "end_pos": 671,
+            "type": "numeric"
+        },
+        "TDAYS": {
+            "start_pos": 672,
+            "end_pos": 676,
+            "type": "numeric"
+        },
+        "TERTCODE": {
+            "start_pos": 677,
+            "end_pos": 678,
+            "type": "numeric"
+        },
+        "TERTPROJ": {
+            "start_pos": 679,
+            "end_pos": 680,
+            "type": "numeric"
+        },
+        "TRDPARTY": {
+            "start_pos": 681,
+            "end_pos": 681,
+            "type": "text"
+        },
+        "VER_YEAR": {
+            "start_pos": 682,
+            "end_pos": 685,
+            "type": "text"
+        },
+        "VER_NUM": {
+            "start_pos": 686,
+            "end_pos": 687,
+            "type": "text"
+        },
+        "SEQNO": {
+            "start_pos": 688,
+            "end_pos": 697,
+            "type": "text"
+        },
+        "STUDYID": {
+            "start_pos": 698,
+            "end_pos": 707,
+            "type": "text"
+        }
+    }
+}

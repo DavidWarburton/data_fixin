@@ -1,0 +1,324 @@
+{
+    "ORIGIN": "Pop Data BC",
+    "SHORT_NAME": "mother postpartum",
+    "DESCRIPTION": "I still don't have anything useful to put here",
+    "CONFIG": {
+        "M_INSTITUTION_ID_": {
+            "end_pos": 6,
+            "type": "numeric",
+            "start_pos": 1
+        },
+        "M_INSTITUTION_FROM_": {
+            "end_pos": 12,
+            "type": "numeric",
+            "start_pos": 7
+        },
+        "M_TRANS_IN": {
+            "end_pos": 15,
+            "type": "boolean",
+            "start_pos": 13,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_INSTITUTION_TO_": {
+            "end_pos": 21,
+            "type": "numeric",
+            "start_pos": 16
+        },
+        "M_TRANS_OUT": {
+            "end_pos": 24,
+            "type": "boolean",
+            "start_pos": 22,
+            "true_values": [
+                "1"
+            ],
+            "null_values": [
+                ""
+            ]
+        },
+        "M_ADMISSION_DATEYYYY": {
+            "end_pos": 28,
+            "type": "date",
+            "start_pos": 25,
+            "format": "%Y"
+        },
+        "M_ADMISSION_DATEMM": {
+            "end_pos": 30,
+            "type": "date",
+            "start_pos": 29,
+            "format": "%m"
+        },
+        "M_ADMISSION_HOUR": {
+            "end_pos": 48,
+            "type": "time",
+            "start_pos": 31,
+            "format": "%H:%M:%S.%f0"
+        },
+        "M_DISCHARGE_DATEYYYY": {
+            "end_pos": 52,
+            "type": "date",
+            "start_pos": 49,
+            "format": "%Y"
+        },
+        "M_DISCHARGE_DATEMM": {
+            "end_pos": 54,
+            "type": "date",
+            "start_pos": 53,
+            "format": "%m"
+        },
+        "M_DISCHARGE_HOUR": {
+            "end_pos": 72,
+            "type": "time",
+            "start_pos": 55,
+            "format": "%H:%M:%S.%f0"
+        },
+        "M_FISCAL_YR": {
+            "end_pos": 83,
+            "type": "text",
+            "start_pos": 73
+        },
+        "M_TOT_LOS": {
+            "end_pos": 95,
+            "type": "numeric",
+            "start_pos": 84
+        },
+        "PP_DELIVERY_DATEYYYY": {
+            "end_pos": 99,
+            "type": "date",
+            "start_pos": 96,
+            "format": "%Y"
+        },
+        "PP_DELIVERY_DATEMM": {
+            "end_pos": 101,
+            "type": "date",
+            "start_pos": 100,
+            "format": "%m"
+        },
+        "PP_DELIVERY_INST_NO_": {
+            "end_pos": 107,
+            "type": "numeric",
+            "start_pos": 102
+        },
+        "BLOOD_TRANSFUSION_FLG": {
+            "end_pos": 110,
+            "type": "boolean",
+            "start_pos": 108,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "UNITS_POSTPARTUM": {
+            "end_pos": 114,
+            "type": "numeric",
+            "start_pos": 111
+        },
+        "PP_HELLP_SYNDROME": {
+            "end_pos": 117,
+            "type": "boolean",
+            "start_pos": 115,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_FATTY_LIVER": {
+            "end_pos": 120,
+            "type": "boolean",
+            "start_pos": 118,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_LIVER_HEMATOMA": {
+            "end_pos": 123,
+            "type": "boolean",
+            "start_pos": 121,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_SCU_DAYS": {
+            "end_pos": 128,
+            "type": "numeric",
+            "start_pos": 124
+        },
+        "PP_HEMOGLOBIN_DATEYYYY": {
+            "end_pos": 132,
+            "type": "date",
+            "start_pos": 129,
+            "format": "%Y"
+        },
+        "PP_HEMOGLOBIN_DATEMM": {
+            "end_pos": 134,
+            "type": "date",
+            "start_pos": 133,
+            "format": "%m"
+        },
+        "PP_HEMOGLOBIN_VALUE": {
+            "end_pos": 139,
+            "type": "numeric",
+            "start_pos": 135
+        },
+        "PP_INFECTION": {
+            "end_pos": 142,
+            "type": "boolean",
+            "start_pos": 140,
+            "true_values": [
+                "Y"
+            ],
+            "false_values": [
+                "N"
+            ],
+            "null_values": [
+                "U"
+            ]
+        },
+        "PP_WOUND_INFECTION": {
+            "end_pos": 145,
+            "type": "boolean",
+            "start_pos": 143,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_WOUND_TYPE": {
+            "end_pos": 149,
+            "type": "text",
+            "start_pos": 146
+        },
+        "PP_WOUND_SEVERITY": {
+            "end_pos": 153,
+            "type": "text",
+            "start_pos": 150
+        },
+        "PP_UTI": {
+            "end_pos": 157,
+            "type": "text",
+            "start_pos": 154
+        },
+        "PP_URINE_AGENT_1": {
+            "end_pos": 164,
+            "type": "text",
+            "start_pos": 158
+        },
+        "PP_URINE_AGENT_2": {
+            "end_pos": 171,
+            "type": "text",
+            "start_pos": 165
+        },
+        "PP_POS_BLOOD_CULTURE": {
+            "end_pos": 174,
+            "type": "boolean",
+            "start_pos": 172,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_BLOOD_AGENT_1": {
+            "end_pos": 181,
+            "type": "text",
+            "start_pos": 175
+        },
+        "PP_BLOOD_AGENT_2": {
+            "end_pos": 188,
+            "type": "text",
+            "start_pos": 182
+        },
+        "PP_POS_OTHER_CULTURE": {
+            "end_pos": 191,
+            "type": "boolean",
+            "start_pos": 189,
+            "true_values": [
+                "Y"
+            ],
+            "null_values": [
+                "N",
+                ""
+            ]
+        },
+        "PP_OTHER_INFECT_AGENT_1": {
+            "end_pos": 198,
+            "type": "text",
+            "start_pos": 192
+        },
+        "PP_OTHER_INFECT_AGENT_2": {
+            "end_pos": 205,
+            "type": "text",
+            "start_pos": 199
+        },
+        "M_MAIN_PATIENT_SERVICE": {
+            "end_pos": 209,
+            "type": "text",
+            "start_pos": 206
+        },
+        "M_DATE_OF_BIRTHYYYY": {
+            "end_pos": 213,
+            "type": "date",
+            "start_pos": 210,
+            "format": "%Y"
+        },
+        "M_DATE_OF_BIRTHMM": {
+            "end_pos": 215,
+            "type": "date",
+            "start_pos": 214,
+            "format": "%m"
+        },
+        "POSTPARTUM_MOTHERID_": {
+            "end_pos": 225,
+            "type": "numeric",
+            "start_pos": 216
+        },
+        "LINKPREGNANCY_": {
+            "end_pos": 235,
+            "type": "numeric",
+            "start_pos": 226
+        },
+        "SOURCE": {
+            "end_pos": 239,
+            "type": "text",
+            "start_pos": 236
+        },
+        "VERSION": {
+            "end_pos": 241,
+            "type": "text",
+            "start_pos": 240
+        },
+        "SEQNO": {
+            "end_pos": 251,
+            "type": "text",
+            "start_pos": 242
+        },
+        "STUDYID": {
+            "end_pos": 261,
+            "type": "text",
+            "start_pos": 252
+        }
+    }
+}

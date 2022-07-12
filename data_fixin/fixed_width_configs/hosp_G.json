@@ -1,0 +1,2288 @@
+{
+    "ORIGIN": "PopData BC",
+    "SHORT_NAME": "hospital G",
+    "DESCRIPTION": "Discharge abstract from 2001-04-01 to 2007-03-31",
+    "CONFIG": {
+        "ADdate": {
+            "type": "date",
+            "end_pos": 10,
+            "start_pos": 1,
+            "format": "%Y-%m-%d"
+        },
+        "ADMIT": {
+            "type": "text",
+            "end_pos": 11,
+            "start_pos": 11
+        },
+        "ADTIME": {
+            "type": "time",
+            "end_pos": 16,
+            "start_pos": 12,
+			"format": "%H:%M"
+        },
+        "ALCDAYS": {
+            "type": "numeric",
+            "end_pos": 21,
+            "start_pos": 17
+        },
+        "AMBULANC": {
+            "type": "text",
+            "end_pos": 22,
+            "start_pos": 22
+        },
+        "ANA1": {
+            "type": "numeric",
+            "end_pos": 23,
+            "start_pos": 23
+        },
+        "ANA2": {
+            "type": "numeric",
+            "end_pos": 24,
+            "start_pos": 24
+        },
+        "ANA3": {
+            "type": "numeric",
+            "end_pos": 25,
+            "start_pos": 25
+        },
+        "ANA4": {
+            "type": "numeric",
+            "end_pos": 26,
+            "start_pos": 26
+        },
+        "ANA5": {
+            "type": "numeric",
+            "end_pos": 27,
+            "start_pos": 27
+        },
+        "ANA6": {
+            "type": "numeric",
+            "end_pos": 28,
+            "start_pos": 28
+        },
+        "ANA7": {
+            "type": "numeric",
+            "end_pos": 29,
+            "start_pos": 29
+        },
+        "ANA8": {
+            "type": "numeric",
+            "end_pos": 30,
+            "start_pos": 30
+        },
+        "ANA9": {
+            "type": "numeric",
+            "end_pos": 31,
+            "start_pos": 31
+        },
+        "ANA10": {
+            "type": "numeric",
+            "end_pos": 32,
+            "start_pos": 32
+        },
+        "ANA11": {
+            "type": "numeric",
+            "end_pos": 33,
+            "start_pos": 33
+        },
+        "ANA12": {
+            "type": "numeric",
+            "end_pos": 34,
+            "start_pos": 34
+        },
+        "ANA13": {
+            "type": "numeric",
+            "end_pos": 35,
+            "start_pos": 35
+        },
+        "ANA14": {
+            "type": "numeric",
+            "end_pos": 36,
+            "start_pos": 36
+        },
+        "ANA15": {
+            "type": "numeric",
+            "end_pos": 37,
+            "start_pos": 37
+        },
+        "ANA16": {
+            "type": "numeric",
+            "end_pos": 38,
+            "start_pos": 38
+        },
+        "ANA17": {
+            "type": "numeric",
+            "end_pos": 39,
+            "start_pos": 39
+        },
+        "ANA18": {
+            "type": "numeric",
+            "end_pos": 40,
+            "start_pos": 40
+        },
+        "ANA19": {
+            "type": "numeric",
+            "end_pos": 41,
+            "start_pos": 41
+        },
+        "ANA20": {
+            "type": "numeric",
+            "end_pos": 42,
+            "start_pos": 42
+        },
+        "E_ANAS1": {
+            "type": "numeric",
+            "end_pos": 47,
+            "start_pos": 43
+        },
+        "E_ANAS2": {
+            "type": "numeric",
+            "end_pos": 52,
+            "start_pos": 48
+        },
+        "E_ANAS3": {
+            "type": "numeric",
+            "end_pos": 57,
+            "start_pos": 53
+        },
+        "E_ANAS4": {
+            "type": "numeric",
+            "end_pos": 62,
+            "start_pos": 58
+        },
+        "E_ANAS5": {
+            "type": "numeric",
+            "end_pos": 67,
+            "start_pos": 63
+        },
+        "E_ANAS6": {
+            "type": "numeric",
+            "end_pos": 72,
+            "start_pos": 68
+        },
+        "E_ANAS7": {
+            "type": "numeric",
+            "end_pos": 77,
+            "start_pos": 73
+        },
+        "E_ANAS8": {
+            "type": "numeric",
+            "end_pos": 82,
+            "start_pos": 78
+        },
+        "E_ANAS9": {
+            "type": "numeric",
+            "end_pos": 87,
+            "start_pos": 83
+        },
+        "E_ANAS10": {
+            "type": "numeric",
+            "end_pos": 92,
+            "start_pos": 88
+        },
+        "E_ANAS11": {
+            "type": "numeric",
+            "end_pos": 97,
+            "start_pos": 93
+        },
+        "E_ANAS12": {
+            "type": "numeric",
+            "end_pos": 102,
+            "start_pos": 98
+        },
+        "E_ANAS13": {
+            "type": "numeric",
+            "end_pos": 107,
+            "start_pos": 103
+        },
+        "E_ANAS14": {
+            "type": "numeric",
+            "end_pos": 112,
+            "start_pos": 108
+        },
+        "E_ANAS15": {
+            "type": "numeric",
+            "end_pos": 117,
+            "start_pos": 113
+        },
+        "E_ANAS16": {
+            "type": "numeric",
+            "end_pos": 122,
+            "start_pos": 118
+        },
+        "E_ANAS17": {
+            "type": "numeric",
+            "end_pos": 127,
+            "start_pos": 123
+        },
+        "E_ANAS18": {
+            "type": "numeric",
+            "end_pos": 132,
+            "start_pos": 128
+        },
+        "E_ANAS19": {
+            "type": "numeric",
+            "end_pos": 137,
+            "start_pos": 133
+        },
+        "E_ANAS20": {
+            "type": "numeric",
+            "end_pos": 142,
+            "start_pos": 138
+        },
+        "AR_DAYS": {
+            "type": "numeric",
+            "end_pos": 147,
+            "start_pos": 143
+        },
+        "BCLVLFRM": {
+            "type": "text",
+            "end_pos": 148,
+            "start_pos": 148
+        },
+        "BCLVLTO": {
+            "type": "text",
+            "end_pos": 149,
+            "start_pos": 149
+        },
+        "BIRTHWT": {
+            "type": "numeric",
+            "end_pos": 154,
+            "start_pos": 150
+        },
+        "BURNDAYS": {
+            "type": "numeric",
+            "end_pos": 159,
+            "start_pos": 155
+        },
+        "CARDDAYS": {
+            "type": "numeric",
+            "end_pos": 164,
+            "start_pos": 160
+        },
+        "CBDDAYS": {
+            "type": "numeric",
+            "end_pos": 169,
+            "start_pos": 165
+        },
+        "CCINDCTR": {
+            "type": "text",
+            "end_pos": 170,
+            "start_pos": 170
+        },
+        "CCUDAYS": {
+            "type": "numeric",
+            "end_pos": 175,
+            "start_pos": 171
+        },
+        "CD800999": {
+            "type": "text",
+            "end_pos": 181,
+            "start_pos": 176
+        },
+        "CDS00T98": {
+            "type": "text",
+            "end_pos": 188,
+            "start_pos": 182
+        },
+        "COMBDAYS": {
+            "type": "numeric",
+            "end_pos": 193,
+            "start_pos": 189
+        },
+        "DAYS1": {
+            "type": "numeric",
+            "end_pos": 198,
+            "start_pos": 194
+        },
+        "DAYS2": {
+            "type": "numeric",
+            "end_pos": 203,
+            "start_pos": 199
+        },
+        "DAYS3": {
+            "type": "numeric",
+            "end_pos": 208,
+            "start_pos": 204
+        },
+        "DIAG1": {
+            "type": "text",
+            "end_pos": 214,
+            "start_pos": 209
+        },
+        "DIAG2": {
+            "type": "text",
+            "end_pos": 220,
+            "start_pos": 215
+        },
+        "DIAG3": {
+            "type": "text",
+            "end_pos": 226,
+            "start_pos": 221
+        },
+        "DIAG4": {
+            "type": "text",
+            "end_pos": 232,
+            "start_pos": 227
+        },
+        "DIAG5": {
+            "type": "text",
+            "end_pos": 238,
+            "start_pos": 233
+        },
+        "DIAG6": {
+            "type": "text",
+            "end_pos": 244,
+            "start_pos": 239
+        },
+        "DIAG7": {
+            "type": "text",
+            "end_pos": 250,
+            "start_pos": 245
+        },
+        "DIAG8": {
+            "type": "text",
+            "end_pos": 256,
+            "start_pos": 251
+        },
+        "DIAG9": {
+            "type": "text",
+            "end_pos": 262,
+            "start_pos": 257
+        },
+        "DIAG10": {
+            "type": "text",
+            "end_pos": 268,
+            "start_pos": 263
+        },
+        "DIAG11": {
+            "type": "text",
+            "end_pos": 274,
+            "start_pos": 269
+        },
+        "DIAG12": {
+            "type": "text",
+            "end_pos": 280,
+            "start_pos": 275
+        },
+        "DIAG13": {
+            "type": "text",
+            "end_pos": 286,
+            "start_pos": 281
+        },
+        "DIAG14": {
+            "type": "text",
+            "end_pos": 292,
+            "start_pos": 287
+        },
+        "DIAG15": {
+            "type": "text",
+            "end_pos": 298,
+            "start_pos": 293
+        },
+        "DIAG16": {
+            "type": "text",
+            "end_pos": 304,
+            "start_pos": 299
+        },
+        "DIAG17": {
+            "type": "text",
+            "end_pos": 310,
+            "start_pos": 305
+        },
+        "DIAG18": {
+            "type": "text",
+            "end_pos": 316,
+            "start_pos": 311
+        },
+        "DIAG19": {
+            "type": "text",
+            "end_pos": 322,
+            "start_pos": 317
+        },
+        "DIAG20": {
+            "type": "text",
+            "end_pos": 328,
+            "start_pos": 323
+        },
+        "DIAG21": {
+            "type": "text",
+            "end_pos": 334,
+            "start_pos": 329
+        },
+        "DIAG22": {
+            "type": "text",
+            "end_pos": 340,
+            "start_pos": 335
+        },
+        "DIAG23": {
+            "type": "text",
+            "end_pos": 346,
+            "start_pos": 341
+        },
+        "DIAG24": {
+            "type": "text",
+            "end_pos": 352,
+            "start_pos": 347
+        },
+        "DIAG25": {
+            "type": "text",
+            "end_pos": 358,
+            "start_pos": 353
+        },
+        "DIAGCLS": {
+            "type": "numeric",
+            "end_pos": 360,
+            "start_pos": 359
+        },
+        "DIAGX1": {
+            "type": "text",
+            "end_pos": 367,
+            "start_pos": 361
+        },
+        "DIAGX2": {
+            "type": "text",
+            "end_pos": 374,
+            "start_pos": 368
+        },
+        "DIAGX3": {
+            "type": "text",
+            "end_pos": 381,
+            "start_pos": 375
+        },
+        "DIAGX4": {
+            "type": "text",
+            "end_pos": 388,
+            "start_pos": 382
+        },
+        "DIAGX5": {
+            "type": "text",
+            "end_pos": 395,
+            "start_pos": 389
+        },
+        "DIAGX6": {
+            "type": "text",
+            "end_pos": 402,
+            "start_pos": 396
+        },
+        "DIAGX7": {
+            "type": "text",
+            "end_pos": 409,
+            "start_pos": 403
+        },
+        "DIAGX8": {
+            "type": "text",
+            "end_pos": 416,
+            "start_pos": 410
+        },
+        "DIAGX9": {
+            "type": "text",
+            "end_pos": 423,
+            "start_pos": 417
+        },
+        "DIAGX10": {
+            "type": "text",
+            "end_pos": 430,
+            "start_pos": 424
+        },
+        "DIAGX11": {
+            "type": "text",
+            "end_pos": 437,
+            "start_pos": 431
+        },
+        "DIAGX12": {
+            "type": "text",
+            "end_pos": 444,
+            "start_pos": 438
+        },
+        "DIAGX13": {
+            "type": "text",
+            "end_pos": 451,
+            "start_pos": 445
+        },
+        "DIAGX14": {
+            "type": "text",
+            "end_pos": 458,
+            "start_pos": 452
+        },
+        "DIAGX15": {
+            "type": "text",
+            "end_pos": 465,
+            "start_pos": 459
+        },
+        "DIAGX16": {
+            "type": "text",
+            "end_pos": 472,
+            "start_pos": 466
+        },
+        "DIAGX17": {
+            "type": "text",
+            "end_pos": 479,
+            "start_pos": 473
+        },
+        "DIAGX18": {
+            "type": "text",
+            "end_pos": 486,
+            "start_pos": 480
+        },
+        "DIAGX19": {
+            "type": "text",
+            "end_pos": 493,
+            "start_pos": 487
+        },
+        "DIAGX20": {
+            "type": "text",
+            "end_pos": 500,
+            "start_pos": 494
+        },
+        "DIAGX21": {
+            "type": "text",
+            "end_pos": 507,
+            "start_pos": 501
+        },
+        "DIAGX22": {
+            "type": "text",
+            "end_pos": 514,
+            "start_pos": 508
+        },
+        "DIAGX23": {
+            "type": "text",
+            "end_pos": 521,
+            "start_pos": 515
+        },
+        "DIAGX24": {
+            "type": "text",
+            "end_pos": 528,
+            "start_pos": 522
+        },
+        "DIAGX25": {
+            "type": "text",
+            "end_pos": 535,
+            "start_pos": 529
+        },
+        "DOC_SPEC": {
+            "type": "numeric",
+            "end_pos": 540,
+            "start_pos": 536
+        },
+        "DSC": {
+            "type": "text",
+            "end_pos": 543,
+            "start_pos": 541
+        },
+        "DSL": {
+            "type": "numeric",
+            "end_pos": 546,
+            "start_pos": 544
+        },
+        "DTYPX1": {
+            "type": "text",
+            "end_pos": 547,
+            "start_pos": 547
+        },
+        "DTYPX2": {
+            "type": "text",
+            "end_pos": 548,
+            "start_pos": 548
+        },
+        "DTYPX3": {
+            "type": "text",
+            "end_pos": 549,
+            "start_pos": 549
+        },
+        "DTYPX4": {
+            "type": "text",
+            "end_pos": 550,
+            "start_pos": 550
+        },
+        "DTYPX5": {
+            "type": "text",
+            "end_pos": 551,
+            "start_pos": 551
+        },
+        "DTYPX6": {
+            "type": "text",
+            "end_pos": 552,
+            "start_pos": 552
+        },
+        "DTYPX7": {
+            "type": "text",
+            "end_pos": 553,
+            "start_pos": 553
+        },
+        "DTYPX8": {
+            "type": "text",
+            "end_pos": 554,
+            "start_pos": 554
+        },
+        "DTYPX9": {
+            "type": "text",
+            "end_pos": 555,
+            "start_pos": 555
+        },
+        "DTYPX10": {
+            "type": "text",
+            "end_pos": 556,
+            "start_pos": 556
+        },
+        "DTYPX11": {
+            "type": "text",
+            "end_pos": 557,
+            "start_pos": 557
+        },
+        "DTYPX12": {
+            "type": "text",
+            "end_pos": 558,
+            "start_pos": 558
+        },
+        "DTYPX13": {
+            "type": "text",
+            "end_pos": 559,
+            "start_pos": 559
+        },
+        "DTYPX14": {
+            "type": "text",
+            "end_pos": 560,
+            "start_pos": 560
+        },
+        "DTYPX15": {
+            "type": "text",
+            "end_pos": 561,
+            "start_pos": 561
+        },
+        "DTYPX16": {
+            "type": "text",
+            "end_pos": 562,
+            "start_pos": 562
+        },
+        "DTYPX17": {
+            "type": "text",
+            "end_pos": 563,
+            "start_pos": 563
+        },
+        "DTYPX18": {
+            "type": "text",
+            "end_pos": 564,
+            "start_pos": 564
+        },
+        "DTYPX19": {
+            "type": "text",
+            "end_pos": 565,
+            "start_pos": 565
+        },
+        "DTYPX20": {
+            "type": "text",
+            "end_pos": 566,
+            "start_pos": 566
+        },
+        "DTYPX21": {
+            "type": "text",
+            "end_pos": 567,
+            "start_pos": 567
+        },
+        "DTYPX22": {
+            "type": "text",
+            "end_pos": 568,
+            "start_pos": 568
+        },
+        "DTYPX23": {
+            "type": "text",
+            "end_pos": 569,
+            "start_pos": 569
+        },
+        "DTYPX24": {
+            "type": "text",
+            "end_pos": 570,
+            "start_pos": 570
+        },
+        "DTYPX25": {
+            "type": "text",
+            "end_pos": 571,
+            "start_pos": 571
+        },
+        "ECODE1": {
+            "type": "text",
+            "end_pos": 577,
+            "start_pos": 572
+        },
+        "ECODEX1": {
+            "type": "text",
+            "end_pos": 584,
+            "start_pos": 578
+        },
+        "ENTRY": {
+            "type": "text",
+            "end_pos": 585,
+            "start_pos": 585
+        },
+        "GESTAGE": {
+            "type": "numeric",
+            "end_pos": 587,
+            "start_pos": 586
+        },
+        "HCNPROV": {
+            "type": "text",
+            "end_pos": 589,
+            "start_pos": 588
+        },
+        "HOSP": {
+            "type": "numeric",
+            "end_pos": 592,
+            "start_pos": 590
+        },
+        "HOSPFROM": {
+            "type": "numeric",
+            "end_pos": 595,
+            "start_pos": 593
+        },
+        "HOSPPROV": {
+            "type": "text",
+            "end_pos": 596,
+            "start_pos": 596
+        },
+        "HOSPSIZE": {
+            "type": "numeric",
+            "end_pos": 597,
+            "start_pos": 597
+        },
+        "HOSPTO": {
+            "type": "numeric",
+            "end_pos": 600,
+            "start_pos": 598
+        },
+        "ICODE1": {
+            "type": "text",
+            "end_pos": 610,
+            "start_pos": 601
+        },
+        "ICODE2": {
+            "type": "text",
+            "end_pos": 620,
+            "start_pos": 611
+        },
+        "ICODE3": {
+            "type": "text",
+            "end_pos": 630,
+            "start_pos": 621
+        },
+        "ICODE4": {
+            "type": "text",
+            "end_pos": 640,
+            "start_pos": 631
+        },
+        "ICODE5": {
+            "type": "text",
+            "end_pos": 650,
+            "start_pos": 641
+        },
+        "ICODE6": {
+            "type": "text",
+            "end_pos": 660,
+            "start_pos": 651
+        },
+        "ICODE7": {
+            "type": "text",
+            "end_pos": 670,
+            "start_pos": 661
+        },
+        "ICODE8": {
+            "type": "text",
+            "end_pos": 680,
+            "start_pos": 671
+        },
+        "ICODE9": {
+            "type": "text",
+            "end_pos": 690,
+            "start_pos": 681
+        },
+        "ICODE10": {
+            "type": "text",
+            "end_pos": 700,
+            "start_pos": 691
+        },
+        "ICODE11": {
+            "type": "text",
+            "end_pos": 710,
+            "start_pos": 701
+        },
+        "ICODE12": {
+            "type": "text",
+            "end_pos": 720,
+            "start_pos": 711
+        },
+        "ICODE13": {
+            "type": "text",
+            "end_pos": 730,
+            "start_pos": 721
+        },
+        "ICODE14": {
+            "type": "text",
+            "end_pos": 740,
+            "start_pos": 731
+        },
+        "ICODE15": {
+            "type": "text",
+            "end_pos": 750,
+            "start_pos": 741
+        },
+        "ICODE16": {
+            "type": "text",
+            "end_pos": 760,
+            "start_pos": 751
+        },
+        "ICODE17": {
+            "type": "text",
+            "end_pos": 770,
+            "start_pos": 761
+        },
+        "ICODE18": {
+            "type": "text",
+            "end_pos": 780,
+            "start_pos": 771
+        },
+        "ICODE19": {
+            "type": "text",
+            "end_pos": 790,
+            "start_pos": 781
+        },
+        "ICODE20": {
+            "type": "text",
+            "end_pos": 800,
+            "start_pos": 791
+        },
+        "ICUDAYS": {
+            "type": "numeric",
+            "end_pos": 805,
+            "start_pos": 801
+        },
+        "IEXT1": {
+            "type": "text",
+            "end_pos": 807,
+            "start_pos": 806
+        },
+        "IEXT2": {
+            "type": "text",
+            "end_pos": 809,
+            "start_pos": 808
+        },
+        "IEXT3": {
+            "type": "text",
+            "end_pos": 811,
+            "start_pos": 810
+        },
+        "IEXT4": {
+            "type": "text",
+            "end_pos": 813,
+            "start_pos": 812
+        },
+        "IEXT5": {
+            "type": "text",
+            "end_pos": 815,
+            "start_pos": 814
+        },
+        "IEXT6": {
+            "type": "text",
+            "end_pos": 817,
+            "start_pos": 816
+        },
+        "IEXT7": {
+            "type": "text",
+            "end_pos": 819,
+            "start_pos": 818
+        },
+        "IEXT8": {
+            "type": "text",
+            "end_pos": 821,
+            "start_pos": 820
+        },
+        "IEXT9": {
+            "type": "text",
+            "end_pos": 823,
+            "start_pos": 822
+        },
+        "IEXT10": {
+            "type": "text",
+            "end_pos": 825,
+            "start_pos": 824
+        },
+        "IEXT11": {
+            "type": "text",
+            "end_pos": 827,
+            "start_pos": 826
+        },
+        "IEXT12": {
+            "type": "text",
+            "end_pos": 829,
+            "start_pos": 828
+        },
+        "IEXT13": {
+            "type": "text",
+            "end_pos": 831,
+            "start_pos": 830
+        },
+        "IEXT14": {
+            "type": "text",
+            "end_pos": 833,
+            "start_pos": 832
+        },
+        "IEXT15": {
+            "type": "text",
+            "end_pos": 835,
+            "start_pos": 834
+        },
+        "IEXT16": {
+            "type": "text",
+            "end_pos": 837,
+            "start_pos": 836
+        },
+        "IEXT17": {
+            "type": "text",
+            "end_pos": 839,
+            "start_pos": 838
+        },
+        "IEXT18": {
+            "type": "text",
+            "end_pos": 841,
+            "start_pos": 840
+        },
+        "IEXT19": {
+            "type": "text",
+            "end_pos": 843,
+            "start_pos": 842
+        },
+        "IEXT20": {
+            "type": "text",
+            "end_pos": 845,
+            "start_pos": 844
+        },
+        "INJPLACE": {
+            "type": "text",
+            "end_pos": 852,
+            "start_pos": 846
+        },
+        "IOOHNM1": {
+            "type": "text",
+            "end_pos": 857,
+            "start_pos": 853
+        },
+        "IOOHNM2": {
+            "type": "text",
+            "end_pos": 862,
+            "start_pos": 858
+        },
+        "IOOHNM3": {
+            "type": "text",
+            "end_pos": 867,
+            "start_pos": 863
+        },
+        "IOOHNM4": {
+            "type": "text",
+            "end_pos": 872,
+            "start_pos": 868
+        },
+        "IOOHNM5": {
+            "type": "text",
+            "end_pos": 877,
+            "start_pos": 873
+        },
+        "IOOHNM6": {
+            "type": "text",
+            "end_pos": 882,
+            "start_pos": 878
+        },
+        "IOOHNM7": {
+            "type": "text",
+            "end_pos": 887,
+            "start_pos": 883
+        },
+        "IOOHNM8": {
+            "type": "text",
+            "end_pos": 892,
+            "start_pos": 888
+        },
+        "IOOHNM9": {
+            "type": "text",
+            "end_pos": 897,
+            "start_pos": 893
+        },
+        "IOOHNM10": {
+            "type": "text",
+            "end_pos": 902,
+            "start_pos": 898
+        },
+        "IOOHNM11": {
+            "type": "text",
+            "end_pos": 907,
+            "start_pos": 903
+        },
+        "IOOHNM12": {
+            "type": "text",
+            "end_pos": 912,
+            "start_pos": 908
+        },
+        "IOOHNM13": {
+            "type": "text",
+            "end_pos": 917,
+            "start_pos": 913
+        },
+        "IOOHNM14": {
+            "type": "text",
+            "end_pos": 922,
+            "start_pos": 918
+        },
+        "IOOHNM15": {
+            "type": "text",
+            "end_pos": 927,
+            "start_pos": 923
+        },
+        "IOOHNM16": {
+            "type": "text",
+            "end_pos": 932,
+            "start_pos": 928
+        },
+        "IOOHNM17": {
+            "type": "text",
+            "end_pos": 937,
+            "start_pos": 933
+        },
+        "IOOHNM18": {
+            "type": "text",
+            "end_pos": 942,
+            "start_pos": 938
+        },
+        "IOOHNM19": {
+            "type": "text",
+            "end_pos": 947,
+            "start_pos": 943
+        },
+        "IOOHNM20": {
+            "type": "text",
+            "end_pos": 952,
+            "start_pos": 948
+        },
+        "IRETRN1": {
+            "type": "text",
+            "end_pos": 953,
+            "start_pos": 953
+        },
+        "IRETRN2": {
+            "type": "text",
+            "end_pos": 954,
+            "start_pos": 954
+        },
+        "IRETRN3": {
+            "type": "text",
+            "end_pos": 955,
+            "start_pos": 955
+        },
+        "IRETRN4": {
+            "type": "text",
+            "end_pos": 956,
+            "start_pos": 956
+        },
+        "IRETRN5": {
+            "type": "text",
+            "end_pos": 957,
+            "start_pos": 957
+        },
+        "IRETRN6": {
+            "type": "text",
+            "end_pos": 958,
+            "start_pos": 958
+        },
+        "IRETRN7": {
+            "type": "text",
+            "end_pos": 959,
+            "start_pos": 959
+        },
+        "IRETRN8": {
+            "type": "text",
+            "end_pos": 960,
+            "start_pos": 960
+        },
+        "IRETRN9": {
+            "type": "text",
+            "end_pos": 961,
+            "start_pos": 961
+        },
+        "IRETRN10": {
+            "type": "text",
+            "end_pos": 962,
+            "start_pos": 962
+        },
+        "IRETRN11": {
+            "type": "text",
+            "end_pos": 963,
+            "start_pos": 963
+        },
+        "IRETRN12": {
+            "type": "text",
+            "end_pos": 964,
+            "start_pos": 964
+        },
+        "IRETRN13": {
+            "type": "text",
+            "end_pos": 965,
+            "start_pos": 965
+        },
+        "IRETRN14": {
+            "type": "text",
+            "end_pos": 966,
+            "start_pos": 966
+        },
+        "IRETRN15": {
+            "type": "text",
+            "end_pos": 967,
+            "start_pos": 967
+        },
+        "IRETRN16": {
+            "type": "text",
+            "end_pos": 968,
+            "start_pos": 968
+        },
+        "IRETRN17": {
+            "type": "text",
+            "end_pos": 969,
+            "start_pos": 969
+        },
+        "IRETRN18": {
+            "type": "text",
+            "end_pos": 970,
+            "start_pos": 970
+        },
+        "IRETRN19": {
+            "type": "text",
+            "end_pos": 971,
+            "start_pos": 971
+        },
+        "IRETRN20": {
+            "type": "text",
+            "end_pos": 972,
+            "start_pos": 972
+        },
+        "ISITE1": {
+            "type": "text",
+            "end_pos": 974,
+            "start_pos": 973
+        },
+        "ISITE2": {
+            "type": "text",
+            "end_pos": 976,
+            "start_pos": 975
+        },
+        "ISITE3": {
+            "type": "text",
+            "end_pos": 978,
+            "start_pos": 977
+        },
+        "ISITE4": {
+            "type": "text",
+            "end_pos": 980,
+            "start_pos": 979
+        },
+        "ISITE5": {
+            "type": "text",
+            "end_pos": 982,
+            "start_pos": 981
+        },
+        "ISITE6": {
+            "type": "text",
+            "end_pos": 984,
+            "start_pos": 983
+        },
+        "ISITE7": {
+            "type": "text",
+            "end_pos": 986,
+            "start_pos": 985
+        },
+        "ISITE8": {
+            "type": "text",
+            "end_pos": 988,
+            "start_pos": 987
+        },
+        "ISITE9": {
+            "type": "text",
+            "end_pos": 990,
+            "start_pos": 989
+        },
+        "ISITE10": {
+            "type": "text",
+            "end_pos": 992,
+            "start_pos": 991
+        },
+        "ISITE11": {
+            "type": "text",
+            "end_pos": 994,
+            "start_pos": 993
+        },
+        "ISITE12": {
+            "type": "text",
+            "end_pos": 996,
+            "start_pos": 995
+        },
+        "ISITE13": {
+            "type": "text",
+            "end_pos": 998,
+            "start_pos": 997
+        },
+        "ISITE14": {
+            "type": "text",
+            "end_pos": 1000,
+            "start_pos": 999
+        },
+        "ISITE15": {
+            "type": "text",
+            "end_pos": 1002,
+            "start_pos": 1001
+        },
+        "ISITE16": {
+            "type": "text",
+            "end_pos": 1004,
+            "start_pos": 1003
+        },
+        "ISITE17": {
+            "type": "text",
+            "end_pos": 1006,
+            "start_pos": 1005
+        },
+        "ISITE18": {
+            "type": "text",
+            "end_pos": 1008,
+            "start_pos": 1007
+        },
+        "ISITE19": {
+            "type": "text",
+            "end_pos": 1010,
+            "start_pos": 1009
+        },
+        "ISITE20": {
+            "type": "text",
+            "end_pos": 1012,
+            "start_pos": 1011
+        },
+        "ISL": {
+            "type": "text",
+            "end_pos": 1015,
+            "start_pos": 1013
+        },
+        "ISTAT1": {
+            "type": "text",
+            "end_pos": 1017,
+            "start_pos": 1016
+        },
+        "ISTAT2": {
+            "type": "text",
+            "end_pos": 1019,
+            "start_pos": 1018
+        },
+        "ISTAT3": {
+            "type": "text",
+            "end_pos": 1021,
+            "start_pos": 1020
+        },
+        "ISTAT4": {
+            "type": "text",
+            "end_pos": 1023,
+            "start_pos": 1022
+        },
+        "ISTAT5": {
+            "type": "text",
+            "end_pos": 1025,
+            "start_pos": 1024
+        },
+        "ISTAT6": {
+            "type": "text",
+            "end_pos": 1027,
+            "start_pos": 1026
+        },
+        "ISTAT7": {
+            "type": "text",
+            "end_pos": 1029,
+            "start_pos": 1028
+        },
+        "ISTAT8": {
+            "type": "text",
+            "end_pos": 1031,
+            "start_pos": 1030
+        },
+        "ISTAT9": {
+            "type": "text",
+            "end_pos": 1033,
+            "start_pos": 1032
+        },
+        "ISTAT10": {
+            "type": "text",
+            "end_pos": 1035,
+            "start_pos": 1034
+        },
+        "ISTAT11": {
+            "type": "text",
+            "end_pos": 1037,
+            "start_pos": 1036
+        },
+        "ISTAT12": {
+            "type": "text",
+            "end_pos": 1039,
+            "start_pos": 1038
+        },
+        "ISTAT13": {
+            "type": "text",
+            "end_pos": 1041,
+            "start_pos": 1040
+        },
+        "ISTAT14": {
+            "type": "text",
+            "end_pos": 1043,
+            "start_pos": 1042
+        },
+        "ISTAT15": {
+            "type": "text",
+            "end_pos": 1045,
+            "start_pos": 1044
+        },
+        "ISTAT16": {
+            "type": "text",
+            "end_pos": 1047,
+            "start_pos": 1046
+        },
+        "ISTAT17": {
+            "type": "text",
+            "end_pos": 1049,
+            "start_pos": 1048
+        },
+        "ISTAT18": {
+            "type": "text",
+            "end_pos": 1051,
+            "start_pos": 1050
+        },
+        "ISTAT19": {
+            "type": "text",
+            "end_pos": 1053,
+            "start_pos": 1052
+        },
+        "ISTAT20": {
+            "type": "text",
+            "end_pos": 1055,
+            "start_pos": 1054
+        },
+        "LEVEL": {
+            "type": "text",
+            "end_pos": 1056,
+            "start_pos": 1056
+        },
+        "LOS_1": {
+            "type": "numeric",
+            "end_pos": 1058,
+            "start_pos": 1057
+        },
+        "LOS_2": {
+            "type": "numeric",
+            "end_pos": 1060,
+            "start_pos": 1059
+        },
+        "MEDDAYS": {
+            "type": "numeric",
+            "end_pos": 1065,
+            "start_pos": 1061
+        },
+        "MHIA22_1": {
+            "type": "text",
+            "end_pos": 1066,
+            "start_pos": 1066
+        },
+        "MHIA22_2": {
+            "type": "text",
+            "end_pos": 1067,
+            "start_pos": 1067
+        },
+        "MHIA28_1": {
+            "type": "text",
+            "end_pos": 1068,
+            "start_pos": 1068
+        },
+        "MHIA28_3": {
+            "type": "text",
+            "end_pos": 1069,
+            "start_pos": 1069
+        },
+        "MHIA35": {
+            "type": "text",
+            "end_pos": 1070,
+            "start_pos": 1070
+        },
+        "MHIA37": {
+            "type": "text",
+            "end_pos": 1071,
+            "start_pos": 1071
+        },
+        "MHIA42": {
+            "type": "text",
+            "end_pos": 1072,
+            "start_pos": 1072
+        },
+        "MHIADMIT": {
+            "type": "text",
+            "end_pos": 1073,
+            "start_pos": 1073
+        },
+        "NEONDAYS": {
+            "type": "numeric",
+            "end_pos": 1078,
+            "start_pos": 1074
+        },
+        "NEURDAYS": {
+            "type": "numeric",
+            "end_pos": 1083,
+            "start_pos": 1079
+        },
+        "NICUL2DAYS": {
+            "type": "numeric",
+            "end_pos": 1088,
+            "start_pos": 1084
+        },
+        "NICUL3DAYS": {
+            "type": "numeric",
+            "end_pos": 1093,
+            "start_pos": 1089
+        },
+        "OOHINT1": {
+            "type": "text",
+            "end_pos": 1103,
+            "start_pos": 1094
+        },
+        "OOHINT2": {
+            "type": "text",
+            "end_pos": 1113,
+            "start_pos": 1104
+        },
+        "OOHINT3": {
+            "type": "text",
+            "end_pos": 1123,
+            "start_pos": 1114
+        },
+        "OOHINT4": {
+            "type": "text",
+            "end_pos": 1133,
+            "start_pos": 1124
+        },
+        "OOHINT5": {
+            "type": "text",
+            "end_pos": 1143,
+            "start_pos": 1134
+        },
+        "OOHINT6": {
+            "type": "text",
+            "end_pos": 1153,
+            "start_pos": 1144
+        },
+        "OOHINT7": {
+            "type": "text",
+            "end_pos": 1163,
+            "start_pos": 1154
+        },
+        "OOHINT8": {
+            "type": "text",
+            "end_pos": 1173,
+            "start_pos": 1164
+        },
+        "OOHINT9": {
+            "type": "text",
+            "end_pos": 1183,
+            "start_pos": 1174
+        },
+        "OOHINT10": {
+            "type": "text",
+            "end_pos": 1193,
+            "start_pos": 1184
+        },
+        "OOHINT11": {
+            "type": "text",
+            "end_pos": 1203,
+            "start_pos": 1194
+        },
+        "OOHINT12": {
+            "type": "text",
+            "end_pos": 1213,
+            "start_pos": 1204
+        },
+        "OOHINT13": {
+            "type": "text",
+            "end_pos": 1223,
+            "start_pos": 1214
+        },
+        "OOHINT14": {
+            "type": "text",
+            "end_pos": 1233,
+            "start_pos": 1224
+        },
+        "OOHINT15": {
+            "type": "text",
+            "end_pos": 1243,
+            "start_pos": 1234
+        },
+        "OOHINT16": {
+            "type": "text",
+            "end_pos": 1253,
+            "start_pos": 1244
+        },
+        "OOHINT17": {
+            "type": "text",
+            "end_pos": 1263,
+            "start_pos": 1254
+        },
+        "OOHINT18": {
+            "type": "text",
+            "end_pos": 1273,
+            "start_pos": 1264
+        },
+        "OOHINT19": {
+            "type": "text",
+            "end_pos": 1283,
+            "start_pos": 1274
+        },
+        "OOHINT20": {
+            "type": "text",
+            "end_pos": 1293,
+            "start_pos": 1284
+        },
+        "OOHPROC1": {
+            "type": "text",
+            "end_pos": 1297,
+            "start_pos": 1294
+        },
+        "OOHPROC2": {
+            "type": "text",
+            "end_pos": 1301,
+            "start_pos": 1298
+        },
+        "OOHPROC3": {
+            "type": "text",
+            "end_pos": 1305,
+            "start_pos": 1302
+        },
+        "OOHPROC4": {
+            "type": "text",
+            "end_pos": 1309,
+            "start_pos": 1306
+        },
+        "OOHPROC5": {
+            "type": "text",
+            "end_pos": 1313,
+            "start_pos": 1310
+        },
+        "OOHPROC6": {
+            "type": "text",
+            "end_pos": 1317,
+            "start_pos": 1314
+        },
+        "OOHPROC7": {
+            "type": "text",
+            "end_pos": 1321,
+            "start_pos": 1318
+        },
+        "OOHPROC8": {
+            "type": "text",
+            "end_pos": 1325,
+            "start_pos": 1322
+        },
+        "OOHPROC9": {
+            "type": "text",
+            "end_pos": 1329,
+            "start_pos": 1326
+        },
+        "OOHPROC10": {
+            "type": "text",
+            "end_pos": 1333,
+            "start_pos": 1330
+        },
+        "OOHPROC11": {
+            "type": "text",
+            "end_pos": 1337,
+            "start_pos": 1334
+        },
+        "OOHPROC12": {
+            "type": "text",
+            "end_pos": 1341,
+            "start_pos": 1338
+        },
+        "OOHPROC13": {
+            "type": "text",
+            "end_pos": 1345,
+            "start_pos": 1342
+        },
+        "OOHPROC14": {
+            "type": "text",
+            "end_pos": 1349,
+            "start_pos": 1346
+        },
+        "OOHPROC15": {
+            "type": "text",
+            "end_pos": 1353,
+            "start_pos": 1350
+        },
+        "OOHPROC16": {
+            "type": "text",
+            "end_pos": 1357,
+            "start_pos": 1354
+        },
+        "OOHPROC17": {
+            "type": "text",
+            "end_pos": 1361,
+            "start_pos": 1358
+        },
+        "OOHPROC18": {
+            "type": "text",
+            "end_pos": 1365,
+            "start_pos": 1362
+        },
+        "OOHPROC19": {
+            "type": "text",
+            "end_pos": 1369,
+            "start_pos": 1366
+        },
+        "OOHPROC20": {
+            "type": "text",
+            "end_pos": 1373,
+            "start_pos": 1370
+        },
+        "OOPHOSP": {
+            "type": "text",
+            "end_pos": 1377,
+            "start_pos": 1374
+        },
+        "OP_GRP1": {
+            "type": "numeric",
+            "end_pos": 1379,
+            "start_pos": 1378
+        },
+        "OP_GRP2": {
+            "type": "numeric",
+            "end_pos": 1381,
+            "start_pos": 1380
+        },
+        "OP_GRP3": {
+            "type": "numeric",
+            "end_pos": 1383,
+            "start_pos": 1382
+        },
+        "OPDEATH": {
+            "type": "text",
+            "end_pos": 1384,
+            "start_pos": 1384
+        },
+        "PATSERV": {
+            "type": "numeric",
+            "end_pos": 1386,
+            "start_pos": 1385
+        },
+        "Pdate1": {
+            "type": "date",
+            "end_pos": 1396,
+            "start_pos": 1387,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate2": {
+            "type": "date",
+            "end_pos": 1406,
+            "start_pos": 1397,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate3": {
+            "type": "date",
+            "end_pos": 1416,
+            "start_pos": 1407,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate4": {
+            "type": "date",
+            "end_pos": 1426,
+            "start_pos": 1417,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate5": {
+            "type": "date",
+            "end_pos": 1436,
+            "start_pos": 1427,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate6": {
+            "type": "date",
+            "end_pos": 1446,
+            "start_pos": 1437,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate7": {
+            "type": "date",
+            "end_pos": 1456,
+            "start_pos": 1447,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate8": {
+            "type": "date",
+            "end_pos": 1466,
+            "start_pos": 1457,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate9": {
+            "type": "date",
+            "end_pos": 1476,
+            "start_pos": 1467,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate10": {
+            "type": "date",
+            "end_pos": 1486,
+            "start_pos": 1477,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate11": {
+            "type": "date",
+            "end_pos": 1496,
+            "start_pos": 1487,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate12": {
+            "type": "date",
+            "end_pos": 1506,
+            "start_pos": 1497,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate13": {
+            "type": "date",
+            "end_pos": 1516,
+            "start_pos": 1507,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate14": {
+            "type": "date",
+            "end_pos": 1526,
+            "start_pos": 1517,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate15": {
+            "type": "date",
+            "end_pos": 1536,
+            "start_pos": 1527,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate16": {
+            "type": "date",
+            "end_pos": 1546,
+            "start_pos": 1537,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate17": {
+            "type": "date",
+            "end_pos": 1556,
+            "start_pos": 1547,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate18": {
+            "type": "date",
+            "end_pos": 1566,
+            "start_pos": 1557,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate19": {
+            "type": "date",
+            "end_pos": 1576,
+            "start_pos": 1567,
+            "format": "%Y-%m-%d"
+        },
+        "Pdate20": {
+            "type": "date",
+            "end_pos": 1586,
+            "start_pos": 1577,
+            "format": "%Y-%m-%d"
+        },
+        "PEDIDAYS": {
+            "type": "numeric",
+            "end_pos": 1591,
+            "start_pos": 1587,
+            "format": "0 - 999 days"
+        },
+        "PREADMIT": {
+            "type": "text",
+            "end_pos": 1597,
+            "start_pos": 1592
+        },
+        "PRIV_HOSP": {
+            "type": "numeric",
+            "end_pos": 1602,
+            "start_pos": 1598
+        },
+        "PROC1": {
+            "type": "text",
+            "end_pos": 1606,
+            "start_pos": 1603
+        },
+        "PROC2": {
+            "type": "text",
+            "end_pos": 1610,
+            "start_pos": 1607
+        },
+        "PROC3": {
+            "type": "text",
+            "end_pos": 1614,
+            "start_pos": 1611
+        },
+        "PROC4": {
+            "type": "text",
+            "end_pos": 1618,
+            "start_pos": 1615
+        },
+        "PROC5": {
+            "type": "text",
+            "end_pos": 1622,
+            "start_pos": 1619
+        },
+        "PROC6": {
+            "type": "text",
+            "end_pos": 1626,
+            "start_pos": 1623
+        },
+        "PROC7": {
+            "type": "text",
+            "end_pos": 1630,
+            "start_pos": 1627
+        },
+        "PROC8": {
+            "type": "text",
+            "end_pos": 1634,
+            "start_pos": 1631
+        },
+        "PROC9": {
+            "type": "text",
+            "end_pos": 1638,
+            "start_pos": 1635
+        },
+        "PROC10": {
+            "type": "text",
+            "end_pos": 1642,
+            "start_pos": 1639
+        },
+        "PROC11": {
+            "type": "text",
+            "end_pos": 1646,
+            "start_pos": 1643
+        },
+        "PROC12": {
+            "type": "text",
+            "end_pos": 1650,
+            "start_pos": 1647
+        },
+        "PROC13": {
+            "type": "text",
+            "end_pos": 1654,
+            "start_pos": 1651
+        },
+        "PROC14": {
+            "type": "text",
+            "end_pos": 1658,
+            "start_pos": 1655
+        },
+        "PROC15": {
+            "type": "text",
+            "end_pos": 1662,
+            "start_pos": 1659
+        },
+        "PROC16": {
+            "type": "text",
+            "end_pos": 1666,
+            "start_pos": 1663
+        },
+        "PROC17": {
+            "type": "text",
+            "end_pos": 1670,
+            "start_pos": 1667
+        },
+        "PROC18": {
+            "type": "text",
+            "end_pos": 1674,
+            "start_pos": 1671
+        },
+        "PROC19": {
+            "type": "text",
+            "end_pos": 1678,
+            "start_pos": 1675
+        },
+        "PROC20": {
+            "type": "text",
+            "end_pos": 1682,
+            "start_pos": 1679
+        },
+        "READMIT": {
+            "type": "numeric",
+            "end_pos": 1683,
+            "start_pos": 1683
+        },
+        "RECRDNUM": {
+            "type": "numeric",
+            "end_pos": 1698,
+            "start_pos": 1684
+        },
+        "REHABDAY": {
+            "type": "numeric",
+            "end_pos": 1703,
+            "start_pos": 1699
+        },
+        "RESPDAYS": {
+            "type": "numeric",
+            "end_pos": 1708,
+            "start_pos": 1704
+        },
+        "RESPPHYS": {
+            "type": "numeric",
+            "end_pos": 1713,
+            "start_pos": 1709
+        },
+        "RFP": {
+            "type": "text",
+            "end_pos": 1715,
+            "start_pos": 1714
+        },
+        "SCU1DAYS": {
+            "type": "numeric",
+            "end_pos": 1720,
+            "start_pos": 1716
+        },
+        "SCU2DAYS": {
+            "type": "numeric",
+            "end_pos": 1725,
+            "start_pos": 1721
+        },
+        "SCU3DAYS": {
+            "type": "numeric",
+            "end_pos": 1730,
+            "start_pos": 1726
+        },
+        "SCU4DAYS": {
+            "type": "numeric",
+            "end_pos": 1735,
+            "start_pos": 1731
+        },
+        "SCU5DAYS": {
+            "type": "numeric",
+            "end_pos": 1740,
+            "start_pos": 1736
+        },
+        "SCU6DAYS": {
+            "type": "numeric",
+            "end_pos": 1745,
+            "start_pos": 1741
+        },
+        "SCUDEATH": {
+            "type": "text",
+            "end_pos": 1746,
+            "start_pos": 1746
+        },
+        "SDSURG": {
+            "type": "text",
+            "end_pos": 1747,
+            "start_pos": 1747
+        },
+        "SEPdate": {
+            "type": "date",
+            "end_pos": 1757,
+            "start_pos": 1748,
+            "format": "%Y-%m-%d"
+        },
+        "SEPDISP": {
+            "type": "numeric",
+            "end_pos": 1759,
+            "start_pos": 1758
+        },
+        "SEPTIME": {
+            "type": "time",
+            "end_pos": 1764,
+			"format": "%H:%M",
+            "start_pos": 1760
+        },
+        "SERV1": {
+            "type": "numeric",
+            "end_pos": 1766,
+            "start_pos": 1765
+        },
+        "SERV2": {
+            "type": "numeric",
+            "end_pos": 1768,
+            "start_pos": 1767
+        },
+        "SERV3": {
+            "type": "numeric",
+            "end_pos": 1770,
+            "start_pos": 1769
+        },
+        "SERVGRP": {
+            "type": "numeric",
+            "end_pos": 1771,
+            "start_pos": 1771
+        },
+        "SMEDDAYS": {
+            "type": "numeric",
+            "end_pos": 1776,
+            "start_pos": 1772
+        },
+        "SRV1": {
+            "type": "numeric",
+            "end_pos": 1781,
+            "start_pos": 1777
+        },
+        "SRV2": {
+            "type": "numeric",
+            "end_pos": 1786,
+            "start_pos": 1782
+        },
+        "SRV3": {
+            "type": "numeric",
+            "end_pos": 1791,
+            "start_pos": 1787
+        },
+        "SRV4": {
+            "type": "numeric",
+            "end_pos": 1796,
+            "start_pos": 1792
+        },
+        "SRV5": {
+            "type": "numeric",
+            "end_pos": 1801,
+            "start_pos": 1797
+        },
+        "SRV6": {
+            "type": "numeric",
+            "end_pos": 1806,
+            "start_pos": 1802
+        },
+        "SRV7": {
+            "type": "numeric",
+            "end_pos": 1811,
+            "start_pos": 1807
+        },
+        "SRV8": {
+            "type": "numeric",
+            "end_pos": 1816,
+            "start_pos": 1812
+        },
+        "SRV9": {
+            "type": "numeric",
+            "end_pos": 1821,
+            "start_pos": 1817
+        },
+        "SRV10": {
+            "type": "numeric",
+            "end_pos": 1826,
+            "start_pos": 1822
+        },
+        "SRV11": {
+            "type": "numeric",
+            "end_pos": 1831,
+            "start_pos": 1827
+        },
+        "SRV12": {
+            "type": "numeric",
+            "end_pos": 1836,
+            "start_pos": 1832
+        },
+        "SRV13": {
+            "type": "numeric",
+            "end_pos": 1841,
+            "start_pos": 1837
+        },
+        "SRV14": {
+            "type": "numeric",
+            "end_pos": 1846,
+            "start_pos": 1842
+        },
+        "SRV15": {
+            "type": "numeric",
+            "end_pos": 1851,
+            "start_pos": 1847
+        },
+        "SRV16": {
+            "type": "numeric",
+            "end_pos": 1856,
+            "start_pos": 1852
+        },
+        "SRV17": {
+            "type": "numeric",
+            "end_pos": 1861,
+            "start_pos": 1857
+        },
+        "SRV18": {
+            "type": "numeric",
+            "end_pos": 1866,
+            "start_pos": 1862
+        },
+        "SRV19": {
+            "type": "numeric",
+            "end_pos": 1871,
+            "start_pos": 1867
+        },
+        "SRV20": {
+            "type": "numeric",
+            "end_pos": 1876,
+            "start_pos": 1872
+        },
+        "SSL": {
+            "type": "numeric",
+            "end_pos": 1879,
+            "start_pos": 1877
+        },
+        "SSRGDAYS": {
+            "type": "numeric",
+            "end_pos": 1884,
+            "start_pos": 1880
+        },
+        "SURG1": {
+            "type": "numeric",
+            "end_pos": 1889,
+            "start_pos": 1885
+        },
+        "SURG2": {
+            "type": "numeric",
+            "end_pos": 1894,
+            "start_pos": 1890
+        },
+        "SURG3": {
+            "type": "numeric",
+            "end_pos": 1899,
+            "start_pos": 1895
+        },
+        "SURG4": {
+            "type": "numeric",
+            "end_pos": 1904,
+            "start_pos": 1900
+        },
+        "SURG5": {
+            "type": "numeric",
+            "end_pos": 1909,
+            "start_pos": 1905
+        },
+        "SURG6": {
+            "type": "numeric",
+            "end_pos": 1914,
+            "start_pos": 1910
+        },
+        "SURG7": {
+            "type": "numeric",
+            "end_pos": 1919,
+            "start_pos": 1915
+        },
+        "SURG8": {
+            "type": "numeric",
+            "end_pos": 1924,
+            "start_pos": 1920
+        },
+        "SURG9": {
+            "type": "numeric",
+            "end_pos": 1929,
+            "start_pos": 1925
+        },
+        "SURG10": {
+            "type": "numeric",
+            "end_pos": 1934,
+            "start_pos": 1930
+        },
+        "SURG11": {
+            "type": "numeric",
+            "end_pos": 1939,
+            "start_pos": 1935
+        },
+        "SURG12": {
+            "type": "numeric",
+            "end_pos": 1944,
+            "start_pos": 1940
+        },
+        "SURG13": {
+            "type": "numeric",
+            "end_pos": 1949,
+            "start_pos": 1945
+        },
+        "SURG14": {
+            "type": "numeric",
+            "end_pos": 1954,
+            "start_pos": 1950
+        },
+        "SURG15": {
+            "type": "numeric",
+            "end_pos": 1959,
+            "start_pos": 1955
+        },
+        "SURG16": {
+            "type": "numeric",
+            "end_pos": 1964,
+            "start_pos": 1960
+        },
+        "SURG17": {
+            "type": "numeric",
+            "end_pos": 1969,
+            "start_pos": 1965
+        },
+        "SURG18": {
+            "type": "numeric",
+            "end_pos": 1974,
+            "start_pos": 1970
+        },
+        "SURG19": {
+            "type": "numeric",
+            "end_pos": 1979,
+            "start_pos": 1975
+        },
+        "SURG20": {
+            "type": "numeric",
+            "end_pos": 1984,
+            "start_pos": 1980
+        },
+        "SURGCASE2": {
+            "type": "boolean",
+            "end_pos": 1985,
+			"true_values": ["Y"],
+            "start_pos": 1985
+        },
+        "SURGDAYS": {
+            "type": "numeric",
+            "end_pos": 1990,
+            "start_pos": 1986
+        },
+        "TDAYS": {
+            "type": "numeric",
+            "end_pos": 1995,
+            "start_pos": 1991
+        },
+        "TRAUDAYS": {
+            "type": "numeric",
+            "end_pos": 2000,
+            "start_pos": 1996
+        },
+        "TRDPARTY": {
+            "type": "text",
+            "end_pos": 2001,
+            "start_pos": 2001
+        },
+        "UNDEFDAY": {
+            "type": "numeric",
+            "end_pos": 2006,
+            "start_pos": 2002
+        },
+        "VER_YEAR": {
+            "type": "text",
+            "end_pos": 2010,
+            "start_pos": 2007
+        },
+        "VER_NUM": {
+            "type": "text",
+            "end_pos": 2012,
+            "start_pos": 2011
+        },
+        "SEQNO": {
+            "type": "text",
+            "end_pos": 2022,
+            "start_pos": 2013
+        },
+        "STUDYID": {
+            "type": "text",
+            "end_pos": 2032,
+            "start_pos": 2023
+        }
+    }
+}
